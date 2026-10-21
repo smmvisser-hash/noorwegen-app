@@ -1,4 +1,5 @@
 import './style.css';
+import { registerSW } from 'virtual:pwa-register';
 import reis from './data/reis.json';
 import { toonDagen } from './views/dagen.js';
 import { toonDag } from './views/dag.js';
@@ -59,3 +60,17 @@ document.addEventListener('visibilitychange', () => {
 setInterval(toonVerbinding, 30000);
 route();
 toonVerbinding();
+
+// Offline-opslag registreren. Komt er een nieuwe versie binnen, dan herlaadt de app zichzelf,
+// zodat je niet eerst nog de oude opgeslagen versie ziet. Er wordt elk uur gekeken of er een nieuwe versie is,
+// en ook als je de app terughaalt uit de achtergrond.
+registerSW({
+  immediate: true,
+  onRegisteredSW(_url, registratie) {
+    if (!registratie) return;
+    setInterval(() => registratie.update(), 60 * 60 * 1000);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && navigator.onLine) registratie.update();
+    });
+  },
+});

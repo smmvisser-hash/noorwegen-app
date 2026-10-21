@@ -56,7 +56,7 @@ export function toonDag(app, dagen, nummer) {
               <span class="stoptype">${escapeHtml(TYPE_NAAM[s.type] ?? s.type)}</span>
               <strong>${escapeHtml(s.naam)}</strong>
               ${s.info ? `<span>${escapeHtml(s.info)}</span>` : ''}
-              ${s.prijs ? `<span class="stil">Prijs: ${escapeHtml(s.prijs)}</span>` : ''}
+              ${prijsRegel(s)}
               ${meerOver(s)}
             </li>`).join('')}
         </ol>` : ''}
@@ -75,6 +75,7 @@ export function toonDag(app, dagen, nummer) {
           <span>Voorzieningen: ${dag.overnachting.voorzieningen.length ? escapeHtml(dag.overnachting.voorzieningen.join(', ')) : 'geen (off-grid)'}</span>
           <span>park4night-code: ${dag.overnachting.park4night ? escapeHtml(dag.overnachting.park4night) : '<span class="stil">nog niet ingevuld</span>'}</span>
           ${dag.overnachting.info ? `<span>${escapeHtml(dag.overnachting.info)}</span>` : ''}
+          ${prijsRegel(dag.overnachting)}
         </div>` : ''}
 
       ${dag.meenemen.length ? `
@@ -116,8 +117,52 @@ function wandelKaart(w) {
         <dt>Markering</dt><dd>${escapeHtml(w.markering)}</dd>
       </dl>
       <span>${escapeHtml(w.info)}</span>
+      ${prijsRegel(w)}
+      ${w.route ? routeBlok(w.route) : ''}
       ${meerOver(w)}
     </div>`;
+}
+
+// Route uit OpenStreetMap met hoogteprofiel en downloadbaar GPX-bestand.
+function routeBlok(r) {
+  return `
+    <div class="route">
+      <strong>Route en hoogteprofiel</strong>
+      ${hoogteprofiel(r.profiel)}
+      <span class="stil">${escapeHtml(r.omschrijving)}: ${r.enkele_reis_km} km enkele reis${r.heen_en_terug ? `, ${r.totaal_km} km heen en terug` : ''} ·
+        stijgen ca. ${r.totaal_stijging_m} m · ${r.laagste_m}–${r.hoogste_m} m hoogte (berekend uit de route)</span>
+      <a class="knop knop--licht knop--klein" href="${escapeHtml(r.gpx)}" download>GPX-bestand downloaden</a>
+      <span class="bronregel">${escapeHtml(r.bron)}</span>
+    </div>`;
+}
+
+// Eenvoudig hoogteprofiel als SVG: afstand (km) horizontaal, hoogte (m) verticaal.
+function hoogteprofiel(profiel) {
+  const B = 320, H = 130, L = 46, O = 18;
+  const maxKm = profiel[profiel.length - 1][0] || 1;
+  const hoogtes = profiel.map((p) => p[1]);
+  const lo = Math.floor(Math.min(...hoogtes) / 100) * 100;
+  const hi = Math.ceil(Math.max(...hoogtes) / 100) * 100 || lo + 100;
+  const x = (km) => L + (km / maxKm) * (B - L - 4);
+  const y = (m) => 4 + (1 - (m - lo) / (hi - lo)) * (H - O - 4);
+  const lijn = profiel.map(([km, m]) => `${x(km).toFixed(1)},${y(m).toFixed(1)}`).join(' ');
+  return `
+    <svg class="profiel" viewBox="0 0 ${B} ${H}" role="img" aria-label="Hoogteprofiel van ${lo} tot ${hi} meter over ${maxKm} km">
+      <polygon points="${x(0)},${y(lo)} ${lijn} ${x(maxKm)},${y(lo)}" class="profiel-vlak" />
+      <polyline points="${lijn}" class="profiel-lijn" />
+      <text x="${L - 4}" y="${y(hi) + 4}" text-anchor="end">${hi} m</text>
+      <text x="${L - 4}" y="${y(lo)}" text-anchor="end">${lo} m</text>
+      <text x="${L}" y="${H - 3}">0 km</text>
+      <text x="${B - 4}" y="${H - 3}" text-anchor="end">${maxKm} km</text>
+    </svg>`;
+}
+
+// Prijs met (als bekend) de datum waarop die is opgezocht en een link naar de bron.
+function prijsRegel(item) {
+  if (!item.prijs) return '';
+  const datum = item.gecontroleerd ? ` · opgezocht ${korteDatum(item.gecontroleerd)} ${item.gecontroleerd.slice(0, 4)}` : '';
+  const bron = item.bron ? ` · <a href="${escapeHtml(item.bron)}" target="_blank" rel="noopener">bron</a>` : '';
+  return `<span class="prijs">💰 ${escapeHtml(item.prijs)}<span class="stil">${datum}</span>${bron}</span>`;
 }
 
 // Foto (als die er is) en een uitklapbaar stuk met de uitgebreide beschrijving.
