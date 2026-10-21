@@ -76,7 +76,16 @@
           "lat": 58.1491,
           "lng": 7.9983,
           "info": "Oude wijk met witte houten huisjes; eerste kanelbolle.",
-          "beschrijving": "Posebyen is het oudste deel van Kristiansand: een wijk met lage, witte houten huizen en binnenplaatsen, een van de grootste aaneengesloten gebieden met houten huizen in Noord-Europa. Even verderop staan het ronde fort Christiansholm (17e eeuw) aan de haven en de grote neogotische domkerk."
+          "beschrijving": "Posebyen is het oudste deel van Kristiansand: een wijk met lage, witte houten huizen en binnenplaatsen, een van de grootste aaneengesloten gebieden met houten huizen in Noord-Europa. Even verderop staan het ronde fort Christiansholm (17e eeuw) aan de haven en de grote neogotische domkerk.",
+          "afbeelding": {
+            "src": "fotos/kristiansand-posebyen.jpg",
+            "breedte": 800,
+            "hoogte": 534,
+            "bijschrift": "Kristiansand – Posebyen",
+            "maker": "Knut Arne Gjertsen",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Posebyen_i_Kristiansand.jpg"
+          }
         },
         {
           "naam": "Evje",
@@ -140,7 +149,16 @@
           "lng": 7.807,
           "info": "Kanoverhuur nog uitzoeken (bijv. via de camping).",
           "prijs": "nog te controleren",
-          "beschrijving": "De Byglandsfjorden is een ongeveer 40 km lang meer in de rivier de Otra, omringd door dennenbossen en kale rotsen. In de zomer vaart hier het oude stoomschip Bjoren, een van de oudste stoomschepen van Noorwegen dat nog in de vaart is."
+          "beschrijving": "De Byglandsfjorden is een ongeveer 40 km lang meer in de rivier de Otra, omringd door dennenbossen en kale rotsen. In de zomer vaart hier het oude stoomschip Bjoren, een van de oudste stoomschepen van Noorwegen dat nog in de vaart is.",
+          "afbeelding": {
+            "src": "fotos/start-kanodag-byglandsfjord.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Start kanodag Byglandsfjord",
+            "maker": "Toreid",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Byglandsfjorden.jpg"
+          }
         }
       ],
       "overnachting": {
@@ -201,7 +219,16 @@
           "lng": 7.51,
           "info": "Middeleeuwse boerderij met een opslaghuis van drie verdiepingen.",
           "prijs": "nog te controleren",
-          "beschrijving": "Een middeleeuwse boerderij met gebouwen van rond 1590. Het opvallendst is het 'loft': een houten opslaghuis van drie verdiepingen, uniek in Noorwegen. Binnen hangen oude wandkleden en ligt houtsnijwerk. 's Zomers is er een museum met rondleidingen."
+          "beschrijving": "Een middeleeuwse boerderij met gebouwen van rond 1590. Het opvallendst is het 'loft': een houten opslaghuis van drie verdiepingen, uniek in Noorwegen. Binnen hangen oude wandkleden en ligt houtsnijwerk. 's Zomers is er een museum met rondleidingen.",
+          "afbeelding": {
+            "src": "fotos/rygnestadtunet.jpg",
+            "breedte": 800,
+            "hoogte": 532,
+            "bijschrift": "Rygnestadtunet",
+            "maker": "Siri Johannessen",
+            "licentie": "CC BY-SA 3.0 no",
+            "bron": "https://commons.wikimedia.org/wiki/File:Valle,_Nordigard_Rygnestad.JPG"
+          }
         },
         {
           "naam": "Hovden",
@@ -263,7 +290,16 @@
           "lng": 6.8226,
           "info": "Staafkerk uit ca. 1250.",
           "prijs": "nog te controleren",
-          "beschrijving": "Gebouwd rond 1250 en later uitgebreid. De muren en het plafond zijn in de 17e eeuw rijk beschilderd. Het beroemde houten kruisbeeld uit de 13e eeuw hangt nog steeds in de kerk. Staafkerken zijn gebouwd op houten palen ('staven') op een stenen fundering; daardoor rotten ze niet weg."
+          "beschrijving": "Gebouwd rond 1250 en later uitgebreid. De muren en het plafond zijn in de 17e eeuw rijk beschilderd. Het beroemde houten kruisbeeld uit de 13e eeuw hangt nog steeds in de kerk. Staafkerken zijn gebouwd op houten palen ('staven') op een stenen fundering; daardoor rotten ze niet weg.",
+          "afbeelding": {
+            "src": "fotos/staafkerk-roldal.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Staafkerk Røldal",
+            "maker": "onbekend",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:R%C3%B8ldal_Stave_Church.jpg"
+          }
         },
         {
           "naam": "Låtefossen",
@@ -271,7 +307,16 @@
           "lat": 59.9475,
           "lng": 6.5836,
           "info": "Dubbele waterval direct langs de weg; gratis.",
-          "beschrijving": "Een dubbele waterval van ongeveer 165 meter hoog. De twee stromen komen samen vlak naast de weg, onder een oude stenen boogbrug. Op een zonnige dag zie je vaak een regenboog in de nevel. Gratis parkeren langs de weg."
+          "beschrijving": "Een dubbele waterval van ongeveer 165 meter hoog. De twee stromen komen samen vlak naast de weg, onder een oude stenen boogbrug. Op een zonnige dag zie je vaak een regenboog in de nevel. Gratis parkeren langs de weg.",
+          "afbeelding": {
+            "src": "fotos/latefossen.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Låtefossen",
+            "maker": "Wolfgang Hägele",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:L%C3%A5tefossen_2024.jpg"
+          }
         },
         {
           "naam": "Folgefonna-tunnel",
@@ -351,7 +396,16 @@
           "lat": 60.329,
           "lng": 6.656,
           "info": "Kersen- en appelboomgaarden aan de fjord.",
-          "beschrijving": "Dorp aan de Sørfjord, bekend om zijn fruitboomgaarden. In de tuin van Hotel Ullensvang staat het hutje waar componist Edvard Grieg in de zomer werkte, met uitzicht op de fjord. Vanuit Lofthus loopt ook de steile Dronningstien (Koninginnepad) de berg op."
+          "beschrijving": "Dorp aan de Sørfjord, bekend om zijn fruitboomgaarden. In de tuin van Hotel Ullensvang staat het hutje waar componist Edvard Grieg in de zomer werkte, met uitzicht op de fjord. Vanuit Lofthus loopt ook de steile Dronningstien (Koninginnepad) de berg op.",
+          "afbeelding": {
+            "src": "fotos/lofthus.jpg",
+            "breedte": 800,
+            "hoogte": 389,
+            "bijschrift": "Lofthus",
+            "maker": "JoarOyg",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Lofthus_i_Ullensvang_kommune.jpg"
+          }
         },
         {
           "naam": "Hardangervidda Natursenter",
@@ -369,7 +423,16 @@
           "lng": 7.252,
           "info": "182 m hoge waterval met uitzichtbrug.",
           "prijs": "nog te controleren",
-          "beschrijving": "De bekendste waterval van Noorwegen: ongeveer 180 meter hoog, waarvan zo'n 160 meter vrije val. Je kijkt er vanaf de rand van de kloof op neer. Sinds een paar jaar loopt er een trappenbrug over de kloof. Bij de waterval staat het houten Fossli Hotel uit 1891."
+          "beschrijving": "De bekendste waterval van Noorwegen: ongeveer 180 meter hoog, waarvan zo'n 160 meter vrije val. Je kijkt er vanaf de rand van de kloof op neer. Sinds een paar jaar loopt er een trappenbrug over de kloof. Bij de waterval staat het houten Fossli Hotel uit 1891.",
+          "afbeelding": {
+            "src": "fotos/voringsfossen.jpg",
+            "breedte": 800,
+            "hoogte": 524,
+            "bijschrift": "Vøringsfossen",
+            "maker": "Ximonic, Simo Räsänen",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:M%C3%A5b%C3%B8dalen,_2011_August.jpg"
+          }
         },
         {
           "naam": "Stalheim",
@@ -377,7 +440,16 @@
           "lat": 60.839,
           "lng": 6.681,
           "info": "Uitzicht over het Nærøydal; Stalheimskleiva met 13 haarspeldbochten.",
-          "beschrijving": "Hoog boven het Nærøydal staat Stalheim Hotel, al sinds de 19e eeuw een trekpleister. De oude weg Stalheimskleiva daalt met 13 haarspeldbochten en heel steil naar beneden, tussen twee watervallen in. Met een grote camper: neem de tunnel."
+          "beschrijving": "Hoog boven het Nærøydal staat Stalheim Hotel, al sinds de 19e eeuw een trekpleister. De oude weg Stalheimskleiva daalt met 13 haarspeldbochten en heel steil naar beneden, tussen twee watervallen in. Met een grote camper: neem de tunnel.",
+          "afbeelding": {
+            "src": "fotos/stalheim.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Stalheim",
+            "maker": "Bjoertvedt",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Voss_Stalheimskleiva_RK_128944_jordalsnuten_937m_IMG_5785.jpg"
+          }
         }
       ],
       "wandelingen": [
@@ -458,7 +530,16 @@
           "lng": 6.842,
           "info": "Verhuur en eventueel gids nog uitzoeken en reserveren.",
           "prijs": "nog te controleren",
-          "beschrijving": "In Gudvangen kun je kano's of kajaks huren, eventueel met een gids. Het water is helder en ijskoud (rond 10–14 °C): blijf dicht bij de kant en draag altijd het zwemvest. Met geluk zie je een zeehond."
+          "beschrijving": "In Gudvangen kun je kano's of kajaks huren, eventueel met een gids. Het water is helder en ijskoud (rond 10–14 °C): blijf dicht bij de kant en draag altijd het zwemvest. Met geluk zie je een zeehond.",
+          "afbeelding": {
+            "src": "fotos/kano-kajakverhuur-gudvangen.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Kano/kajakverhuur Gudvangen",
+            "maker": "Acediscovery",
+            "licentie": "CC BY 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:N%C3%A6r%C3%B8yfjord-Norway-April-2011.jpg"
+          }
         },
         {
           "naam": "Njardarheimr",
@@ -525,7 +606,16 @@
           "lat": 61.099,
           "lng": 7.479,
           "info": "Straatjes met 18e-eeuwse houten huizen; koffiestop.",
-          "beschrijving": "Een van de best bewaarde houten dorpen van Noorwegen, met zo'n 160 huizen uit de 18e en 19e eeuw langs smalle straatjes. Lærdal is ook beroemd om zijn zalmrivier: hier kwamen vroeger Engelse lords en zelfs koningen vissen. In het Wilde Zalmcentrum leer je er meer over."
+          "beschrijving": "Een van de best bewaarde houten dorpen van Noorwegen, met zo'n 160 huizen uit de 18e en 19e eeuw langs smalle straatjes. Lærdal is ook beroemd om zijn zalmrivier: hier kwamen vroeger Engelse lords en zelfs koningen vissen. In het Wilde Zalmcentrum leer je er meer over.",
+          "afbeelding": {
+            "src": "fotos/laerdalsoyri.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Lærdalsøyri",
+            "maker": "G.Lanting",
+            "licentie": "CC BY 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:P1000425Laerdal.JPG"
+          }
         },
         {
           "naam": "Ferry Fodnes – Mannheller",
@@ -557,7 +647,16 @@
           "lat": 61.673,
           "lng": 7.233,
           "info": "Reserveren! Starttijden en prijs nog controleren. Passen de tijden niet op deze middag, dan op de ochtend van dag 9 (daarna over de Sognefjellsvegen). Stijgijzers en touw krijg je van de gids; zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken.",
-          "beschrijving": "Nigardsbreen is een gletsjertong van de Jostedalsbreen. Met een gids loop je met stijgijzers over het blauwe ijs, langs spleten en ijsgrotten. Het ijs is honderden jaren oud; de blauwe kleur komt doordat dicht ijs vooral blauw licht doorlaat."
+          "beschrijving": "Nigardsbreen is een gletsjertong van de Jostedalsbreen. Met een gids loop je met stijgijzers over het blauwe ijs, langs spleten en ijsgrotten. Het ijs is honderden jaren oud; de blauwe kleur komt doordat dicht ijs vooral blauw licht doorlaat.",
+          "afbeelding": {
+            "src": "fotos/begeleide-gletsjerwandeling-nigardsbreen.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Begeleide gletsjerwandeling Nigardsbreen",
+            "maker": "Szczepcia20",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Nigardsbreen_lodowiec.jpg"
+          }
         }
       ],
       "boodschappen": [
@@ -605,7 +704,16 @@
           "lat": 61.565,
           "lng": 7.997,
           "info": "Hoogste punt: 1.434 m.",
-          "beschrijving": "De Sognefjellsvegen werd in 1938 geopend en is met 1.434 meter de hoogste bergweg van Noord-Europa. In juni rijd je vaak nog tussen meters hoge sneeuwmuren door. Onderweg ligt Turtagrø, de bakermat van het Noorse bergbeklimmen."
+          "beschrijving": "De Sognefjellsvegen werd in 1938 geopend en is met 1.434 meter de hoogste bergweg van Noord-Europa. In juni rijd je vaak nog tussen meters hoge sneeuwmuren door. Onderweg ligt Turtagrø, de bakermat van het Noorse bergbeklimmen.",
+          "afbeelding": {
+            "src": "fotos/sognefjellet.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Sognefjellet",
+            "maker": "BIL",
+            "licentie": "Public domain",
+            "bron": "https://commons.wikimedia.org/wiki/File:Riksvei_55_ved_Turtagr%C3%B8.jpg"
+          }
         },
         {
           "naam": "Lom – staafkerk",
@@ -614,7 +722,16 @@
           "lng": 8.568,
           "info": "Grote staafkerk met drakenkoppen.",
           "prijs": "nog te controleren",
-          "beschrijving": "Een van de grootste staafkerken van Noorwegen, gebouwd rond 1170 en in de 17e eeuw vergroot. Op het dak zitten drakenkoppen, zoals op de voorstevens van Vikingschepen. Binnen hangen schilderingen en houtsnijwerk uit verschillende eeuwen."
+          "beschrijving": "Een van de grootste staafkerken van Noorwegen, gebouwd rond 1170 en in de 17e eeuw vergroot. Op het dak zitten drakenkoppen, zoals op de voorstevens van Vikingschepen. Binnen hangen schilderingen en houtsnijwerk uit verschillende eeuwen.",
+          "afbeelding": {
+            "src": "fotos/lom-staafkerk.jpg",
+            "breedte": 800,
+            "hoogte": 538,
+            "bijschrift": "Lom – staafkerk",
+            "maker": "Ximonic (Simo Räsänen)",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Lom_stavkyrkje_in_Lom,_Innlandet,_Norway,_2025_June.jpg"
+          }
         },
         {
           "naam": "Bakeriet i Lom",
@@ -702,7 +819,16 @@
           "lat": 61.495,
           "lng": 8.813,
           "info": "Met de boot naar Memurubu en over de graat terug naar Gjendesheim. Op jullie tempo boven de 8 uur: alleen bij droog weer en als jullie je fit voelen. Eerste boot nemen; vaartijden en sneeuw half juni nog controleren.",
-          "beschrijving": "De beroemdste bergwandeling van Noorwegen. Na de boottocht naar Memurubu klim je omhoog en loop je over de smalle graat tussen het groene Gjende en het blauwe Bessvatnet. Het steilste stuk is de klim op de graat zelf (handen gebruiken, maar geen echte klimpartij)."
+          "beschrijving": "De beroemdste bergwandeling van Noorwegen. Na de boottocht naar Memurubu klim je omhoog en loop je over de smalle graat tussen het groene Gjende en het blauwe Bessvatnet. Het steilste stuk is de klim op de graat zelf (handen gebruiken, maar geen echte klimpartij).",
+          "afbeelding": {
+            "src": "fotos/keuze-2-besseggen.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Keuze 2: Besseggen",
+            "maker": "Silverkey (Mickaël Delcey)",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Besseggen_ridge3.jpg"
+          }
         }
       ],
       "overnachting": {
@@ -766,7 +892,16 @@
           "lng": 7.272,
           "info": "Uitzichtpunt op 1.476 m; tolweg.",
           "prijs": "nog te controleren",
-          "beschrijving": "Een tolweg uit 1939 slingert omhoog naar de top van Dalsnibba op bijna 1.500 meter. Vanaf het uitzichtplatform kijk je over bergen, sneeuw en de Geirangerfjord diep beneden. Zelfs in juni kan het hier fris en winderig zijn."
+          "beschrijving": "Een tolweg uit 1939 slingert omhoog naar de top van Dalsnibba op bijna 1.500 meter. Vanaf het uitzichtplatform kijk je over bergen, sneeuw en de Geirangerfjord diep beneden. Zelfs in juni kan het hier fris en winderig zijn.",
+          "afbeelding": {
+            "src": "fotos/dalsnibba.jpg",
+            "breedte": 800,
+            "hoogte": 532,
+            "bijschrift": "Dalsnibba",
+            "maker": "DimiTalen",
+            "licentie": "CC0",
+            "bron": "https://commons.wikimedia.org/wiki/File:View_of_Dalsnibba_from_the_access_road,_Stranda,_2006.jpg"
+          }
         },
         {
           "naam": "Flydalsjuvet",
@@ -788,7 +923,16 @@
           "lat": 62.1,
           "lng": 7.205,
           "info": "Trappenpad langs de waterval Storfossen, start in het dorp.",
-          "beschrijving": "Een trappenpad met 327 treden langs de waterval Storfossen, van de fjord tot het Norsk Fjordsenter. Onderweg heb je steeds uitzicht op het water dat naast je naar beneden raast."
+          "beschrijving": "Een trappenpad met 327 treden langs de waterval Storfossen, van de fjord tot het Norsk Fjordsenter. Onderweg heb je steeds uitzicht op het water dat naast je naar beneden raast.",
+          "afbeelding": {
+            "src": "fotos/fossevandring.jpg",
+            "breedte": 800,
+            "hoogte": 478,
+            "bijschrift": "Fossevandring",
+            "maker": "Diego Delso",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Cascada_Storfossen,_Geiranger,_Noruega,_2019-09-07,_DD_09.jpg"
+          }
         },
         {
           "naam": "Extra als je nog zin hebt: Storseterfossen via Westerås",
@@ -859,7 +1003,16 @@
           "lng": 7.206,
           "info": "Langs de watervallen De Zeven Zusters en De Vrijer.",
           "prijs": "nog te controleren",
-          "beschrijving": "Een uur varen door het smalste en mooiste deel van de Geirangerfjord. Je vaart langs de watervallen De Zeven Zusters, De Vrijer en De Bruidssluier, en langs boerderijen die tegen de rotswand geplakt lijken."
+          "beschrijving": "Een uur varen door het smalste en mooiste deel van de Geirangerfjord. Je vaart langs de watervallen De Zeven Zusters, De Vrijer en De Bruidssluier, en langs boerderijen die tegen de rotswand geplakt lijken.",
+          "afbeelding": {
+            "src": "fotos/ferry-geiranger-hellesylt.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Ferry Geiranger – Hellesylt",
+            "maker": "Mariordo (Mario Roberto Durán Ortiz)",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:De_syv_s%C3%B8strene_(Seven_Sisters)_fall_Geiranger_fjord_10_2018_2889.jpg"
+          }
         },
         {
           "naam": "Stryn",
@@ -883,7 +1036,16 @@
           "lat": 61.38,
           "lng": 6.43,
           "info": "Uitzichtplatform boven de haarspeldbochten naar de Vetlefjord.",
-          "beschrijving": "Een hoekig uitzichtplatform van beton en staal, gebouwd als onderdeel van de Nasjonale turistvegen. Je kijkt recht naar beneden op de haarspeldbochten richting de Vetlefjord. Langs de route stort ook de waterval Likholefossen vlak naast de weg naar beneden."
+          "beschrijving": "Een hoekig uitzichtplatform van beton en staal, gebouwd als onderdeel van de Nasjonale turistvegen. Je kijkt recht naar beneden op de haarspeldbochten richting de Vetlefjord. Langs de route stort ook de waterval Likholefossen vlak naast de weg naar beneden.",
+          "afbeelding": {
+            "src": "fotos/utsikten-gaularfjellet.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Utsikten (Gaularfjellet)",
+            "maker": "Svein-Magne Tunli - tunliweb.no",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Gaularfjellet_tunliweb_1.jpg"
+          }
         },
         {
           "naam": "Vetlefjord",
@@ -944,7 +1106,16 @@
           "lat": 61.208,
           "lng": 6.533,
           "info": "Houten villa's en de Engelse kerk van St. Olaf.",
-          "beschrijving": "Balestrand werd rond 1900 een geliefde bestemming voor kunstenaars en rijke reizigers. Het grote houten Kviknes Hotel in Zwitserse stijl staat aan het water. Het houten kerkje van St. Olaf in Engelse stijl werd volgens het verhaal gebouwd ter nagedachtenis aan de Engelse vrouw van de hoteleigenaar, die een fervent bergbeklimster was."
+          "beschrijving": "Balestrand werd rond 1900 een geliefde bestemming voor kunstenaars en rijke reizigers. Het grote houten Kviknes Hotel in Zwitserse stijl staat aan het water. Het houten kerkje van St. Olaf in Engelse stijl werd volgens het verhaal gebouwd ter nagedachtenis aan de Engelse vrouw van de hoteleigenaar, die een fervent bergbeklimster was.",
+          "afbeelding": {
+            "src": "fotos/balestrand.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Balestrand",
+            "maker": "Andrew Bowden",
+            "licentie": "CC BY-SA 2.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Balestrand_(again).jpg"
+          }
         },
         {
           "naam": "Ferry Lavik – Oppedal",
@@ -961,7 +1132,16 @@
           "lat": 60.3975,
           "lng": 5.3245,
           "info": "Hanzekade met houten pakhuizen (UNESCO).",
-          "beschrijving": "De rij houten pakhuizen aan de haven van Bergen staat op de UNESCO-werelderfgoedlijst. Van de Hanze-tijd zijn nog ruim zestig gebouwen over; ze zijn na branden steeds op dezelfde manier herbouwd. Loop door de smalle steegjes tussen de gebouwen en bezoek het Hanzemuseum."
+          "beschrijving": "De rij houten pakhuizen aan de haven van Bergen staat op de UNESCO-werelderfgoedlijst. Van de Hanze-tijd zijn nog ruim zestig gebouwen over; ze zijn na branden steeds op dezelfde manier herbouwd. Loop door de smalle steegjes tussen de gebouwen en bezoek het Hanzemuseum.",
+          "afbeelding": {
+            "src": "fotos/bryggen.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Bryggen",
+            "maker": "JoachimKohler-HB",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Fassaden_in_Bryggen,_Bergen_N.jpg"
+          }
         },
         {
           "naam": "KODE",
@@ -1038,7 +1218,16 @@
           "lng": 5.343,
           "info": "Kabelspoor omhoog, lopend terug.",
           "prijs": "nog te controleren",
-          "beschrijving": "Een van de zeven bergen rond Bergen, ruim 300 meter hoog. Het kabelspoor Fløibanen rijdt al sinds 1918 omhoog. Boven: uitzicht over de stad, de haven en de eilanden, een speelbos met houten trollen en paden door het bos."
+          "beschrijving": "Een van de zeven bergen rond Bergen, ruim 300 meter hoog. Het kabelspoor Fløibanen rijdt al sinds 1918 omhoog. Boven: uitzicht over de stad, de haven en de eilanden, een speelbos met houten trollen en paden door het bos.",
+          "afbeelding": {
+            "src": "fotos/floyen.jpg",
+            "breedte": 800,
+            "hoogte": 185,
+            "bijschrift": "Fløyen",
+            "maker": "Diego Delso",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Vista_de_Bergen_desde_la_monta%C3%B1a_Fl%C3%B8yen,_Noruega,_2019-09-08,_DD_27-31_PAN.jpg"
+          }
         },
         {
           "naam": "Ferry Halhjem – Sandvikvåg",
@@ -1138,7 +1327,16 @@
           "lat": 58.9927,
           "lng": 6.1376,
           "info": "Rond 6–7 uur starten voor de rust en het ochtendlicht.",
-          "beschrijving": "Het pad gaat afwisselend over rotsplaten, stenen trappen (gelegd door Nepalese sherpa's) en vlakke stukken over de hoogvlakte. De laatste kilometer loopt langs de rand van het Lysefjord. Bovenop: niet te dicht bij de rand, er is geen hek."
+          "beschrijving": "Het pad gaat afwisselend over rotsplaten, stenen trappen (gelegd door Nepalese sherpa's) en vlakke stukken over de hoogvlakte. De laatste kilometer loopt langs de rand van het Lysefjord. Bovenop: niet te dicht bij de rand, er is geen hek.",
+          "afbeelding": {
+            "src": "fotos/preikestolen.jpg",
+            "breedte": 800,
+            "hoogte": 278,
+            "bijschrift": "Preikestolen",
+            "maker": "Carsten Steger",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Panorama_of_Lysefjord.jpg"
+          }
         }
       ],
       "boodschappen": [
@@ -1196,7 +1394,16 @@
           "lat": 58.972,
           "lng": 5.729,
           "info": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw.",
-          "beschrijving": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw, met bloembakken en kinderkopjes. Hier woonden vissers, zeelieden en werklieden van de conservenfabrieken. Het conservenmuseum (Norsk Hermetikkmuseum) laat zien hoe sardines in blik gingen."
+          "beschrijving": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw, met bloembakken en kinderkopjes. Hier woonden vissers, zeelieden en werklieden van de conservenfabrieken. Het conservenmuseum (Norsk Hermetikkmuseum) laat zien hoe sardines in blik gingen.",
+          "afbeelding": {
+            "src": "fotos/gamle-stavanger.jpg",
+            "breedte": 800,
+            "hoogte": 419,
+            "bijschrift": "Gamle Stavanger",
+            "maker": "Olaf Meister",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Gamle_Stavanger_2017_n%C3%B6rdlicher_Teil.jpg"
+          }
         },
         {
           "naam": "Domkerk Stavanger",
@@ -1205,7 +1412,16 @@
           "lng": 5.7334,
           "info": "Oudste kathedraal van Noorwegen die nog in gebruik is.",
           "prijs": "nog te controleren",
-          "beschrijving": "De oudste kathedraal van Noorwegen die nog in gebruik is, gebouwd rond 1125 in romaanse stijl en later deels gotisch verbouwd. De eerste bisschop, Reinald, kwam volgens de overlevering uit Engeland."
+          "beschrijving": "De oudste kathedraal van Noorwegen die nog in gebruik is, gebouwd rond 1125 in romaanse stijl en later deels gotisch verbouwd. De eerste bisschop, Reinald, kwam volgens de overlevering uit Engeland.",
+          "afbeelding": {
+            "src": "fotos/domkerk-stavanger.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Domkerk Stavanger",
+            "maker": "Mathieu Marquer",
+            "licentie": "CC BY-SA 2.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Stavanger_domkirke_IMG_5880.jpg"
+          }
         },
         {
           "naam": "Sverd i fjell",
@@ -1213,7 +1429,16 @@
           "lat": 58.937,
           "lng": 5.682,
           "info": "Drie reusachtige zwaarden in de rots.",
-          "beschrijving": "Drie zwaarden van zo'n 10 meter hoog, in 1983 gemaakt door beeldhouwer Fritz Røed. Ze herdenken de slag in de Hafrsfjord rond 872, waarna Harald Schoonhaar Noorwegen samenvoegde tot één koninkrijk."
+          "beschrijving": "Drie zwaarden van zo'n 10 meter hoog, in 1983 gemaakt door beeldhouwer Fritz Røed. Ze herdenken de slag in de Hafrsfjord rond 872, waarna Harald Schoonhaar Noorwegen samenvoegde tot één koninkrijk.",
+          "afbeelding": {
+            "src": "fotos/sverd-i-fjell.jpg",
+            "breedte": 800,
+            "hoogte": 530,
+            "bijschrift": "Sverd i fjell",
+            "maker": "TomasEE",
+            "licentie": "CC BY 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Sverd_i_fjell_-_panoramio_(1).jpg"
+          }
         }
       ],
       "boodschappen": [
@@ -1277,7 +1502,16 @@
           "lat": 59.016,
           "lng": 6.37,
           "info": "Langste houten trap ter wereld (4.444 treden), vanaf de boot te zien.",
-          "beschrijving": "Een piepklein gehucht zonder weg, alleen per boot bereikbaar. De houten trap van 4.444 treden langs de oude waterleiding van de krachtcentrale is een van de langste houten trappen ter wereld."
+          "beschrijving": "Een piepklein gehucht zonder weg, alleen per boot bereikbaar. De houten trap van 4.444 treden langs de oude waterleiding van de krachtcentrale is een van de langste houten trappen ter wereld.",
+          "afbeelding": {
+            "src": "fotos/florli.jpg",
+            "breedte": 800,
+            "hoogte": 533,
+            "bijschrift": "Flørli",
+            "maker": "Havardtl",
+            "licentie": "CC BY 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Wooden_steps_going_up_from_Fl%C3%B8rli_village_with_the_Lysefjord_in_the_background.jpg"
+          }
         },
         {
           "naam": "Lysebotn",
@@ -1285,7 +1519,16 @@
           "lat": 59.055,
           "lng": 6.649,
           "info": "Eind van het fjord; 27 haarspeldbochten omhoog.",
-          "beschrijving": "Het eindpunt van het Lysefjord. Diep in de berg ligt een waterkrachtcentrale. De weg omhoog naar Kjerag en Sirdal heeft 27 haarspeldbochten en een tunnel met een bocht erin."
+          "beschrijving": "Het eindpunt van het Lysefjord. Diep in de berg ligt een waterkrachtcentrale. De weg omhoog naar Kjerag en Sirdal heeft 27 haarspeldbochten en een tunnel met een bocht erin.",
+          "afbeelding": {
+            "src": "fotos/lysebotn.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Lysebotn",
+            "maker": "Mercy",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Lysebotn_-_marina.JPG"
+          }
         }
       ],
       "overnachting": {
@@ -1333,7 +1576,16 @@
           "lat": 59.031,
           "lng": 6.594,
           "info": "Alleen bij droog weer; sneeuw mogelijk tot eind juni. Parkeren is betaald.",
-          "beschrijving": "Drie steile klimmen over gladde rotsplaten, met kettingen om je aan vast te houden, en daartussen afdalingen. Daarna een kale granieten hoogvlakte naar de rand. De Kjeragbolten ligt iets voorbij het hoogste punt, in een spleet in de rotswand."
+          "beschrijving": "Drie steile klimmen over gladde rotsplaten, met kettingen om je aan vast te houden, en daartussen afdalingen. Daarna een kale granieten hoogvlakte naar de rand. De Kjeragbolten ligt iets voorbij het hoogste punt, in een spleet in de rotswand.",
+          "afbeelding": {
+            "src": "fotos/kjerag.jpg",
+            "breedte": 800,
+            "hoogte": 800,
+            "bijschrift": "Kjerag",
+            "maker": "Scoundrelgeo",
+            "licentie": "CC BY-SA 4.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:A_man_standing_on_Kjeragbolten.jpg"
+          }
         }
       ],
       "overnachting": {
@@ -1393,7 +1645,16 @@
           "lat": 58.0294,
           "lng": 7.4609,
           "info": "Optie (ca. 45 min): smalle straatjes met witte houten huizen langs de rivier; geboorteplaats van beeldhouwer Gustav Vigeland. Goede plek voor de laatste kanelboller.",
-          "beschrijving": "De zuidelijkste stad van Noorwegen, met witte houten huizen langs de rivier de Mandalselva. Beeldhouwer Gustav Vigeland, maker van het Vigelandpark in Oslo, groeide hier op. Het moderne cultuurhuis Buen ligt aan de rivier."
+          "beschrijving": "De zuidelijkste stad van Noorwegen, met witte houten huizen langs de rivier de Mandalselva. Beeldhouwer Gustav Vigeland, maker van het Vigelandpark in Oslo, groeide hier op. Het moderne cultuurhuis Buen ligt aan de rivier.",
+          "afbeelding": {
+            "src": "fotos/mandal-oude-centrum.jpg",
+            "breedte": 800,
+            "hoogte": 536,
+            "bijschrift": "Mandal – oude centrum",
+            "maker": "Yosh3000",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Mandal_sentrum_sett_fra_Hobdetoppen.jpg"
+          }
         },
         {
           "naam": "Sjøsanden, Mandal",
