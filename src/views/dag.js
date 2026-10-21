@@ -1,6 +1,7 @@
 import { regioVan, korteDatum, escapeHtml } from '../regio.js';
 import { kenmerken } from './dagen.js';
 import { vasteId } from '../opslag.js';
+import { toonRugzak } from './paklijst.js';
 
 const TYPE_NAAM = {
   ferry: 'Ferry',
@@ -90,6 +91,8 @@ export function toonDag(app, dagen, nummer, opslag) {
         <h3>Meenemen</h3>
         <ul class="vinklijst">${dag.meenemen.map((m) => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
 
+      ${opslag ? '<div id="rugzak"></div>' : ''}
+
       ${dag.achtergrond ? `
         <h3>Achtergrond</h3>
         <p>${escapeHtml(dag.achtergrond)}</p>` : ''}
@@ -111,6 +114,9 @@ export function toonDag(app, dagen, nummer, opslag) {
         ${volgende ? `<a class="knop knop--licht" href="#/dag/${volgende.dag}">Dag ${volgende.dag} →</a>` : '<span></span>'}
       </div>
     </section>`;
+
+  const rugzak = app.querySelector('#rugzak');
+  if (rugzak) toonRugzak(rugzak, dag.dag, opslag);
 
   // park4night-code bewaren (gedeeld met de andere apparaten).
   app.querySelector('#p4n')?.addEventListener('submit', (e) => {

@@ -433,3 +433,54 @@ button.knop--licht { border: 2px solid var(--blauw); }
   font-size: 1.1rem;
   cursor: pointer;
 }
+
+/* ---------- Paklijst en dagrugzak ---------- */
+.tabs { display: flex; gap: 6px; margin: 4px 0 8px; }
+.tabs a {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 8px;
+  border: 2px solid var(--blauw);
+  border-radius: 10px;
+  color: var(--blauw);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tabs a[aria-current] { background: var(--blauw); color: var(--wit); }
+.voortgang { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+.voortgang strong { font-size: 1.2rem; color: var(--blauw); }
+.groepkop { margin: 14px 0 2px; color: var(--blauw); font-size: 0.95rem; }
+.afvinklijst { list-style: none; margin: 0; padding: 0; }
+.afvinklijst li { display: flex; align-items: center; border-bottom: 1px solid var(--lijn); }
+.afvinklijst li:last-child { border-bottom: 0; }
+.afvinklijst label { flex: 1; display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 4px 0; cursor: pointer; }
+.afvinklijst input { width: 24px; height: 24px; flex: none; accent-color: var(--blauw); }
+.afvinklijst input:checked + span { color: var(--stil); text-decoration: line-through; }
+.afvinklijst .wis { display: none; }
+.aanpassen .afvinklijst .wis { display: block; color: var(--rood); }
+.paklijst .formulier select {
+  min-height: 48px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid var(--lijn);
+  border-radius: 8px;
+  background: var(--wit);
+}
+.namen summary { font-weight: 600; cursor: pointer; min-height: 32px; }
+.rugzak-toevoegen { margin: 0 0 10px; }
+.rugzak-toevoegen input {
+  min-height: 48px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid var(--lijn);
+  border-radius: 8px;
+}
+.rugzak-toevoegen .knop { min-width: 56px; font-size: 1.4rem; }
