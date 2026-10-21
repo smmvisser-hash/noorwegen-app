@@ -32,7 +32,9 @@ export async function toonSync(app, opslag) {
         ${tijd ? `<span class="stil">Laatst bijgewerkt: ${escapeHtml(tijd)}</span>` : ''}
         ${s.toestand === 'fout' && s.bericht ? `<span class="stil">Melding: ${escapeHtml(s.bericht)}</span>` : ''}
       </div>
-      ${!opslag.backend ? '' : gebruiker ? `
+      ${!opslag.backend ? `
+        <p class="stil">Tip: de koppeling wordt ingesteld in Netlify met de variabelen <code>VITE_SUPABASE_URL</code> en
+        <code>VITE_SUPABASE_ANON_KEY</code>. Daarna moet de app opnieuw gebouwd worden.</p>` : gebruiker ? `
         <p>Ingelogd als <strong>${escapeHtml(gebruiker.email)}</strong>.</p>
         <div class="knoppen">
           <button class="knop" id="nu-sync">Nu synchroniseren</button>
