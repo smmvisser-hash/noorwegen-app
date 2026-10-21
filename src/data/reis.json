@@ -1070,9 +1070,9 @@
       "datum": "2027-06-29",
       "titel": "Vrije dag: rust of Stavanger",
       "regio": "rogaland",
-      "samenvatting": "Rustdag tussen Preikestolen en Kjerag. Uitslapen, de was doen op de camping, of een middag naar Stavanger (Gamle Stavanger en de domkerk, ca. 30 min rijden).",
+      "samenvatting": "Rustdag tussen Preikestolen en Kjerag. Kies zelf: blijven op de camping (uitslapen, de was doen), óf naar Stavanger (ca. 30 min) voor Gamle Stavanger en de domkerk, en daar in de buurt overnachten. Vanuit Stavanger is het morgen ca. 1 uur naar de ferry in Forsand.",
       "rijden": {
-        "tijd": "geen (of 2× 30 min naar Stavanger)",
+        "tijd": "geen (optie Stavanger: ca. 30 min)",
         "ferry": "",
         "rijdag": false
       },
@@ -1100,11 +1100,19 @@
           "info": "Drie reusachtige zwaarden in de rots."
         }
       ],
+      "boodschappen": [
+        {
+          "plaats": "Stavanger (optie)",
+          "lat": 58.97,
+          "lng": 5.733,
+          "info": "Als jullie naar Stavanger gaan: aanvullen voor de Kjerag-dagen."
+        }
+      ],
       "overnachting": {
-        "naam": "Camping Preikestolen",
+        "naam": "Optie: camping bij Stavanger (bijv. Mosvangen)",
         "type": "camping",
-        "lat": 58.9985,
-        "lng": 6.0986,
+        "lat": 58.952,
+        "lng": 5.721,
         "voorzieningen": [
           "stroom",
           "water",
@@ -1113,7 +1121,7 @@
           "toilet"
         ],
         "park4night": "",
-        "info": ""
+        "info": "Of blijf nog een nacht op Camping Preikestolen. Let op: na deze nacht volgen 2 nachten off-grid bij Kjerag, dus kies een plek met stroom, water en afvoer."
       },
       "achtergrond": "Stavanger was rond 1900 de sardinehoofdstad van de wereld, met tientallen conservenfabrieken. Sinds de jaren 70 is het de oliehoofdstad van Noorwegen. De domkerk werd rond 1125 gebouwd, waarschijnlijk door Engelse bouwmeesters.",
       "verhalen": [
@@ -1123,7 +1131,6 @@
         }
       ],
       "wandelingen": [],
-      "boodschappen": [],
       "meenemen": []
     },
     {
@@ -1133,7 +1140,7 @@
       "regio": "rogaland",
       "samenvatting": "Met de ferry door het hele Lysefjord, langs de houten trap van Flørli, naar Lysebotn. Dan de haarspeldbochten omhoog naar de Kjerag-parkeerplaats.",
       "rijden": {
-        "tijd": "45 min",
+        "tijd": "45 min (vanaf Stavanger ca. 1¾ u)",
         "ferry": "Forsand – Lysebotn (ca. 2 u, reserveren)",
         "rijdag": true
       },
