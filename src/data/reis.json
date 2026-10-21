@@ -470,7 +470,7 @@
       "datum": "2027-06-21",
       "titel": "Lærdal en de gletsjer Nigardsbreen",
       "regio": "vestland",
-      "samenvatting": "Door de tunnels naar het oude houten Lærdalsøyri, ferry over de Sognefjord, het Jostedal in naar Nigardsbreen.",
+      "samenvatting": "Vroeg vertrekken: door de tunnels naar het oude houten Lærdalsøyri, ferry over de Sognefjord en het Jostedal in. 's Middags een begeleide gletsjerwandeling op Nigardsbreen.",
       "rijden": {
         "tijd": "3 u",
         "ferry": "Fodnes – Mannheller (15 min)",
@@ -503,15 +503,15 @@
       ],
       "wandelingen": [
         {
-          "naam": "Nigardsbreen",
-          "afstand_km": 3,
-          "hoogtemeters": 100,
-          "duur": "1½–2 u",
-          "niveau": "makkelijk (rotsen bij de gletsjer)",
-          "markering": "gemarkeerd pad",
+          "naam": "Begeleide gletsjerwandeling Nigardsbreen",
+          "afstand_km": null,
+          "hoogtemeters": null,
+          "duur": "3–5 u (incl. bootje en aanloop)",
+          "niveau": "middel; met gids, stijgijzers en touw",
+          "markering": "met gids (geen markering nodig)",
           "lat": 61.673,
           "lng": 7.233,
-          "info": "Met het bootje over het gletsjermeer of over het pad naar de gletsjertong. Niet zonder gids het ijs op."
+          "info": "Reserveren! Starttijden en prijs nog controleren. Passen de tijden niet op deze middag, dan op de ochtend van dag 9 (daarna over de Sognefjellsvegen). Stijgijzers en touw krijg je van de gids; zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken."
         }
       ],
       "boodschappen": [
@@ -545,7 +545,7 @@
       "datum": "2027-06-22",
       "titel": "Over de Sognefjellsvegen naar Jotunheimen",
       "regio": "innlandet",
-      "samenvatting": "Over de hoogste bergweg van Noord-Europa, tussen sneeuwmuren en gletsjers, naar Lom en door naar het Gjendemeer.",
+      "samenvatting": "Over de hoogste bergweg van Noord-Europa, tussen sneeuwmuren en gletsjers, naar Lom en door naar het Gjendemeer. (Paste de gletsjerwandeling gisteren niet, dan doen jullie die vanochtend en vertrekken jullie daarna.)",
       "rijden": {
         "tijd": "3½ u",
         "ferry": "",
@@ -842,9 +842,9 @@
     {
       "dag": 13,
       "datum": "2027-06-26",
-      "titel": "Via Balestrand naar Bergen",
+      "titel": "Vroeg naar Bergen, middag in de stad",
       "regio": "vestland",
-      "samenvatting": "Via het sfeervolle dorp Balestrand en twee korte ferry's naar Bergen.",
+      "samenvatting": "Vroeg vertrekken (rond 7 uur) via Balestrand en de ferry naar Bergen; rond het middaguur aankomen. 's Middags Bryggen, de vismarkt en de KODE-kunstmusea.",
       "rijden": {
         "tijd": "3½ u",
         "ferry": "Lavik – Oppedal (20 min)",
@@ -856,7 +856,7 @@
           "type": "stadje",
           "lat": 61.208,
           "lng": 6.533,
-          "info": "Houten villa's en de Engelse kerk van St. Olaf; koffiestop."
+          "info": "Houten villa's en de Engelse kerk van St. Olaf."
         },
         {
           "naam": "Ferry Lavik – Oppedal",
@@ -865,6 +865,21 @@
           "lng": 5.51,
           "info": "",
           "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Bryggen",
+          "type": "bezienswaardigheid",
+          "lat": 60.3975,
+          "lng": 5.3245,
+          "info": "Hanzekade met houten pakhuizen (UNESCO)."
+        },
+        {
+          "naam": "KODE",
+          "type": "bezienswaardigheid",
+          "lat": 60.389,
+          "lng": 5.326,
+          "info": "Kunstmusea met o.a. Munch, J.C. Dahl en Nikolai Astrup.",
+          "prijs": "nog te controleren"
         }
       ],
       "boodschappen": [
@@ -872,7 +887,7 @@
           "plaats": "Bergen",
           "lat": 60.39,
           "lng": 5.33,
-          "info": "Zaterdag: inslaan voor zondag."
+          "info": "Zaterdag: inslaan voor zaterdag t/m maandag (zondag is alles dicht)."
         }
       ],
       "overnachting": {
@@ -890,8 +905,12 @@
         "park4night": "",
         "info": "Bus naar het centrum."
       },
-      "achtergrond": "Balestrand werd rond 1900 populair bij kunstenaars en rijke toeristen. De Duitse keizer Wilhelm II kwam hier bijna elke zomer en liet beelden plaatsen van twee helden uit de oude sage van Fridtjof de Dappere.",
+      "achtergrond": "Bergen werd rond 1070 gesticht en was eeuwenlang de grootste stad van Noorwegen. Duitse Hanze-kooplieden beheersten vanaf Bryggen de handel in gedroogde stokvis uit Noord-Noorwegen. De houten pakhuizen zijn vaak afgebrand en steeds op dezelfde manier herbouwd. Onderweg, in Balestrand, kwam de Duitse keizer Wilhelm II bijna elke zomer.",
       "verhalen": [
+        {
+          "titel": "De Hanze op Bryggen",
+          "tekst": "De Duitse kooplieden leefden op Bryggen in een eigen, streng mannenwereldje: vrouwen waren verboden, jonge leerjongens werden hard ontgroend. Ze spraken Nederduits en trouwden niet met Noorse vrouwen. In het Hanzemuseum zie je hoe ze woonden."
+        },
         {
           "titel": "Fridtjof en Ingebjørg",
           "tekst": "De sage vertelt van Fridtjof, zoon van een boer, die verliefd was op Ingebjørg, de dochter van koning Bele. Haar broers wilden haar niet aan een gewone man geven en stuurden Fridtjof weg. Na veel avonturen kreeg hij haar toch. In Balestrand staat een beeld van koning Bele, aan de overkant in Vangsnes een reusachtig beeld van Fridtjof."
@@ -903,22 +922,15 @@
     {
       "dag": 14,
       "datum": "2027-06-27",
-      "titel": "Stadsdag Bergen",
-      "regio": "vestland",
-      "samenvatting": "Geen rijden; met de bus de stad in. Bryggen, de vismarkt, met de Fløibanen omhoog en lopend terug naar beneden, KODE-kunstmusea.",
+      "titel": "Ochtend Bergen, dan langs de kust naar Preikestolen",
+      "regio": "rogaland",
+      "samenvatting": "'s Ochtends met de Fløibanen omhoog en lopend terug naar de stad. Na de lunch zuidwaarts langs de kust met twee ferry's en door de onderzeese tunnel naar de buurt van Preikestolen.",
       "rijden": {
-        "tijd": "geen",
-        "ferry": "",
-        "rijdag": false
+        "tijd": "3½ u",
+        "ferry": "Halhjem – Sandvikvåg (40 min), Arsvågen – Mortavika (25 min)",
+        "rijdag": true
       },
       "stops": [
-        {
-          "naam": "Bryggen",
-          "type": "bezienswaardigheid",
-          "lat": 60.3975,
-          "lng": 5.3245,
-          "info": "Hanzekade met houten pakhuizen (UNESCO)."
-        },
         {
           "naam": "Fløyen",
           "type": "bezienswaardigheid",
@@ -927,65 +939,6 @@
           "info": "Kabelspoor omhoog, lopend terug.",
           "prijs": "nog te controleren"
         },
-        {
-          "naam": "KODE",
-          "type": "bezienswaardigheid",
-          "lat": 60.389,
-          "lng": 5.326,
-          "info": "Kunstmusea met o.a. Munch, J.C. Dahl en Nikolai Astrup.",
-          "prijs": "nog te controleren"
-        }
-      ],
-      "wandelingen": [
-        {
-          "naam": "Fløyen naar beneden",
-          "afstand_km": 3,
-          "hoogtemeters": 0,
-          "duur": "1 u",
-          "niveau": "makkelijk",
-          "markering": "bewegwijzerd pad",
-          "lat": 60.394,
-          "lng": 5.343,
-          "info": "Omlaag door het bos naar de stad. Boven bij Fløyen staan houten trollen in het bos."
-        }
-      ],
-      "boodschappen": [],
-      "overnachting": {
-        "naam": "Camping bij Bergen",
-        "type": "camping",
-        "lat": 60.338,
-        "lng": 5.46,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
-        "park4night": "",
-        "info": "Zondag: supermarkten dicht."
-      },
-      "achtergrond": "Bergen werd rond 1070 gesticht en was eeuwenlang de grootste stad van Noorwegen. Duitse Hanze-kooplieden beheersten vanaf Bryggen de handel in gedroogde stokvis uit Noord-Noorwegen. De houten pakhuizen zijn vaak afgebrand en steeds op dezelfde manier herbouwd.",
-      "verhalen": [
-        {
-          "titel": "De Hanze op Bryggen",
-          "tekst": "De Duitse kooplieden leefden op Bryggen in een eigen, streng mannenwereldje: vrouwen waren verboden, jonge leerjongens werden hard ontgroend. Ze spraken Nederduits en trouwden niet met Noorse vrouwen. In het Hanzemuseum zie je hoe ze woonden."
-        }
-      ],
-      "meenemen": []
-    },
-    {
-      "dag": 15,
-      "datum": "2027-06-28",
-      "titel": "Langs de kust naar Preikestolen",
-      "regio": "rogaland",
-      "samenvatting": "Zuidwaarts langs de kust met twee ferry's en door de onderzeese tunnel naar het Lysefjord-gebied. Onderweg eventueel het monument Sverd i fjell.",
-      "rijden": {
-        "tijd": "4 u",
-        "ferry": "Halhjem – Sandvikvåg (40 min), Arsvågen – Mortavika (25 min)",
-        "rijdag": true
-      },
-      "stops": [
         {
           "naam": "Ferry Halhjem – Sandvikvåg",
           "type": "ferry",
@@ -1003,13 +956,6 @@
           "prijs": "nog te controleren"
         },
         {
-          "naam": "Sverd i fjell",
-          "type": "bezienswaardigheid",
-          "lat": 58.937,
-          "lng": 5.682,
-          "info": "Drie reusachtige zwaarden in de rots (kleine omweg)."
-        },
-        {
           "naam": "Ryfylketunnel",
           "type": "bezienswaardigheid",
           "lat": 59.0,
@@ -1017,47 +963,46 @@
           "info": "Een van de langste onderzeese tunnels ter wereld."
         }
       ],
-      "boodschappen": [
+      "wandelingen": [
         {
-          "plaats": "Jørpeland",
-          "lat": 59.017,
-          "lng": 6.045,
-          "info": "Boodschappen voor 5 dagen (daarna geen winkels meer tot Kristiansand)."
+          "naam": "Fløyen naar beneden",
+          "afstand_km": 3,
+          "hoogtemeters": 0,
+          "duur": "1 u",
+          "niveau": "makkelijk",
+          "markering": "bewegwijzerd pad",
+          "lat": 60.394,
+          "lng": 5.343,
+          "info": "Omlaag door het bos naar de stad. Boven bij Fløyen staan houten trollen in het bos."
         }
       ],
       "overnachting": {
-        "naam": "Camping Preikestolen",
-        "type": "camping",
-        "lat": 58.9985,
-        "lng": 6.0986,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
+        "naam": "Vrij kamperen bij Jørpeland",
+        "type": "vrij",
+        "lat": 59.03,
+        "lng": 6.07,
+        "voorzieningen": [],
         "park4night": "",
-        "info": ""
+        "info": "1e nacht off-grid. Max. 30 min van de start van Preikestolen. Zondag: winkels dicht."
       },
-      "achtergrond": "Sverd i fjell herdenkt de slag in de Hafrsfjord (rond 872), waarna Harald Schoonhaar zich de eerste koning van heel Noorwegen kon noemen. De drie zwaarden staan voor vrede, eenheid en vrijheid.",
+      "achtergrond": "Dit is de 4e rijdag op rij (bewust gekozen): de rit is kort en de ochtend is nog voor Bergen. Fløyen is een van de zeven bergen rond Bergen; boven heb je uitzicht over de hele stad en de eilanden.",
       "verhalen": [
         {
-          "titel": "Harald Schoonhaar",
-          "tekst": "Harald vroeg de mooie Gyda ten huwelijk, maar zij wilde pas trouwen met een man die heel Noorwegen regeerde. Harald zwoer zijn haar niet te knippen of te kammen tot dat gelukt was. Na de overwinning in de Hafrsfjord liet hij het eindelijk knippen — vandaar zijn bijnaam."
+          "titel": "De trollen van Fløyen",
+          "tekst": "In het bos op Fløyen staan houten trollen. Volgens de Noorse folklore wonen trollen in de bergen en zijn ze 's nachts actief: wie door de zon wordt beschenen, verandert in steen. Daarom zie je in Noorwegen zoveel rotsen die op een trollenhoofd lijken."
         }
       ],
-      "wandelingen": [],
+      "boodschappen": [],
       "meenemen": []
     },
     {
-      "dag": 16,
-      "datum": "2027-06-29",
+      "dag": 15,
+      "datum": "2027-06-28",
       "titel": "Preikestolen",
       "regio": "rogaland",
-      "samenvatting": "Heel vroeg naar Preikestolen, vóór de drukte. 's Middags rust op de camping.",
+      "samenvatting": "Heel vroeg naar Preikestolen, vóór de drukte. 's Middags boodschappen in Jørpeland en rust op de camping.",
       "rijden": {
-        "tijd": "10 min",
+        "tijd": "30 min",
         "ferry": "",
         "rijdag": false
       },
@@ -1084,6 +1029,14 @@
           "info": "Rond 6–7 uur starten voor de rust en het ochtendlicht."
         }
       ],
+      "boodschappen": [
+        {
+          "plaats": "Jørpeland",
+          "lat": 59.017,
+          "lng": 6.045,
+          "info": "Boodschappen voor 4 dagen (daarna geen winkels meer tot Kristiansand)."
+        }
+      ],
       "overnachting": {
         "naam": "Camping Preikestolen",
         "type": "camping",
@@ -1099,13 +1052,77 @@
         "park4night": "",
         "info": ""
       },
-      "achtergrond": "Preikestolen ('de preekstoel') is een vlak rotsplateau van zo'n 25 bij 25 meter, 604 meter boven het Lysefjord. Het ontstond ongeveer 10.000 jaar geleden, toen bevroren water in spleten de rots openbrak.",
+      "achtergrond": "Preikestolen ('de preekstoel') is een vlak rotsplateau van zo'n 25 bij 25 meter, 604 meter boven het Lysefjord. Het ontstond ongeveer 10.000 jaar geleden, toen bevroren water in spleten de rots openbrak. Bij Hafrsfjord, aan de andere kant van Stavanger, staat het monument Sverd i fjell: drie zwaarden ter herinnering aan de slag waarna Harald Schoonhaar koning van heel Noorwegen werd (rond 872).",
       "verhalen": [
         {
           "titel": "Zeven broers, zeven zussen",
           "tekst": "Er gaat een verhaal dat Preikestolen in het fjord zal storten op de dag dat zeven broers uit de streek trouwen met zeven zussen uit de streek. Er zijn mensen die dat serieus nemen en een stap verder van de rand gaan staan."
+        },
+        {
+          "titel": "Harald Schoonhaar",
+          "tekst": "Harald vroeg de mooie Gyda ten huwelijk, maar zij wilde pas trouwen met een man die heel Noorwegen regeerde. Harald zwoer zijn haar niet te knippen of te kammen tot dat gelukt was. Na de overwinning in de Hafrsfjord liet hij het eindelijk knippen — vandaar zijn bijnaam."
         }
       ],
+      "meenemen": []
+    },
+    {
+      "dag": 16,
+      "datum": "2027-06-29",
+      "titel": "Vrije dag: rust of Stavanger",
+      "regio": "rogaland",
+      "samenvatting": "Rustdag tussen Preikestolen en Kjerag. Uitslapen, de was doen op de camping, of een middag naar Stavanger (Gamle Stavanger en de domkerk, ca. 30 min rijden).",
+      "rijden": {
+        "tijd": "geen (of 2× 30 min naar Stavanger)",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [
+        {
+          "naam": "Gamle Stavanger",
+          "type": "stadje",
+          "lat": 58.972,
+          "lng": 5.729,
+          "info": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw."
+        },
+        {
+          "naam": "Domkerk Stavanger",
+          "type": "bezienswaardigheid",
+          "lat": 58.9693,
+          "lng": 5.7334,
+          "info": "Oudste kathedraal van Noorwegen die nog in gebruik is.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Sverd i fjell",
+          "type": "bezienswaardigheid",
+          "lat": 58.937,
+          "lng": 5.682,
+          "info": "Drie reusachtige zwaarden in de rots."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Preikestolen",
+        "type": "camping",
+        "lat": 58.9985,
+        "lng": 6.0986,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "achtergrond": "Stavanger was rond 1900 de sardinehoofdstad van de wereld, met tientallen conservenfabrieken. Sinds de jaren 70 is het de oliehoofdstad van Noorwegen. De domkerk werd rond 1125 gebouwd, waarschijnlijk door Engelse bouwmeesters.",
+      "verhalen": [
+        {
+          "titel": "Iddis",
+          "tekst": "Op elk sardineblikje uit Stavanger zat een kleurrijk etiket. In het Stavangers dialect heet zo'n etiket 'iddis', en kinderen spaarden ze zoals anderen postzegels. In het conservenmuseum in Gamle Stavanger hangen er duizenden."
+        }
+      ],
+      "wandelingen": [],
       "boodschappen": [],
       "meenemen": []
     },
