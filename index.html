@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#00205b" />
+    <meta name="description" content="Onze reisgids voor Noorwegen, 14 juni – 3 juli 2027." />
+    <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <title>Noorwegen 2027</title>
+  </head>
+  <body>
+    <header class="kop">
+      <div class="kop-inhoud">
+        <svg class="kop-motief" viewBox="0 0 64 32" aria-hidden="true">
+          <!-- Strakke lijn geïnspireerd op een rotstekening van een boot -->
+          <path d="M4 18 Q32 30 60 18" />
+          <path d="M10 18 L8 10 M54 18 L57 9" />
+          <path d="M20 22 V14 M28 24 V14 M36 24 V14 M44 22 V14" />
+        </svg>
+        <div>
+          <h1>Noorwegen 2027</h1>
+          <p class="kop-sub">14 juni – 3 juli · Agder, Rogaland, Vestland</p>
+        </div>
+      </div>
+      <div class="rosemaling" aria-hidden="true"></div>
+    </header>
+
+    <div id="offline-melding" class="offline-melding" hidden>
+      Geen internet — je ziet de opgeslagen versie.
+    </div>
+
+    <main id="app"></main>
+
+    <nav class="onderbalk" aria-label="Hoofdmenu">
+      <a href="#/" data-tab="dagen">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+        <span>Dagen</span>
+      </a>
+      <a href="#/kaart" data-tab="kaart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14" /></svg>
+        <span>Kaart</span>
+      </a>
+    </nav>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

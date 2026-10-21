@@ -71,3 +71,6 @@ Wandelen, kanoën, kleine stadjes, koffie en kaneelbroodjes (kanelboller), wildk
 
 ## Status
 - (Werk deze sectie bij na elke fase: wat af is, wat geboekt is, open vragen.)
+- **Fase 1 (eerste versie):** Vite + vanilla JS, startscherm met 20 dagen, dagdetail, Leaflet-kaart (hele reis of per dag), PWA (installeerbaar, opent offline), `netlify.toml`. Voorbeelddata voor dag 2–4 (niet gecontroleerd).
+- Kaarttegels worden nu alleen offline bewaard als je ze eerst online bekeken hebt; vooraf cachen van het hele reisgebied volgt later.
+- Open vragen: accentkleuren per provincie zijn voorlopig (staan in `src/regio.js`); ferryhaven en -tijden nog kiezen.

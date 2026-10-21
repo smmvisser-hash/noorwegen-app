@@ -1,0 +1,252 @@
+{
+  "reis": {
+    "naam": "Noorwegen 2027",
+    "start": "2027-06-14",
+    "eind": "2027-07-03"
+  },
+  "dagen": [
+    {
+      "dag": 1,
+      "datum": "2027-06-14",
+      "titel": "Van Nederland naar Denemarken",
+      "regio": "onderweg",
+      "samenvatting": "Lange rijdag naar Noord-Denemarken.",
+      "stops": []
+    },
+    {
+      "dag": 2,
+      "datum": "2027-06-15",
+      "titel": "Ferry naar Kristiansand",
+      "regio": "agder",
+      "samenvatting": "Ochtendferry Hirtshals – Kristiansand, daarna rustig aankomen en de oude houten huizen van Posebyen bekijken.",
+      "stops": [
+        {
+          "naam": "Veerhaven Hirtshals",
+          "type": "ferry",
+          "lat": 57.5937,
+          "lng": 9.9634,
+          "info": "Vertrek ferry (tijd nog in te vullen)."
+        },
+        {
+          "naam": "Kristiansand – Posebyen",
+          "type": "bezienswaardigheid",
+          "lat": 58.1491,
+          "lng": 7.9983,
+          "info": "Oude wijk met witte houten huisjes; mooi voor een eerste kanelbolle."
+        },
+        {
+          "naam": "Camping bij Kristiansand",
+          "type": "overnachting",
+          "lat": 58.1462,
+          "lng": 8.0573,
+          "info": "Voorbeeldplek: camping met stroom, water en afvoer."
+        }
+      ],
+      "voorbeeld": true
+    },
+    {
+      "dag": 3,
+      "datum": "2027-06-16",
+      "titel": "Langs de zuidkust naar Lindesnes",
+      "regio": "agder",
+      "samenvatting": "Over de kustweg naar de vuurtoren van Lindesnes, het zuidelijkste puntje van het vasteland, en door naar Flekkefjord.",
+      "stops": [
+        {
+          "naam": "Mandal",
+          "type": "stadje",
+          "lat": 58.0294,
+          "lng": 7.4609,
+          "info": "Klein stadje met lang zandstrand (Sjøsanden)."
+        },
+        {
+          "naam": "Lindesnes fyr",
+          "type": "bezienswaardigheid",
+          "lat": 57.9826,
+          "lng": 7.0477,
+          "info": "Vuurtoren op de zuidpunt van Noorwegen. Toegangsprijs nog te controleren."
+        },
+        {
+          "naam": "Flekkefjord – Hollenderbyen",
+          "type": "stadje",
+          "lat": 58.2969,
+          "lng": 6.6614,
+          "info": "Wijk met Nederlandse invloeden uit de houthandel."
+        },
+        {
+          "naam": "Vrij kamperen bij Flekkefjord",
+          "type": "overnachting",
+          "lat": 58.3127,
+          "lng": 6.6262,
+          "info": "Voorbeeldplek (allemannsretten); 1e nacht off-grid."
+        }
+      ],
+      "voorbeeld": true
+    },
+    {
+      "dag": 4,
+      "datum": "2027-06-17",
+      "titel": "Naar het Lysefjord-gebied",
+      "regio": "rogaland",
+      "samenvatting": "Door het kale heuvelland van Dalane naar Egersund en verder richting Preikestolen.",
+      "stops": [
+        {
+          "naam": "Egersund",
+          "type": "stadje",
+          "lat": 58.4517,
+          "lng": 5.9997,
+          "info": "Kleine havenstad met witte houten huizen en aardewerkmuseum."
+        },
+        {
+          "naam": "Preikestolen parkeerplaats",
+          "type": "parkeren",
+          "lat": 58.9927,
+          "lng": 6.1376,
+          "info": "Start van de wandeling naar Preikestolen. Parkeerprijs nog te controleren."
+        },
+        {
+          "naam": "Preikestolen",
+          "type": "bezienswaardigheid",
+          "lat": 58.9864,
+          "lng": 6.1904,
+          "info": "Beroemde rotsplateau boven het Lysefjord (wandeling op een latere dag)."
+        },
+        {
+          "naam": "Camping bij Preikestolen",
+          "type": "overnachting",
+          "lat": 58.9985,
+          "lng": 6.0986,
+          "info": "Voorbeeldplek: camping met voorzieningen."
+        }
+      ],
+      "voorbeeld": true
+    },
+    {
+      "dag": 5,
+      "datum": "2027-06-18",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 6,
+      "datum": "2027-06-19",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 7,
+      "datum": "2027-06-20",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 8,
+      "datum": "2027-06-21",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 9,
+      "datum": "2027-06-22",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 10,
+      "datum": "2027-06-23",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 11,
+      "datum": "2027-06-24",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 12,
+      "datum": "2027-06-25",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 13,
+      "datum": "2027-06-26",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 14,
+      "datum": "2027-06-27",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 15,
+      "datum": "2027-06-28",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 16,
+      "datum": "2027-06-29",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 17,
+      "datum": "2027-06-30",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 18,
+      "datum": "2027-07-01",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 19,
+      "datum": "2027-07-02",
+      "titel": "Nog te plannen",
+      "regio": null,
+      "samenvatting": "",
+      "stops": []
+    },
+    {
+      "dag": 20,
+      "datum": "2027-07-03",
+      "titel": "Terug naar Nederland",
+      "regio": "onderweg",
+      "samenvatting": "Laatste rijdag naar huis.",
+      "stops": []
+    }
+  ]
+}
