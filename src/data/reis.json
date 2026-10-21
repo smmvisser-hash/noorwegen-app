@@ -23,7 +23,8 @@
           "type": "stadje",
           "lat": 57.588,
           "lng": 9.96,
-          "info": "Overnachten vlak bij de haven, zodat je 's ochtends uitgerust aan boord gaat."
+          "info": "Overnachten vlak bij de haven, zodat je 's ochtends uitgerust aan boord gaat.",
+          "beschrijving": "Vissershaven en ferrystad in het uiterste noorden van Jutland. Het Nordsøen Oceanarium is een van de grootste aquaria van Noord-Europa, en in de duinen liggen bunkers van de Duitse Atlantikwall uit de Tweede Wereldoorlog (Bunkermuseum)."
         }
       ],
       "overnachting": {
@@ -45,7 +46,8 @@
       "verhalen": [],
       "wandelingen": [],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Jutland is vlak, met duinen, heide en windmolens. Bij Skagen, het noordelijkste puntje van Denemarken, verschuiven de zandduinen zo snel dat de Råbjerg Mile wandelende duin wordt genoemd."
     },
     {
       "dag": 2,
@@ -65,21 +67,24 @@
           "lat": 57.5937,
           "lng": 9.9634,
           "info": "Vertrek ferry naar Kristiansand.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Vanaf hier varen de ferry's naar Kristiansand, Larvik, Stavanger en Bergen. Zorg dat je ruim op tijd bent: campers moeten vaak in een aparte rij."
         },
         {
           "naam": "Kristiansand – Posebyen",
           "type": "stadje",
           "lat": 58.1491,
           "lng": 7.9983,
-          "info": "Oude wijk met witte houten huisjes; eerste kanelbolle."
+          "info": "Oude wijk met witte houten huisjes; eerste kanelbolle.",
+          "beschrijving": "Posebyen is het oudste deel van Kristiansand: een wijk met lage, witte houten huizen en binnenplaatsen, een van de grootste aaneengesloten gebieden met houten huizen in Noord-Europa. Even verderop staan het ronde fort Christiansholm (17e eeuw) aan de haven en de grote neogotische domkerk."
         },
         {
           "naam": "Evje",
           "type": "stadje",
           "lat": 58.585,
           "lng": 7.798,
-          "info": "Mineralendorp in het Setesdal."
+          "info": "Mineralendorp in het Setesdal.",
+          "beschrijving": "Evje ligt midden in een gebied dat rijk is aan zeldzame mineralen. Vroeger werd hier nikkel en veldspaat gewonnen. Op een paar plekken mag je zelf naar mineralen zoeken."
         }
       ],
       "boodschappen": [
@@ -113,7 +118,8 @@
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "De zuidkust van Noorwegen (Sørlandet) is de zonnigste en warmste streek van het land, met duizenden kleine eilandjes (scheren) en witte houten dorpjes. Landinwaarts begint meteen een bosrijk landschap met dennen, berken en granieten heuvels."
     },
     {
       "dag": 3,
@@ -133,7 +139,8 @@
           "lat": 58.67,
           "lng": 7.807,
           "info": "Kanoverhuur nog uitzoeken (bijv. via de camping).",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "De Byglandsfjorden is een ongeveer 40 km lang meer in de rivier de Otra, omringd door dennenbossen en kale rotsen. In de zomer vaart hier het oude stoomschip Bjoren, een van de oudste stoomschepen van Noorwegen dat nog in de vaart is."
         }
       ],
       "overnachting": {
@@ -164,7 +171,8 @@
         }
       ],
       "wandelingen": [],
-      "boodschappen": []
+      "boodschappen": [],
+      "omgeving": "Rond de Byglandsfjorden wisselen dennenbossen, kale granieten rotsen en kleine zandstrandjes elkaar af. Met wat geluk zie je een visarend boven het water of sporen van bevers langs de oever: in Agder leven veel bevers."
     },
     {
       "dag": 4,
@@ -183,7 +191,8 @@
           "type": "stadje",
           "lat": 59.205,
           "lng": 7.533,
-          "info": "Traditioneel Setesdal-dorp met zilversmeden."
+          "info": "Traditioneel Setesdal-dorp met zilversmeden.",
+          "beschrijving": "Valle is het hart van het Setesdal. Hier werken nog zilversmeden die de zware, filigrane sieraden maken die bij de Setesdal-klederdracht horen."
         },
         {
           "naam": "Rygnestadtunet",
@@ -191,14 +200,16 @@
           "lat": 59.23,
           "lng": 7.51,
           "info": "Middeleeuwse boerderij met een opslaghuis van drie verdiepingen.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een middeleeuwse boerderij met gebouwen van rond 1590. Het opvallendst is het 'loft': een houten opslaghuis van drie verdiepingen, uniek in Noorwegen. Binnen hangen oude wandkleden en ligt houtsnijwerk. 's Zomers is er een museum met rondleidingen."
         },
         {
           "naam": "Hovden",
           "type": "stadje",
           "lat": 59.555,
           "lng": 7.355,
-          "info": ""
+          "info": "",
+          "beschrijving": "Bergdorp op ruim 750 meter hoogte, aan het begin van de rivier de Otra. 's Winters een skioord; 's zomers een uitvalsbasis voor wandelingen op de Setesdalsheiene, waar de zuidelijkste wilde rendieren van Europa leven."
         }
       ],
       "boodschappen": [
@@ -223,10 +234,15 @@
         {
           "titel": "Vond Åsmund",
           "tekst": "Op Rygnestad woonde in de 16e eeuw 'Vond (kwade) Åsmund', een krijger die als huurling in Europa zou hebben gevochten en met zijn buit terugkeerde. Het hoge opslaghuis zou zijn schatkamer zijn geweest; zijn wapenrusting werd er bewaard."
+        },
+        {
+          "titel": "Rosemaling",
+          "tekst": "Rosemaling is de traditionele Noorse decoratieschildering met krullende bloemen en ranken. In de 18e en 19e eeuw beschilderden rondtrekkende schilders kisten, kasten, plafonds en wanden van boerderijen. Elk dal had zijn eigen stijl. Kijk in oude boerderijen zoals Rygnestad en in staafkerken of je het herkent."
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Het Setesdal is een smal, lang dal. Hoe verder je naar het noorden rijdt, hoe kaler het wordt: bij Hovden en Haukeli rijd je over het fjell, het boomloze hoogland vol meren, mos en sneeuwvelden. Hier leven de zuidelijkste wilde rendieren van Europa."
     },
     {
       "dag": 5,
@@ -246,21 +262,24 @@
           "lat": 59.8316,
           "lng": 6.8226,
           "info": "Staafkerk uit ca. 1250.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Gebouwd rond 1250 en later uitgebreid. De muren en het plafond zijn in de 17e eeuw rijk beschilderd. Het beroemde houten kruisbeeld uit de 13e eeuw hangt nog steeds in de kerk. Staafkerken zijn gebouwd op houten palen ('staven') op een stenen fundering; daardoor rotten ze niet weg."
         },
         {
           "naam": "Låtefossen",
           "type": "bezienswaardigheid",
           "lat": 59.9475,
           "lng": 6.5836,
-          "info": "Dubbele waterval direct langs de weg; gratis."
+          "info": "Dubbele waterval direct langs de weg; gratis.",
+          "beschrijving": "Een dubbele waterval van ongeveer 165 meter hoog. De twee stromen komen samen vlak naast de weg, onder een oude stenen boogbrug. Op een zonnige dag zie je vaak een regenboog in de nevel. Gratis parkeren langs de weg."
         },
         {
           "naam": "Folgefonna-tunnel",
           "type": "bezienswaardigheid",
           "lat": 60.07,
           "lng": 6.4,
-          "info": "11 km lange tunnel onder de gletsjer door."
+          "info": "11 km lange tunnel onder de gletsjer door.",
+          "beschrijving": "Een ruim 11 km lange tunnel dwars onder de Folgefonna-gletsjer door, geopend rond 2001. Hij verbindt Odda met Mauranger aan de westkant. Vroeger moest je er helemaal omheen rijden."
         }
       ],
       "wandelingen": [
@@ -273,7 +292,8 @@
           "markering": "nog te controleren",
           "lat": 60.02,
           "lng": 6.26,
-          "info": "Locatie, lengte en markering nog controleren. Alleen lopen als het pad gemarkeerd is; anders alternatief: Bondhusbreen (vanuit Sunndal, gemarkeerd pad naar het gletsjermeer)."
+          "info": "Locatie, lengte en markering nog controleren. Alleen lopen als het pad gemarkeerd is; anders alternatief: Bondhusbreen (vanuit Sunndal, gemarkeerd pad naar het gletsjermeer).",
+          "beschrijving": "Aan de westkant van de Folgefonna liggen dalen met gletsjermeren, watervallen en gletsjertongen die vanaf de hoogvlakte naar beneden hangen. Lees ter plaatse goed de informatieborden over de markering."
         }
       ],
       "boodschappen": [
@@ -310,7 +330,8 @@
           "tekst": "Een oude sage vertelt dat waar nu de gletsjer ligt, ooit zeven bloeiende parochies lagen. Omdat de bewoners zondig en hoogmoedig waren, liet God het sneeuwen tot alles onder het ijs verdween. Soms zou je onder de gletsjer nog kerkklokken horen."
         }
       ],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Odda ligt aan het eind van de Sørfjord, ingeklemd tussen steile bergen en de Folgefonna-gletsjer. Het was een industriestad met smelterijen; aan de westkant van de gletsjer is het juist stil en groen, met smalle dalen en gletsjermeren."
     },
     {
       "dag": 6,
@@ -329,7 +350,8 @@
           "type": "stadje",
           "lat": 60.329,
           "lng": 6.656,
-          "info": "Kersen- en appelboomgaarden aan de fjord."
+          "info": "Kersen- en appelboomgaarden aan de fjord.",
+          "beschrijving": "Dorp aan de Sørfjord, bekend om zijn fruitboomgaarden. In de tuin van Hotel Ullensvang staat het hutje waar componist Edvard Grieg in de zomer werkte, met uitzicht op de fjord. Vanuit Lofthus loopt ook de steile Dronningstien (Koninginnepad) de berg op."
         },
         {
           "naam": "Hardangervidda Natursenter",
@@ -337,7 +359,8 @@
           "lat": 60.468,
           "lng": 7.08,
           "info": "Museum over het hoogland, in Eidfjord.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Museum in Eidfjord over de Hardangervidda: hoe het hoogland ontstond, hoe rendieren er leven en hoe mensen er al duizenden jaren jagen. Er is een grote film over de natuur van het hoogland."
         },
         {
           "naam": "Vøringsfossen",
@@ -345,14 +368,16 @@
           "lat": 60.427,
           "lng": 7.252,
           "info": "182 m hoge waterval met uitzichtbrug.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "De bekendste waterval van Noorwegen: ongeveer 180 meter hoog, waarvan zo'n 160 meter vrije val. Je kijkt er vanaf de rand van de kloof op neer. Sinds een paar jaar loopt er een trappenbrug over de kloof. Bij de waterval staat het houten Fossli Hotel uit 1891."
         },
         {
           "naam": "Stalheim",
           "type": "bezienswaardigheid",
           "lat": 60.839,
           "lng": 6.681,
-          "info": "Uitzicht over het Nærøydal; Stalheimskleiva met 13 haarspeldbochten."
+          "info": "Uitzicht over het Nærøydal; Stalheimskleiva met 13 haarspeldbochten.",
+          "beschrijving": "Hoog boven het Nærøydal staat Stalheim Hotel, al sinds de 19e eeuw een trekpleister. De oude weg Stalheimskleiva daalt met 13 haarspeldbochten en heel steil naar beneden, tussen twee watervallen in. Met een grote camper: neem de tunnel."
         }
       ],
       "wandelingen": [
@@ -365,7 +390,8 @@
           "markering": "gemarkeerd (rode T van DNT) — route nog kiezen",
           "lat": 60.4,
           "lng": 7.5,
-          "info": "Kort stuk heen en terug over een gemarkeerd DNT-pad over het hoogland."
+          "info": "Kort stuk heen en terug over een gemarkeerd DNT-pad over het hoogland.",
+          "beschrijving": "De Hardangervidda is een golvende hoogvlakte op 1.100–1.400 meter, met meren, mos, dwergberk en sneeuwvelden. Paden van de DNT zijn gemarkeerd met rode T's op stenen en steenmannetjes; in mist blijf je altijd van T naar T lopen."
         }
       ],
       "boodschappen": [
@@ -400,9 +426,18 @@
         {
           "titel": "Muziek van de duivel",
           "tekst": "De hardingfele werd lang gewantrouwd: predikers noemden haar het instrument van de duivel en lieten violen verbranden. Wie 's nachts bij een waterval oefende, kon volgens de verhalen spelen leren van Fossegrimen, de watergeest — als je hem een vet stuk vlees bracht."
+        },
+        {
+          "titel": "De bruidstocht in Hardanger",
+          "tekst": "Het beroemdste Noorse schilderij, 'Brudeferd i Hardanger' (1848) van Adolph Tidemand en Hans Gude, toont een bruidsstoet die in roeiboten over de Hardangerfjord vaart. De bruid draagt een glinsterende zilveren kroon. Het schilderij werd een symbool van de Noorse identiteit, in een tijd dat Noorwegen nog onder Zweden viel."
+        },
+        {
+          "titel": "Sami en rendieren",
+          "tekst": "De rendieren op de Hardangervidda zijn wild, geen gedomesticeerde kuddes. Rendierhouderij door Sami vind je vooral verder naar het noorden. De Sami zijn het inheemse volk van Noord-Scandinavië, met een eigen taal, kunst en de joik: een zangvorm waarin je een persoon, dier of landschap 'bezingt'."
         }
       ],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "De Hardangerfjord is met bijna 180 km de op een na langste fjord van Noorwegen. Op de hellingen staan boomgaarden; daarboven ligt de Hardangervidda, de grootste hoogvlakte van Europa, met arctische planten, sneeuwvelden en wilde rendieren."
     },
     {
       "dag": 7,
@@ -422,7 +457,8 @@
           "lat": 60.878,
           "lng": 6.842,
           "info": "Verhuur en eventueel gids nog uitzoeken en reserveren.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "In Gudvangen kun je kano's of kajaks huren, eventueel met een gids. Het water is helder en ijskoud (rond 10–14 °C): blijf dicht bij de kant en draag altijd het zwemvest. Met geluk zie je een zeehond."
         },
         {
           "naam": "Njardarheimr",
@@ -430,7 +466,8 @@
           "lat": 60.877,
           "lng": 6.838,
           "info": "Nagebouwd Vikingdorp in Gudvangen.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een nagebouwd Vikingdorp met houten huizen, een langhuis en werkplaatsen. Mensen in Vikingkleding laten zien hoe er werd gekookt, gesmeed en gehandeld."
         }
       ],
       "overnachting": {
@@ -460,10 +497,15 @@
         {
           "titel": "Njord",
           "tekst": "Njord was de god van de zee en van zeelieden. Hij trouwde met de reuzin Skadi, maar het huwelijk mislukte: zij kon niet slapen door het geschreeuw van de meeuwen bij zijn haven, en hij haatte het gehuil van de wolven in haar bergen. Ze besloten om beurten negen nachten bij de ander te wonen."
+        },
+        {
+          "titel": "Oskoreia, de wilde jacht",
+          "tekst": "In de donkere dagen rond kerst trok volgens de folklore de Oskoreia door de lucht: een stoet van onrustige doden op paarden, met lawaai en gekrijs. Wie buiten was, moest plat op de grond gaan liggen. Werd een boerderij uitgekozen, dan was het bier de volgende ochtend op en lag het paard bezweet in de stal."
         }
       ],
       "wandelingen": [],
-      "boodschappen": []
+      "boodschappen": [],
+      "omgeving": "De Nærøyfjord is smal, diep en omringd door bergen tot 1.700 meter. Overal stort water van de wanden. Op de hellingen grazen geiten; in het dorpje Undredal (vlakbij) maken ze de bekende bruine geitenkaas en staat een van de kleinste kerkjes van Scandinavië."
     },
     {
       "dag": 8,
@@ -482,7 +524,8 @@
           "type": "stadje",
           "lat": 61.099,
           "lng": 7.479,
-          "info": "Straatjes met 18e-eeuwse houten huizen; koffiestop."
+          "info": "Straatjes met 18e-eeuwse houten huizen; koffiestop.",
+          "beschrijving": "Een van de best bewaarde houten dorpen van Noorwegen, met zo'n 160 huizen uit de 18e en 19e eeuw langs smalle straatjes. Lærdal is ook beroemd om zijn zalmrivier: hier kwamen vroeger Engelse lords en zelfs koningen vissen. In het Wilde Zalmcentrum leer je er meer over."
         },
         {
           "naam": "Ferry Fodnes – Mannheller",
@@ -490,7 +533,8 @@
           "lat": 61.15,
           "lng": 7.383,
           "info": "Over de Sognefjord.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een korte oversteek over de Sognefjord, die hier ruim een kilometer diep is. Kijk tijdens de overtocht naar het water: het is diep en donkerblauw."
         },
         {
           "naam": "Breheimsenteret",
@@ -498,7 +542,8 @@
           "lat": 61.66,
           "lng": 7.27,
           "info": "Gletsjercentrum bij Nigardsbreen.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Bezoekerscentrum bij Nigardsbreen. Het gebouw heeft de vorm van gletsjerijs met spleten. Binnen leer je hoe gletsjers ontstaan, bewegen en smelten. In de buurt starten de begeleide gletsjerwandelingen (startplek bij de reservering controleren)."
         }
       ],
       "wandelingen": [
@@ -511,7 +556,8 @@
           "markering": "met gids (geen markering nodig)",
           "lat": 61.673,
           "lng": 7.233,
-          "info": "Reserveren! Starttijden en prijs nog controleren. Passen de tijden niet op deze middag, dan op de ochtend van dag 9 (daarna over de Sognefjellsvegen). Stijgijzers en touw krijg je van de gids; zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken."
+          "info": "Reserveren! Starttijden en prijs nog controleren. Passen de tijden niet op deze middag, dan op de ochtend van dag 9 (daarna over de Sognefjellsvegen). Stijgijzers en touw krijg je van de gids; zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken.",
+          "beschrijving": "Nigardsbreen is een gletsjertong van de Jostedalsbreen. Met een gids loop je met stijgijzers over het blauwe ijs, langs spleten en ijsgrotten. Het ijs is honderden jaren oud; de blauwe kleur komt doordat dicht ijs vooral blauw licht doorlaat."
         }
       ],
       "boodschappen": [
@@ -538,7 +584,8 @@
           "tekst": "Toen in 1349 de Zwarte Dood het Jostedal bereikte, stierf iedereen. Jaren later vonden jagers een verwilderd meisje dat alleen had overleefd en schuw was als een sneeuwhoen (rype). Ze noemden haar Jostedalsrypa. Ze kreeg de grond van het hele dal, en veel families in de streek zouden van haar afstammen."
         }
       ],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "De Sognefjord is de langste (ruim 200 km) en diepste (ruim 1.300 m) fjord van Noorwegen. Het Jostedal loopt vanaf de fjord omhoog naar de Jostedalsbreen, de grootste gletsjer van het Europese vasteland, die een eigen nationaal park heeft."
     },
     {
       "dag": 9,
@@ -557,7 +604,8 @@
           "type": "bezienswaardigheid",
           "lat": 61.565,
           "lng": 7.997,
-          "info": "Hoogste punt: 1.434 m."
+          "info": "Hoogste punt: 1.434 m.",
+          "beschrijving": "De Sognefjellsvegen werd in 1938 geopend en is met 1.434 meter de hoogste bergweg van Noord-Europa. In juni rijd je vaak nog tussen meters hoge sneeuwmuren door. Onderweg ligt Turtagrø, de bakermat van het Noorse bergbeklimmen."
         },
         {
           "naam": "Lom – staafkerk",
@@ -565,14 +613,16 @@
           "lat": 61.838,
           "lng": 8.568,
           "info": "Grote staafkerk met drakenkoppen.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een van de grootste staafkerken van Noorwegen, gebouwd rond 1170 en in de 17e eeuw vergroot. Op het dak zitten drakenkoppen, zoals op de voorstevens van Vikingschepen. Binnen hangen schilderingen en houtsnijwerk uit verschillende eeuwen."
         },
         {
           "naam": "Bakeriet i Lom",
           "type": "koffie",
           "lat": 61.8375,
           "lng": 8.5665,
-          "info": "Bekende bakkerij: kanelboller!"
+          "info": "Bekende bakkerij: kanelboller!",
+          "beschrijving": "Een bekende ambachtelijke bakkerij in een oud houten gebouw bij de rivier. Ze bakken met lokaal graan in een houtoven. Jullie vaste bestelling: 2 kanelboller, 1 thee, 1 koffie."
         }
       ],
       "boodschappen": [
@@ -597,10 +647,15 @@
         {
           "titel": "De jotnen",
           "tekst": "In de Noorse mythen waren de jotnen reuzen van ijs, steen en chaos — de eeuwige tegenstanders van de goden. Uit het lichaam van de oerreus Ymir maakten Odin en zijn broers de wereld: zijn bloed werd de zee, zijn botten de bergen."
+        },
+        {
+          "titel": "Kanelboller",
+          "tekst": "De kanelbolle hoort bij het Noorse 'kos': gezellig samen koffie drinken. Het deeg is op smaak gebracht met kardemom, wat het verschil maakt met andere kaneelbroodjes. In bergdorpen als Lom is de bakker vaak het sociale middelpunt."
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Op de Sognefjellsvegen rijd je van fjord naar hooggebergte: eerst loofbos, dan berken, dan kaal fjell met sneeuw en gletsjers. Rechts liggen de toppen van Jotunheimen, het hoogste gebergte van Noord-Europa."
     },
     {
       "dag": 10,
@@ -620,7 +675,8 @@
           "lat": 61.495,
           "lng": 8.813,
           "info": "Start van beide wandelingen; boot naar Memurubu voor Besseggen.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een berghut van de Noorse wandelvereniging DNT aan het oostelijke eind van het Gjendemeer, al sinds de 19e eeuw een vertrekpunt voor wandelaars. Hier vertrekt de boot naar Memurubu voor de Besseggen-wandeling."
         }
       ],
       "wandelingen": [
@@ -633,7 +689,8 @@
           "markering": "gemarkeerd (nog controleren)",
           "lat": 61.495,
           "lng": 8.813,
-          "info": "Bij twijfel over het weer of je benen: deze. Minder druk, met uitzicht op het groene Gjendemeer en Besseggen."
+          "info": "Bij twijfel over het weer of je benen: deze. Minder druk, met uitzicht op het groene Gjendemeer en Besseggen.",
+          "beschrijving": "Knutshøe is een kam van rotsblokken direct boven het Gjendemeer. Het uitzicht op het smaragdgroene meer en de Besseggen-graat is minstens zo mooi als op Besseggen zelf, met veel minder mensen."
         },
         {
           "naam": "Keuze 2: Besseggen",
@@ -644,7 +701,8 @@
           "markering": "gemarkeerd (rode T van DNT)",
           "lat": 61.495,
           "lng": 8.813,
-          "info": "Met de boot naar Memurubu en over de graat terug naar Gjendesheim. Op jullie tempo boven de 8 uur: alleen bij droog weer en als jullie je fit voelen. Eerste boot nemen; vaartijden en sneeuw half juni nog controleren."
+          "info": "Met de boot naar Memurubu en over de graat terug naar Gjendesheim. Op jullie tempo boven de 8 uur: alleen bij droog weer en als jullie je fit voelen. Eerste boot nemen; vaartijden en sneeuw half juni nog controleren.",
+          "beschrijving": "De beroemdste bergwandeling van Noorwegen. Na de boottocht naar Memurubu klim je omhoog en loop je over de smalle graat tussen het groene Gjende en het blauwe Bessvatnet. Het steilste stuk is de klim op de graat zelf (handen gebruiken, maar geen echte klimpartij)."
         }
       ],
       "overnachting": {
@@ -667,10 +725,19 @@
         {
           "titel": "De bokkenrit van Peer Gynt",
           "tekst": "In Ibsens toneelstuk Peer Gynt vertelt Peer hoe hij op de rug van een rendierbok over de Besseggen-graat raasde en in een duizelingwekkende sprong met de bok in het Gjendemeer dook. Ibsen baseerde het op een oud volksverhaal over een jager uit de streek."
+        },
+        {
+          "titel": "Sankthans: midzomerfeest",
+          "tekst": "Op 23 juni, de avond van jullie wandeldag, is het Sankthansaften: midzomeravond. In heel Noorwegen worden grote vreugdevuren gestookt, vaak aan het water. Vroeger moesten die vuren heksen en boze geesten verjagen, die in de kortste nacht extra actief zouden zijn. Vraag op de camping waar het vuur is."
+        },
+        {
+          "titel": "De Engelse bergbeklimmer",
+          "tekst": "De Engelsman William Cecil Slingsby wordt de vader van het Noorse bergbeklimmen genoemd. In 1876 beklom hij als eerste de Store Skagastølstind in Jotunheimen, het laatste stuk alleen. Hij maakte de bergen van Jotunheimen bekend bij buitenlanders."
         }
       ],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Rond het Gjendemeer zie je typische hooggebergte-natuur: kale rotsen, mos, sneeuwvelden en het smaragdgroene meer. Let op de sneeuwhoenders (fjellrype), die in de zomer bruin gevlekt zijn, en misschien zie je een lemming."
     },
     {
       "dag": 11,
@@ -689,7 +756,8 @@
           "type": "stadje",
           "lat": 61.838,
           "lng": 8.567,
-          "info": "Nog een keer langs de bakker?"
+          "info": "Nog een keer langs de bakker?",
+          "beschrijving": "Lom ligt in de regenschaduw van Jotunheimen en is een van de droogste plekken van Noorwegen. In het Norsk Fjellsenter (bergcentrum) leer je over de bergen, het bergbeklimmen en de natuur van Jotunheimen."
         },
         {
           "naam": "Dalsnibba",
@@ -697,14 +765,16 @@
           "lat": 62.045,
           "lng": 7.272,
           "info": "Uitzichtpunt op 1.476 m; tolweg.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een tolweg uit 1939 slingert omhoog naar de top van Dalsnibba op bijna 1.500 meter. Vanaf het uitzichtplatform kijk je over bergen, sneeuw en de Geirangerfjord diep beneden. Zelfs in juni kan het hier fris en winderig zijn."
         },
         {
           "naam": "Flydalsjuvet",
           "type": "bezienswaardigheid",
           "lat": 62.088,
           "lng": 7.214,
-          "info": "Klassiek uitzicht over Geiranger."
+          "info": "Klassiek uitzicht over Geiranger.",
+          "beschrijving": "Een uitstekende rots boven Geiranger met het klassieke uitzicht op de fjord en het dorp. Er is een uitzichtpunt aan de weg en een paadje naar de rand."
         }
       ],
       "wandelingen": [
@@ -717,7 +787,8 @@
           "markering": "trappenpad",
           "lat": 62.1,
           "lng": 7.205,
-          "info": "Trappenpad langs de waterval Storfossen, start in het dorp."
+          "info": "Trappenpad langs de waterval Storfossen, start in het dorp.",
+          "beschrijving": "Een trappenpad met 327 treden langs de waterval Storfossen, van de fjord tot het Norsk Fjordsenter. Onderweg heb je steeds uitzicht op het water dat naast je naar beneden raast."
         },
         {
           "naam": "Extra als je nog zin hebt: Storseterfossen via Westerås",
@@ -728,7 +799,8 @@
           "markering": "gemarkeerd pad",
           "lat": 62.105,
           "lng": 7.133,
-          "info": "Vanaf boerderij Westerås naar de waterval waar je achterlangs loopt."
+          "info": "Vanaf boerderij Westerås naar de waterval waar je achterlangs loopt.",
+          "beschrijving": "Vanaf de bergboerderij Westerås loop je over een gemarkeerd pad naar de waterval Storseterfossen. Het pad gaat achter de waterval langs: je staat droog terwijl het water voor je naar beneden stort."
         }
       ],
       "boodschappen": [
@@ -759,9 +831,14 @@
         {
           "titel": "Kinderen aan een touw",
           "tekst": "Op de steile boerderijen aan de Geirangerfjord werden kleine kinderen volgens de verhalen met een touw vastgebonden, zodat ze niet in de fjord konden vallen. En als de belastinginner kwam, haalde de boer de ladder in die naar zijn boerderij leidde."
+        },
+        {
+          "titel": "Brunost",
+          "tekst": "Brunost, de bruine kaas, is eigenlijk geen echte kaas: het is ingekookte wei met room en melk, tot de suikers karamelliseren. Volgens het verhaal bedacht melkmeisje Anne Hov uit het Gudbrandsdal (vlakbij) in 1863 de romige variant. Dun schaven met een kaasschaaf en op een wafel of brood eten."
         }
       ],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Het Ottadal rond Lom is opvallend droog: de bergen van Jotunheimen houden de regen tegen. Over Dalsnibba daal je dan af naar Geiranger, waar de Geirangerfjord tussen loodrechte wanden ligt — samen met de Nærøyfjord UNESCO-werelderfgoed."
     },
     {
       "dag": 12,
@@ -781,35 +858,40 @@
           "lat": 62.101,
           "lng": 7.206,
           "info": "Langs de watervallen De Zeven Zusters en De Vrijer.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een uur varen door het smalste en mooiste deel van de Geirangerfjord. Je vaart langs de watervallen De Zeven Zusters, De Vrijer en De Bruidssluier, en langs boerderijen die tegen de rotswand geplakt lijken."
         },
         {
           "naam": "Stryn",
           "type": "stadje",
           "lat": 61.905,
           "lng": 6.717,
-          "info": ""
+          "info": "",
+          "beschrijving": "Dorp aan de Nordfjord. Boven Stryn ligt de Gamle Strynefjellsvegen: een oude bergweg uit 1894 met stapelmuurtjes, nu een toeristische route. Op Strynefjellet kun je zelfs in de zomer skiën."
         },
         {
           "naam": "Skei",
           "type": "stadje",
           "lat": 61.575,
           "lng": 6.482,
-          "info": ""
+          "info": "",
+          "beschrijving": "Dorp aan het Jølstravatnet. Vlakbij, in Jølster, staat Astruptunet: de boerderij van schilder Nikolai Astrup, met zijn kleurrijke huisjes tegen de berghelling."
         },
         {
           "naam": "Utsikten (Gaularfjellet)",
           "type": "bezienswaardigheid",
           "lat": 61.38,
           "lng": 6.43,
-          "info": "Uitzichtplatform boven de haarspeldbochten naar de Vetlefjord."
+          "info": "Uitzichtplatform boven de haarspeldbochten naar de Vetlefjord.",
+          "beschrijving": "Een hoekig uitzichtplatform van beton en staal, gebouwd als onderdeel van de Nasjonale turistvegen. Je kijkt recht naar beneden op de haarspeldbochten richting de Vetlefjord. Langs de route stort ook de waterval Likholefossen vlak naast de weg naar beneden."
         },
         {
           "naam": "Vetlefjord",
           "type": "stadje",
           "lat": 61.33,
           "lng": 6.52,
-          "info": "Stille zijarm van de Sognefjord."
+          "info": "Stille zijarm van de Sognefjord.",
+          "beschrijving": "Een stille, smalle zijarm van de Sognefjord met een paar boerderijen. Hier merk je hoe rustig Noorwegen buiten de toeristenroutes is."
         }
       ],
       "boodschappen": [
@@ -834,10 +916,15 @@
         {
           "titel": "De Zeven Zusters en De Vrijer",
           "tekst": "Aan de ene kant van de fjord storten zeven watervallen naast elkaar omlaag: de Zeven Zusters. Recht tegenover staat één waterval, De Vrijer. Hij vroeg de zusters één voor één ten huwelijk, maar allemaal wezen ze hem af. Sindsdien zoekt hij troost in de fles — de waterval heeft de vorm van een fles."
+        },
+        {
+          "titel": "Nikolai Astrup en de midzomervuren",
+          "tekst": "Schilder Nikolai Astrup woonde aan het Jølstravatnet bij Skei. Hij schilderde steeds weer dezelfde plek in verschillende seizoenen: bloeiende boomgaarden, de rabarbertuin en vooral de jonsokvuren in de midzomernacht, met mensen die eromheen dansen."
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Van de Nordfjord rijd je via het Jølstravatnet naar Sunnfjord en over het Gaularfjellet: een route met meren, watervallen en kale bergruggen, die eindigt in de groene, stille Vetlefjord."
     },
     {
       "dag": 13,
@@ -856,7 +943,8 @@
           "type": "stadje",
           "lat": 61.208,
           "lng": 6.533,
-          "info": "Houten villa's en de Engelse kerk van St. Olaf."
+          "info": "Houten villa's en de Engelse kerk van St. Olaf.",
+          "beschrijving": "Balestrand werd rond 1900 een geliefde bestemming voor kunstenaars en rijke reizigers. Het grote houten Kviknes Hotel in Zwitserse stijl staat aan het water. Het houten kerkje van St. Olaf in Engelse stijl werd volgens het verhaal gebouwd ter nagedachtenis aan de Engelse vrouw van de hoteleigenaar, die een fervent bergbeklimster was."
         },
         {
           "naam": "Ferry Lavik – Oppedal",
@@ -864,14 +952,16 @@
           "lat": 61.105,
           "lng": 5.51,
           "info": "",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Oversteek over de Sognefjord, niet ver van de monding in zee. Hier is de fjord breed en open."
         },
         {
           "naam": "Bryggen",
           "type": "bezienswaardigheid",
           "lat": 60.3975,
           "lng": 5.3245,
-          "info": "Hanzekade met houten pakhuizen (UNESCO)."
+          "info": "Hanzekade met houten pakhuizen (UNESCO).",
+          "beschrijving": "De rij houten pakhuizen aan de haven van Bergen staat op de UNESCO-werelderfgoedlijst. Van de Hanze-tijd zijn nog ruim zestig gebouwen over; ze zijn na branden steeds op dezelfde manier herbouwd. Loop door de smalle steegjes tussen de gebouwen en bezoek het Hanzemuseum."
         },
         {
           "naam": "KODE",
@@ -879,7 +969,8 @@
           "lat": 60.389,
           "lng": 5.326,
           "info": "Kunstmusea met o.a. Munch, J.C. Dahl en Nikolai Astrup.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Vier kunstmusea aan het meer Lille Lungegårdsvann, met werk van Edvard Munch, J.C. Dahl (de vader van de Noorse landschapsschilderkunst), Nikolai Astrup en Harriet Backer. Ook het huis van Edvard Grieg (Troldhaugen) hoort bij KODE."
         }
       ],
       "boodschappen": [
@@ -914,10 +1005,19 @@
         {
           "titel": "Fridtjof en Ingebjørg",
           "tekst": "De sage vertelt van Fridtjof, zoon van een boer, die verliefd was op Ingebjørg, de dochter van koning Bele. Haar broers wilden haar niet aan een gewone man geven en stuurden Fridtjof weg. Na veel avonturen kreeg hij haar toch. In Balestrand staat een beeld van koning Bele, aan de overkant in Vangsnes een reusachtig beeld van Fridtjof."
+        },
+        {
+          "titel": "Stokvis",
+          "tekst": "Bergen werd rijk van stokvis: kabeljauw uit Noord-Noorwegen die maandenlang aan houten rekken in de wind droogt. Gedroogde vis bleef jaren goed en werd door de Hanze naar heel Europa verscheept. Nog steeds gaat veel stokvis naar Italië en Portugal."
+        },
+        {
+          "titel": "Sami-kunst",
+          "tekst": "Wie Sami-kunst wil zien: belangrijke kunstenaars zijn John Savio (houtsneden, begin 20e eeuw), Iver Jåks (beelden), Nils-Aslak Valkeapää (beeldend kunstenaar, dichter en joiker) en Britta Marakatt-Labba (verhalende borduurwerken). Het Nationaal Museum in Oslo en het Sami-kunstmuseum in Karasjok (Noord-Noorwegen) hebben collecties. Vraag in KODE of er Sami-werk te zien is."
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Bergen ligt tussen zeven bergen en is een van de natste steden van Europa: de Bergenaars hebben een eigen woord voor de eindeloze motregen. Neem dus altijd een regenjas mee, ook als de zon schijnt."
     },
     {
       "dag": 14,
@@ -937,7 +1037,8 @@
           "lat": 60.394,
           "lng": 5.343,
           "info": "Kabelspoor omhoog, lopend terug.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een van de zeven bergen rond Bergen, ruim 300 meter hoog. Het kabelspoor Fløibanen rijdt al sinds 1918 omhoog. Boven: uitzicht over de stad, de haven en de eilanden, een speelbos met houten trollen en paden door het bos."
         },
         {
           "naam": "Ferry Halhjem – Sandvikvåg",
@@ -945,7 +1046,8 @@
           "lat": 60.148,
           "lng": 5.241,
           "info": "",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Oversteek tussen het vasteland bij Bergen en het eiland Stord, door een gebied met talloze eilandjes."
         },
         {
           "naam": "Ferry Arsvågen – Mortavika",
@@ -953,14 +1055,16 @@
           "lat": 59.36,
           "lng": 5.333,
           "info": "",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Korte oversteek over de Boknafjord, de laatste ferry op de kustroute naar Stavanger."
         },
         {
           "naam": "Ryfylketunnel",
           "type": "bezienswaardigheid",
           "lat": 59.0,
           "lng": 5.85,
-          "info": "Een van de langste onderzeese tunnels ter wereld."
+          "info": "Een van de langste onderzeese tunnels ter wereld.",
+          "beschrijving": "Een onderzeese tunnel van ruim 14 km die tot bijna 300 meter onder zeeniveau gaat. Bij de opening in 2019 was het de diepste en langste onderzeese wegtunnel ter wereld."
         }
       ],
       "wandelingen": [
@@ -973,7 +1077,8 @@
           "markering": "bewegwijzerd pad",
           "lat": 60.394,
           "lng": 5.343,
-          "info": "Omlaag door het bos naar de stad. Boven bij Fløyen staan houten trollen in het bos."
+          "info": "Omlaag door het bos naar de stad. Boven bij Fløyen staan houten trollen in het bos.",
+          "beschrijving": "Vanaf het bovenstation van de Fløibanen loop je via brede paden en trappetjes door het bos terug naar de stad, langs oude villa's en met steeds uitzicht op Bergen."
         }
       ],
       "overnachting": {
@@ -990,10 +1095,15 @@
         {
           "titel": "De trollen van Fløyen",
           "tekst": "In het bos op Fløyen staan houten trollen. Volgens de Noorse folklore wonen trollen in de bergen en zijn ze 's nachts actief: wie door de zon wordt beschenen, verandert in steen. Daarom zie je in Noorwegen zoveel rotsen die op een trollenhoofd lijken."
+        },
+        {
+          "titel": "Ole Bull",
+          "tekst": "De violist Ole Bull (1810–1880) uit Bergen was in zijn tijd een wereldster, een soort popster van de 19e eeuw. Hij speelde ook Noorse volksmuziek op de hardingfele en hielp de jonge Edvard Grieg op weg. Op het eiland Lysøen bij Bergen bouwde hij een sprookjesachtige villa."
         }
       ],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "De kust tussen Bergen en Stavanger bestaat uit honderden eilanden, verbonden door bruggen, tunnels en ferry's. Het landschap is groener en vlakker dan in het binnenland."
     },
     {
       "dag": 15,
@@ -1013,7 +1123,8 @@
           "lat": 58.9927,
           "lng": 6.1376,
           "info": "Start van de wandeling.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Hier staat Preikestolen Fjellstue, een berghut van de wandelvereniging. Het pad is goed onderhouden en gemarkeerd, maar wel rotsig en op een paar stukken steil. Parkeren is betaald."
         }
       ],
       "wandelingen": [
@@ -1026,7 +1137,8 @@
           "markering": "gemarkeerd pad (rode T)",
           "lat": 58.9927,
           "lng": 6.1376,
-          "info": "Rond 6–7 uur starten voor de rust en het ochtendlicht."
+          "info": "Rond 6–7 uur starten voor de rust en het ochtendlicht.",
+          "beschrijving": "Het pad gaat afwisselend over rotsplaten, stenen trappen (gelegd door Nepalese sherpa's) en vlakke stukken over de hoogvlakte. De laatste kilometer loopt langs de rand van het Lysefjord. Bovenop: niet te dicht bij de rand, er is geen hek."
         }
       ],
       "boodschappen": [
@@ -1063,7 +1175,8 @@
           "tekst": "Harald vroeg de mooie Gyda ten huwelijk, maar zij wilde pas trouwen met een man die heel Noorwegen regeerde. Harald zwoer zijn haar niet te knippen of te kammen tot dat gelukt was. Na de overwinning in de Hafrsfjord liet hij het eindelijk knippen — vandaar zijn bijnaam."
         }
       ],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Rond het Lysefjord bestaan de bergen uit grijs graniet. Gletsjers hebben de fjord tijdens de ijstijden uitgeslepen, waardoor de wanden bijna loodrecht omhoog staan."
     },
     {
       "dag": 16,
@@ -1082,7 +1195,8 @@
           "type": "stadje",
           "lat": 58.972,
           "lng": 5.729,
-          "info": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw."
+          "info": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw.",
+          "beschrijving": "Ruim 170 witte houten huisjes uit de 18e en 19e eeuw, met bloembakken en kinderkopjes. Hier woonden vissers, zeelieden en werklieden van de conservenfabrieken. Het conservenmuseum (Norsk Hermetikkmuseum) laat zien hoe sardines in blik gingen."
         },
         {
           "naam": "Domkerk Stavanger",
@@ -1090,14 +1204,16 @@
           "lat": 58.9693,
           "lng": 5.7334,
           "info": "Oudste kathedraal van Noorwegen die nog in gebruik is.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "De oudste kathedraal van Noorwegen die nog in gebruik is, gebouwd rond 1125 in romaanse stijl en later deels gotisch verbouwd. De eerste bisschop, Reinald, kwam volgens de overlevering uit Engeland."
         },
         {
           "naam": "Sverd i fjell",
           "type": "bezienswaardigheid",
           "lat": 58.937,
           "lng": 5.682,
-          "info": "Drie reusachtige zwaarden in de rots."
+          "info": "Drie reusachtige zwaarden in de rots.",
+          "beschrijving": "Drie zwaarden van zo'n 10 meter hoog, in 1983 gemaakt door beeldhouwer Fritz Røed. Ze herdenken de slag in de Hafrsfjord rond 872, waarna Harald Schoonhaar Noorwegen samenvoegde tot één koninkrijk."
         }
       ],
       "boodschappen": [
@@ -1131,7 +1247,8 @@
         }
       ],
       "wandelingen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Ten zuiden van Stavanger ligt Jæren: vlak, groen boerenland met lange zandstranden, heel anders dan de rest van Noorwegen. De stad zelf combineert oude houten wijken met moderne architectuur."
     },
     {
       "dag": 17,
@@ -1151,21 +1268,24 @@
           "lat": 58.901,
           "lng": 6.094,
           "info": "Door het hele Lysefjord.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Een tocht van ongeveer twee uur door het hele Lysefjord. Je ziet Preikestolen van onderen, vaart langs watervallen en rotswanden van bijna 1.000 meter, en langs de trap van Flørli."
         },
         {
           "naam": "Flørli",
           "type": "bezienswaardigheid",
           "lat": 59.016,
           "lng": 6.37,
-          "info": "Langste houten trap ter wereld (4.444 treden), vanaf de boot te zien."
+          "info": "Langste houten trap ter wereld (4.444 treden), vanaf de boot te zien.",
+          "beschrijving": "Een piepklein gehucht zonder weg, alleen per boot bereikbaar. De houten trap van 4.444 treden langs de oude waterleiding van de krachtcentrale is een van de langste houten trappen ter wereld."
         },
         {
           "naam": "Lysebotn",
           "type": "stadje",
           "lat": 59.055,
           "lng": 6.649,
-          "info": "Eind van het fjord; 27 haarspeldbochten omhoog."
+          "info": "Eind van het fjord; 27 haarspeldbochten omhoog.",
+          "beschrijving": "Het eindpunt van het Lysefjord. Diep in de berg ligt een waterkrachtcentrale. De weg omhoog naar Kjerag en Sirdal heeft 27 haarspeldbochten en een tunnel met een bocht erin."
         }
       ],
       "overnachting": {
@@ -1188,7 +1308,8 @@
       ],
       "wandelingen": [],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Het Lysefjord is 42 km lang en heeft vrijwel geen dorpen langs de oevers: de wanden zijn te steil om te wonen. Overal storten watervallen in het fjord."
     },
     {
       "dag": 18,
@@ -1211,7 +1332,8 @@
           "markering": "gemarkeerd pad (rode T)",
           "lat": 59.031,
           "lng": 6.594,
-          "info": "Alleen bij droog weer; sneeuw mogelijk tot eind juni. Parkeren is betaald."
+          "info": "Alleen bij droog weer; sneeuw mogelijk tot eind juni. Parkeren is betaald.",
+          "beschrijving": "Drie steile klimmen over gladde rotsplaten, met kettingen om je aan vast te houden, en daartussen afdalingen. Daarna een kale granieten hoogvlakte naar de rand. De Kjeragbolten ligt iets voorbij het hoogste punt, in een spleet in de rotswand."
         }
       ],
       "overnachting": {
@@ -1226,10 +1348,16 @@
         "info": "2e nacht off-grid."
       },
       "achtergrond": "Kjeragbolten is een rotsblok van een paar kubieke meter dat tijdens de ijstijd in een spleet klem kwam te zitten, met bijna 1.000 meter lucht eronder. De wanden van Kjerag zijn wereldberoemd bij basejumpers.",
-      "verhalen": [],
+      "verhalen": [
+        {
+          "titel": "Hoe een fjord ontstaat",
+          "tekst": "Tijdens de ijstijden schoven enorme gletsjers door bestaande rivierdalen naar zee. Ze sleten de dalen uit tot diepe U-vormige troggen, soms dieper dan de zee ervoor. Toen het ijs smolt, liep de zee naar binnen: een fjord. De zijdalen bleven hoog hangen; daarom storten er zoveel watervallen in de fjorden."
+        }
+      ],
       "stops": [],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Kjerag ligt op een kale granieten hoogvlakte op ongeveer 1.000 meter. Het weer kan hier snel omslaan: neem altijd een warme laag, regenkleding en genoeg water mee."
     },
     {
       "dag": 19,
@@ -1248,35 +1376,40 @@
           "type": "stadje",
           "lat": 58.89,
           "lng": 6.85,
-          "info": "Optie: korte koffiestop aan het Sirdalsvatnet; mooie uitzichten over het lange meer."
+          "info": "Optie: korte koffiestop aan het Sirdalsvatnet; mooie uitzichten over het lange meer.",
+          "beschrijving": "Een lang dal met het meer Sirdalsvatnet, schapen en veel vakantiehuisjes. 's Winters een populair skigebied voor mensen uit Stavanger en Kristiansand."
         },
         {
           "naam": "Tonstad",
           "type": "stadje",
           "lat": 58.664,
           "lng": 6.715,
-          "info": ""
+          "info": "",
+          "beschrijving": "Dorp aan het zuidelijke eind van het Sirdalsvatnet. Hier staat een van de grootste waterkrachtcentrales van Noorwegen, gevoed door meren hoog in de bergen."
         },
         {
           "naam": "Mandal – oude centrum",
           "type": "stadje",
           "lat": 58.0294,
           "lng": 7.4609,
-          "info": "Optie (ca. 45 min): smalle straatjes met witte houten huizen langs de rivier; geboorteplaats van beeldhouwer Gustav Vigeland. Goede plek voor de laatste kanelboller."
+          "info": "Optie (ca. 45 min): smalle straatjes met witte houten huizen langs de rivier; geboorteplaats van beeldhouwer Gustav Vigeland. Goede plek voor de laatste kanelboller.",
+          "beschrijving": "De zuidelijkste stad van Noorwegen, met witte houten huizen langs de rivier de Mandalselva. Beeldhouwer Gustav Vigeland, maker van het Vigelandpark in Oslo, groeide hier op. Het moderne cultuurhuis Buen ligt aan de rivier."
         },
         {
           "naam": "Sjøsanden, Mandal",
           "type": "bezienswaardigheid",
           "lat": 58.0225,
           "lng": 7.471,
-          "info": "Optie: een van de mooiste zandstranden van Noorwegen, met dennenbos erachter."
+          "info": "Optie: een van de mooiste zandstranden van Noorwegen, met dennenbos erachter.",
+          "beschrijving": "Een lang, wit zandstrand met een dennenbos erachter (Furulunden). Een van de populairste stranden van Noorwegen: in juli druk, eind juni vaak nog rustig."
         },
         {
           "naam": "Kristiansand – Fiskebrygga",
           "type": "koffie",
           "lat": 58.1435,
           "lng": 7.993,
-          "info": "Optie: vismarkt en kadecafés aan het water, 5 min van de ferry."
+          "info": "Optie: vismarkt en kadecafés aan het water, 5 min van de ferry.",
+          "beschrijving": "De oude vissteiger is nu een gezellige kade met een vismarkt, restaurants en cafés. Een goede plek voor een laatste visje of kanelbolle voor de ferry."
         },
         {
           "naam": "Veerhaven Kristiansand",
@@ -1284,7 +1417,8 @@
           "lat": 58.144,
           "lng": 7.989,
           "info": "Ferry naar Hirtshals.",
-          "prijs": "nog te controleren"
+          "prijs": "nog te controleren",
+          "beschrijving": "Vanaf hier vertrekken de ferry's naar Hirtshals. Kom ruim op tijd; tanken kan het best vóór de ferry (diesel is in Denemarken meestal wel goedkoper)."
         }
       ],
       "wandelingen": [
@@ -1297,7 +1431,8 @@
           "markering": "bewegwijzerde bospaden (nog controleren)",
           "lat": 58.0225,
           "lng": 7.471,
-          "info": "Rondje over het strand en door het dennenbos erachter."
+          "info": "Rondje over het strand en door het dennenbos erachter.",
+          "beschrijving": "Een rondje over het witte strand en door het dennenbos Furulunden erachter. Er staan bankjes en er is een kiosk."
         },
         {
           "naam": "Optie: Odderøya (Kristiansand)",
@@ -1308,7 +1443,8 @@
           "markering": "bewegwijzerde paden (nog controleren)",
           "lat": 58.139,
           "lng": 7.988,
-          "info": "Schiereiland vlak naast de ferryhaven: rotskust, uitzicht over de scherenkust en resten van oude forten. Ideaal als je moet wachten op de ferry."
+          "info": "Schiereiland vlak naast de ferryhaven: rotskust, uitzicht over de scherenkust en resten van oude forten. Ideaal als je moet wachten op de ferry.",
+          "beschrijving": "Odderøya was lange tijd militair terrein. Nu loop je er over paden langs rotskust, oude kanonstellingen en een vuurtoren, met uitzicht over de scheren."
         }
       ],
       "overnachting": {
@@ -1331,10 +1467,15 @@
         {
           "titel": "Hollandertiden",
           "tekst": "In de 16e tot 18e eeuw kwamen Nederlandse schepen massaal naar de zuidkust van Noorwegen om eikenhout en dennenhout te halen, onder meer voor de grachtenpanden van Amsterdam, die op Noorse palen staan. Deze periode heet in Noorwegen 'hollendertida': de Hollandse tijd. Veel Noorse jongens monsterden aan op Nederlandse schepen."
+        },
+        {
+          "titel": "Gustav Vigeland",
+          "tekst": "Gustav Vigeland (1869–1943) groeide op in Mandal als zoon van een meubelmaker. Hij maakte het Vigelandpark in Oslo met meer dan 200 beelden van mensen in alle levensfasen, met in het midden een zuil van ineengestrengelde lichamen. In Mandal staat zijn ouderlijk huis."
         }
       ],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": "Via het lange, stille Sirdal daal je af naar de zuidkust met zijn eilandjes, witte houten stadjes en zandstranden."
     },
     {
       "dag": 20,
@@ -1353,7 +1494,8 @@
       "stops": [],
       "wandelingen": [],
       "boodschappen": [],
-      "meenemen": []
+      "meenemen": [],
+      "omgeving": ""
     }
   ]
 }
