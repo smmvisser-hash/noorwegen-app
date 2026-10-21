@@ -79,7 +79,7 @@ Wandelen, kanoën, kleine stadjes, koffie en kaneelbroodjes (kanelboller), wildk
 - (Werk deze sectie bij na elke fase: wat af is, wat geboekt is, open vragen.)
 - **Fase 1 (eerste versie):** Vite + vanilla JS, startscherm met 20 dagen, dagdetail, Leaflet-kaart (hele reis of per dag), PWA (installeerbaar, opent offline), `netlify.toml`. Voorbeelddata voor dag 2–4 (niet gecontroleerd).
 - **Fase 2 (installeren en offline testen):** af. App geïnstalleerd via Chrome op Android; opent offline en toont de melding "Geen internet" (ook als wifi aan staat zonder internet).
-- Netlify: repository is aan twee projecten gekoppeld (`noorwegen-app` en `super-monstera-5e7f12`); `noorwegen-app` is het hoofdproject.
+- Netlify: project `noorwegen-app` (adres: noorwegen-app.netlify.app). Het dubbele project `super-monstera-5e7f12` is verwijderd.
 - Kaarttegels worden nu alleen offline bewaard als je ze eerst online bekeken hebt; vooraf cachen van het hele reisgebied volgt later.
 - **Fase 3 (reisinhoud), tweede versie:** route voor alle 20 dagen in `src/data/reis.json`: Setesdal (kanodag) → Haukeli → Røldal → Odda/Blådalen → Hardangervidda → Nærøyfjord (kanodag) → Jostedal → Jotunheimen → Geiranger → Gaularfjellet/Vetlefjord → Bergen → Preikestolen → Lysefjord → Kjerag. Per dag: rijtijd, ferry's, wandelingen (met markering), stops, supermarkten, overnachting, achtergrond en verhalen. 8 nachten off-grid. Alles nog ongecontroleerd (tijden, prijzen, coördinaten).
 - Nog te doen in fase 3: GPX-routes en hoogteprofielen van wandelingen, controle van prijzen en coördinaten, park4night-codes, kanoverhuur Byglandsfjord en Gudvangen uitzoeken, locatie en markering Blådalen/Møsevassbreen controleren.
