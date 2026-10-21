@@ -56,7 +56,7 @@ export function toonDag(app, dagen, nummer) {
               <span class="stoptype">${escapeHtml(TYPE_NAAM[s.type] ?? s.type)}</span>
               <strong>${escapeHtml(s.naam)}</strong>
               ${s.info ? `<span>${escapeHtml(s.info)}</span>` : ''}
-              ${s.prijs ? `<span class="stil">Prijs: ${escapeHtml(s.prijs)}</span>` : ''}
+              ${prijsRegel(s)}
               ${meerOver(s)}
             </li>`).join('')}
         </ol>` : ''}
@@ -75,6 +75,7 @@ export function toonDag(app, dagen, nummer) {
           <span>Voorzieningen: ${dag.overnachting.voorzieningen.length ? escapeHtml(dag.overnachting.voorzieningen.join(', ')) : 'geen (off-grid)'}</span>
           <span>park4night-code: ${dag.overnachting.park4night ? escapeHtml(dag.overnachting.park4night) : '<span class="stil">nog niet ingevuld</span>'}</span>
           ${dag.overnachting.info ? `<span>${escapeHtml(dag.overnachting.info)}</span>` : ''}
+          ${prijsRegel(dag.overnachting)}
         </div>` : ''}
 
       ${dag.meenemen.length ? `
@@ -116,8 +117,17 @@ function wandelKaart(w) {
         <dt>Markering</dt><dd>${escapeHtml(w.markering)}</dd>
       </dl>
       <span>${escapeHtml(w.info)}</span>
+      ${prijsRegel(w)}
       ${meerOver(w)}
     </div>`;
+}
+
+// Prijs met (als bekend) de datum waarop die is opgezocht en een link naar de bron.
+function prijsRegel(item) {
+  if (!item.prijs) return '';
+  const datum = item.gecontroleerd ? ` · opgezocht ${korteDatum(item.gecontroleerd)} ${item.gecontroleerd.slice(0, 4)}` : '';
+  const bron = item.bron ? ` · <a href="${escapeHtml(item.bron)}" target="_blank" rel="noopener">bron</a>` : '';
+  return `<span class="prijs">💰 ${escapeHtml(item.prijs)}<span class="stil">${datum}</span>${bron}</span>`;
 }
 
 // Foto (als die er is) en een uitklapbaar stuk met de uitgebreide beschrijving.

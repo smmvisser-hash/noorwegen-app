@@ -316,3 +316,5 @@ details.verhaal p, details.meer p { margin: 4px 0 8px; }
   background: #e6e8ee;
 }
 .foto figcaption { font-size: 0.75rem; color: var(--stil); margin-top: 4px; }
+.prijs { font-size: 0.9rem; margin-top: 4px; }
+.prijs .stil { font-size: 0.8rem; }

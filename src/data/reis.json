@@ -28,10 +28,10 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping bij Hirtshals",
+        "naam": "Hirtshals Camping (Kystvejen 6)",
         "type": "camping",
-        "lat": 57.579,
-        "lng": 9.942,
+        "lat": 57.5905,
+        "lng": 9.948,
         "voorzieningen": [
           "stroom",
           "water",
@@ -39,8 +39,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. DKK 200–240 voor 2 personen + DKK 40 stroom (ca. €32–38); douche met munten",
+        "bron": "https://www.promobil.de/stellplatz/hirtshals-camping-599a5f48f0f332157d6181a0.html",
+        "info": "Aan zee, dicht bij de ferry. Geen reservering nodig buiten het hoogseizoen.",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Hirtshals ligt in het uiterste noorden van Jutland. Een half uur verderop ligt Skagen, waar bij de landtong Grenen de Noordzee en het Kattegat tegen elkaar in golven.",
       "verhalen": [],
@@ -105,7 +108,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping bij Byglandsfjord",
+        "naam": "Neset Camping (Byglandsfjord)",
         "type": "camping",
         "lat": 58.68,
         "lng": 7.81,
@@ -116,8 +119,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "prijs onbekend — bellen: +47 922 81 444. Stroom, water en lozen zitten volgens CamperContact bij de prijs",
+        "bron": "https://www.campercontact.com/en/norway/agder/bygland/26233/neset-camping.md",
+        "info": "40 camperplaatsen met uitzicht op het meer. Hier kun je ook kano's huren; soms is de kanohuur inbegrepen bij één of meer nachten.",
         "park4night": "",
-        "info": "Uitvalsbasis voor de kanodag."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Kristiansand werd in 1641 gesticht door koning Christian IV, die de stad zijn naam gaf en haar een strak stratenpatroon meegaf: de Kvadraturen. Het Setesdal was eeuwenlang zo afgelegen dat oude tradities er bewaard bleven: zilversmeedkunst, de eigen klederdracht (bunad) en 'stev', korte gezongen verzen.",
       "verhalen": [
@@ -143,12 +149,12 @@
       },
       "stops": [
         {
-          "naam": "Start kanodag Byglandsfjord",
+          "naam": "Kanoverhuur Byglandsfjord",
           "type": "kano",
           "lat": 58.67,
           "lng": 7.807,
-          "info": "Kanoverhuur nog uitzoeken (bijv. via de camping).",
-          "prijs": "nog te controleren",
+          "info": "Twee mogelijkheden: (1) bij Neset Camping, waar jullie slapen; (2) bij TrollAktiv, midden in het dorp naast de Coop.",
+          "prijs": "TrollAktiv: 900 NOK per dag (ca. €78). Neset Camping: prijs onbekend; soms inbegrepen bij één of meer overnachtingen.",
           "beschrijving": "De Byglandsfjorden is een ongeveer 40 km lang meer in de rivier de Otra, omringd door dennenbossen en kale rotsen. In de zomer vaart hier het oude stoomschip Bjoren, een van de oudste stoomschepen van Noorwegen dat nog in de vaart is.",
           "afbeelding": {
             "src": "fotos/start-kanodag-byglandsfjord.jpg",
@@ -158,7 +164,9 @@
             "maker": "Toreid",
             "licentie": "CC BY-SA 3.0",
             "bron": "https://commons.wikimedia.org/wiki/File:Byglandsfjorden.jpg"
-          }
+          },
+          "bron": "",
+          "gecontroleerd": "2026-10-21"
         }
       ],
       "overnachting": {
@@ -350,7 +358,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Odda",
+        "naam": "Trolltunga Camping (voorheen Odda Camping)",
         "type": "camping",
         "lat": 60.058,
         "lng": 6.545,
@@ -361,8 +369,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 560 voor 2 personen in juni (ca. €49). Goedkoper alternatief: camperplaats Camp Lothepus in het centrum, NOK 450 (niet te reserveren, betalen met automaat)",
+        "bron": "https://www.campercontact.com/en/md/45268",
+        "info": "Aan het meer Sandvinvatnet, net buiten Odda. Reviews noemen hem aan de dure kant.",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "De staafkerk van Røldal was tot in de 19e eeuw een bedevaartsplaats. De Folgefonna is de op twee na grootste gletsjer van het Noorse vasteland; aan alle kanten hangen gletsjertongen omlaag naar de dalen.",
       "verhalen": [
@@ -475,7 +486,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Gudvangen",
+        "naam": "Gudvangen Camping",
         "type": "camping",
         "lat": 60.875,
         "lng": 6.84,
@@ -486,8 +497,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "NOK 450 per nacht, inclusief stroom, douche en wifi (ca. €39)",
+        "bron": "https://www.campercontact.com/en/norway/vestland/aurland/44504/gudvangen-camping.md",
+        "info": "Maar 4 echte camperplaatsen: vroeg komen of vooraf mailen/bellen. Op loopafstand van de kanoverhuur.",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "De Hardangervidda is de grootste hoogvlakte van Europa en het leefgebied van de grootste wilde rendierkudde van Europa. Al duizenden jaren jaagden mensen hier op rendieren; je ziet nog oude vangkuilen en stenen jachtmuurtjes. In Hardanger komt ook de hardingfele vandaan: een viool met extra snaren die meeklinken.",
       "verhalen": [
@@ -524,12 +538,12 @@
       },
       "stops": [
         {
-          "naam": "Kano/kajakverhuur Gudvangen",
+          "naam": "Nordic Ventures – Sea Kayak Centre Gudvangen",
           "type": "kano",
           "lat": 60.878,
           "lng": 6.842,
-          "info": "Verhuur en eventueel gids nog uitzoeken en reserveren.",
-          "prijs": "nog te controleren",
+          "info": "De specialist in Gudvangen, direct aan de Nærøyfjord. Losse verhuur ('Freedom rentals') of een georganiseerde tocht met gids. Dagelijks open in het seizoen. Vooraf reserveren.",
+          "prijs": "nog te controleren op nordicventures.com",
           "beschrijving": "In Gudvangen kun je kano's of kajaks huren, eventueel met een gids. Het water is helder en ijskoud (rond 10–14 °C): blijf dicht bij de kant en draag altijd het zwemvest. Met geluk zie je een zeehond.",
           "afbeelding": {
             "src": "fotos/kano-kajakverhuur-gudvangen.jpg",
@@ -539,7 +553,9 @@
             "maker": "Acediscovery",
             "licentie": "CC BY 4.0",
             "bron": "https://commons.wikimedia.org/wiki/File:N%C3%A6r%C3%B8yfjord-Norway-April-2011.jpg"
-          }
+          },
+          "bron": "https://www.nordicventures.com/",
+          "gecontroleerd": "2026-10-21"
         },
         {
           "naam": "Njardarheimr",
@@ -552,7 +568,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Gudvangen",
+        "naam": "Gudvangen Camping",
         "type": "camping",
         "lat": 60.875,
         "lng": 6.84,
@@ -563,8 +579,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "NOK 450 per nacht, inclusief stroom, douche en wifi (ca. €39)",
+        "bron": "https://www.campercontact.com/en/norway/vestland/aurland/44504/gudvangen-camping.md",
+        "info": "Zondag: supermarkten dicht.",
         "park4night": "",
-        "info": "Zondag: supermarkten dicht."
+        "gecontroleerd": "2026-10-21"
       },
       "meenemen": [
         "Drinken: per persoon 1–1,5 liter water en een thermosfles thee/koffie",
@@ -631,9 +650,10 @@
           "type": "bezienswaardigheid",
           "lat": 61.66,
           "lng": 7.27,
-          "info": "Gletsjercentrum bij Nigardsbreen.",
+          "info": "Gletsjercentrum bij Nigardsbreen. De begeleide tochten worden georganiseerd door Jostedalen Breførarlag.",
           "prijs": "nog te controleren",
-          "beschrijving": "Bezoekerscentrum bij Nigardsbreen. Het gebouw heeft de vorm van gletsjerijs met spleten. Binnen leer je hoe gletsjers ontstaan, bewegen en smelten. In de buurt starten de begeleide gletsjerwandelingen (startplek bij de reservering controleren)."
+          "beschrijving": "Bezoekerscentrum bij Nigardsbreen. Het gebouw heeft de vorm van gletsjerijs met spleten. Binnen leer je hoe gletsjers ontstaan, bewegen en smelten. In de buurt starten de begeleide gletsjerwandelingen (startplek bij de reservering controleren).",
+          "gecontroleerd": "2026-10-21"
         }
       ],
       "wandelingen": [
@@ -641,12 +661,12 @@
           "naam": "Begeleide gletsjerwandeling Nigardsbreen",
           "afstand_km": null,
           "hoogtemeters": null,
-          "duur": "3–5 u (incl. bootje en aanloop)",
+          "duur": "ca. 4½ u in totaal, waarvan ca. 1½ u op het ijs",
           "niveau": "middel; met gids, stijgijzers en touw",
           "markering": "met gids (geen markering nodig)",
           "lat": 61.673,
           "lng": 7.233,
-          "info": "Reserveren! Starttijden en prijs nog controleren. Passen de tijden niet op deze middag, dan op de ochtend van dag 9 (daarna over de Sognefjellsvegen). Stijgijzers en touw krijg je van de gids; zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken.",
+          "info": "Bijvoorbeeld de 'Short blue ice hike' van Jostedalen Breførarlag: ca. 4½ uur, waarvan ongeveer 1½ uur op het blauwe ijs, vanaf 12 jaar, seizoen half mei – eind september. Reserveren! Prijs 2026 nog niet gevonden (andere gletsjertochten kostten in 2023 rond NOK 1.200 p.p.). Zelf meenemen: stevige wandelschoenen, warme laag, regenjas, handschoenen, muts, zonnebril, lunch en drinken.",
           "beschrijving": "Nigardsbreen is een gletsjertong van de Jostedalsbreen. Met een gids loop je met stijgijzers over het blauwe ijs, langs spleten en ijsgrotten. Het ijs is honderden jaren oud; de blauwe kleur komt doordat dicht ijs vooral blauw licht doorlaat.",
           "afbeelding": {
             "src": "fotos/begeleide-gletsjerwandeling-nigardsbreen.jpg",
@@ -656,7 +676,10 @@
             "maker": "Szczepcia20",
             "licentie": "CC BY-SA 4.0",
             "bron": "https://commons.wikimedia.org/wiki/File:Nigardsbreen_lodowiec.jpg"
-          }
+          },
+          "prijs": "nog te controleren (indicatie NOK 1.000–1.200 p.p.)",
+          "bron": "https://www.visitnorway.com/listings//short-blue-ice-hike-nigardsbreen-glacier/277613",
+          "gecontroleerd": "2026-10-21"
         }
       ],
       "boodschappen": [
@@ -832,7 +855,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Bessheim / Gjendesheim",
+        "naam": "Bessheim Fjellstue og Hytter (camping)",
         "type": "camping",
         "lat": 61.531,
         "lng": 8.804,
@@ -843,8 +866,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 330 voor camper + 2 personen + stroom (ervaring juni 2025; ca. €29)",
+        "bron": "https://www.campercontact.com/en/norway/innlandet/vaga/156432/bessheim-fjellstue-og-hytter.md",
+        "info": "Klein (ca. 10 plekken, veel vaste gasten): op tijd aankomen. Telefoon +47 61 23 89 13.",
         "park4night": "",
-        "info": "Voorzieningen nog controleren."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Het Gjendemeer is smaragdgroen door 'gletsjermeel': fijngemalen steenpoeder dat smeltwater meevoert. Besseggen is de beroemdste bergwandeling van Noorwegen; je loopt op een graat tussen het groene Gjende en het blauwe Bessvatnet, dat 400 meter hoger ligt.",
       "verhalen": [
@@ -891,7 +917,7 @@
           "lat": 62.045,
           "lng": 7.272,
           "info": "Uitzichtpunt op 1.476 m; tolweg.",
-          "prijs": "nog te controleren",
+          "prijs": "tolweg; actuele prijs voor campers niet gevonden (oud: NOK 170 per auto) — controleren op dalsnibba.no",
           "beschrijving": "Een tolweg uit 1939 slingert omhoog naar de top van Dalsnibba op bijna 1.500 meter. Vanaf het uitzichtplatform kijk je over bergen, sneeuw en de Geirangerfjord diep beneden. Zelfs in juni kan het hier fris en winderig zijn.",
           "afbeelding": {
             "src": "fotos/dalsnibba.jpg",
@@ -901,7 +927,9 @@
             "maker": "DimiTalen",
             "licentie": "CC0",
             "bron": "https://commons.wikimedia.org/wiki/File:View_of_Dalsnibba_from_the_access_road,_Stranda,_2006.jpg"
-          }
+          },
+          "bron": "",
+          "gecontroleerd": "2026-10-21"
         },
         {
           "naam": "Flydalsjuvet",
@@ -956,7 +984,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Geiranger",
+        "naam": "Geiranger Camping",
         "type": "camping",
         "lat": 62.1,
         "lng": 7.203,
@@ -967,8 +995,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 400 voor 2 personen vanaf 20 juni (ca. €35), stroom apart",
+        "bron": "https://www.campercontact.com/en/norway/møre-og-romsdal/stranda/28859/geiranger-camping.md",
+        "info": "Direct aan de fjord, op loopafstand van de Fossevandring. Alternatief 2 km verderop: Geirangerfjorden Feriesenter (ca. NOK 460–570).",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "De Geirangerfjord staat samen met de Nærøyfjord op de UNESCO-lijst. Hoog tegen de rotswanden liggen verlaten boerderijen zoals Skageflå en Knivsflå, waar tot in de 20e eeuw mensen woonden die alleen via steile paden bereikbaar waren.",
       "verhalen": [
@@ -1002,7 +1033,7 @@
           "lat": 62.101,
           "lng": 7.206,
           "info": "Langs de watervallen De Zeven Zusters en De Vrijer.",
-          "prijs": "nog te controleren",
+          "prijs": "prijs hangt af van voertuig en personen; schatting NOK 370–550 (2026-prijslijst op fjord1.no). Reserveren sterk aangeraden; uiterlijk 30 min voor vertrek inchecken",
           "beschrijving": "Een uur varen door het smalste en mooiste deel van de Geirangerfjord. Je vaart langs de watervallen De Zeven Zusters, De Vrijer en De Bruidssluier, en langs boerderijen die tegen de rotswand geplakt lijken.",
           "afbeelding": {
             "src": "fotos/ferry-geiranger-hellesylt.jpg",
@@ -1012,7 +1043,9 @@
             "maker": "Mariordo (Mario Roberto Durán Ortiz)",
             "licentie": "CC BY-SA 4.0",
             "bron": "https://commons.wikimedia.org/wiki/File:De_syv_s%C3%B8strene_(Seven_Sisters)_fall_Geiranger_fjord_10_2018_2889.jpg"
-          }
+          },
+          "bron": "https://www.fjord1.no/eng/routes-and-timetables/moere-og-romsdal/geiranger-hellesylt",
+          "gecontroleerd": "2026-10-21"
         },
         {
           "naam": "Stryn",
@@ -1162,10 +1195,10 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping bij Bergen",
+        "naam": "Lone Camping (Haukeland, Bergen)",
         "type": "camping",
-        "lat": 60.338,
-        "lng": 5.46,
+        "lat": 60.336,
+        "lng": 5.465,
         "voorzieningen": [
           "stroom",
           "water",
@@ -1173,8 +1206,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 450–580 per nacht alles inbegrepen (ca. €39–50); officieel 'vanaf' NOK 250",
+        "bron": "https://www.campercontact.com/en/norway/vestland/bergen/13541/lone-camping.md",
+        "info": "Ca. 19 km van het centrum, met de bus naar de stad. Druk: liefst reserveren.",
         "park4night": "",
-        "info": "Bus naar het centrum."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Bergen werd rond 1070 gesticht en was eeuwenlang de grootste stad van Noorwegen. Duitse Hanze-kooplieden beheersten vanaf Bryggen de handel in gedroogde stokvis uit Noord-Noorwegen. De houten pakhuizen zijn vaak afgebrand en steeds op dezelfde manier herbouwd. Onderweg, in Balestrand, kwam de Duitse keizer Wilhelm II bijna elke zomer.",
       "verhalen": [
@@ -1271,13 +1307,19 @@
         }
       ],
       "overnachting": {
-        "naam": "Vrij kamperen bij Jørpeland",
-        "type": "vrij",
-        "lat": 59.03,
-        "lng": 6.07,
-        "voorzieningen": [],
+        "naam": "Preikestolen Bobilparkering (Preikestolvegen)",
+        "type": "camperplaats",
+        "lat": 58.995,
+        "lng": 6.12,
+        "voorzieningen": [
+          "stroom",
+          "water"
+        ],
+        "prijs": "NOK 275 voor 2 personen (2026; ca. €24)",
+        "bron": "https://www.campercontact.com/en/norway/rogaland/strand/85837/preikestolen-bobilparkering.md",
+        "info": "Camperplaats vlak bij de start van Preikestolen: water en stroom, géén toilet of douche, max. 48 uur. Telt daarom als off-grid nacht. Op de gewone parkeerplaats zelf mag je niet overnachten.",
         "park4night": "",
-        "info": "1e nacht off-grid. Max. 30 min van de start van Preikestolen. Zondag: winkels dicht."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Dit is de 4e rijdag op rij (bewust gekozen): de rit is kort en de ochtend is nog voor Bergen. Fløyen is een van de zeven bergen rond Bergen; boven heb je uitzicht over de hele stad en de eilanden.",
       "verhalen": [
@@ -1301,7 +1343,7 @@
       "regio": "rogaland",
       "samenvatting": "Heel vroeg naar Preikestolen, vóór de drukte. 's Middags boodschappen in Jørpeland en rust op de camping.",
       "rijden": {
-        "tijd": "30 min",
+        "tijd": "5 min",
         "ferry": "",
         "rijdag": false
       },
@@ -1312,8 +1354,10 @@
           "lat": 58.9927,
           "lng": 6.1376,
           "info": "Start van de wandeling.",
-          "prijs": "nog te controleren",
-          "beschrijving": "Hier staat Preikestolen Fjellstue, een berghut van de wandelvereniging. Het pad is goed onderhouden en gemarkeerd, maar wel rotsig en op een paar stukken steil. Parkeren is betaald."
+          "prijs": "dagparkeren ca. NOK 250 (2026, reisblog). Overnachten op deze parkeerplaats is niet toegestaan",
+          "beschrijving": "Hier staat Preikestolen Fjellstue, een berghut van de wandelvereniging. Het pad is goed onderhouden en gemarkeerd, maar wel rotsig en op een paar stukken steil. Parkeren is betaald.",
+          "bron": "https://loudavymkrokem.cz/no/preikestolen-tur-norge/",
+          "gecontroleerd": "2026-10-21"
         }
       ],
       "wandelingen": [
@@ -1348,7 +1392,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping Preikestolen",
+        "naam": "Preikestolen Camping (Jørpeland)",
         "type": "camping",
         "lat": 58.9985,
         "lng": 6.0986,
@@ -1359,8 +1403,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 340 voor 2 personen (2026; ca. €30), stroom soms apart (NOK 40–120)",
+        "bron": "https://www.campercontact.com/en/md/21893",
+        "info": "Ca. 5 km van de start van Preikestolen.",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Preikestolen ('de preekstoel') is een vlak rotsplateau van zo'n 25 bij 25 meter, 604 meter boven het Lysefjord. Het ontstond ongeveer 10.000 jaar geleden, toen bevroren water in spleten de rots openbrak. Bij Hafrsfjord, aan de andere kant van Stavanger, staat het monument Sverd i fjell: drie zwaarden ter herinnering aan de slag waarna Harald Schoonhaar koning van heel Noorwegen werd (rond 872).",
       "verhalen": [
@@ -1450,7 +1497,7 @@
         }
       ],
       "overnachting": {
-        "naam": "Optie: camping bij Stavanger (bijv. Mosvangen)",
+        "naam": "Preikestolen Camping, of optie: Mosvangen Camping (Stavanger)",
         "type": "camping",
         "lat": 58.952,
         "lng": 5.721,
@@ -1461,8 +1508,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "Preikestolen Camping ca. NOK 340; Mosvangen ca. NOK 450 voor 2 personen, inclusief stroom, douche en wifi (ca. €39)",
+        "bron": "https://www.promobil.de/stellplatz/camping-mosvangen-682ddbfe4e41a60008db495a.html",
+        "info": "Mosvangen ligt aan een meer in Stavanger, met een wandelpad eromheen. Telefoon +47 51 53 29 71.",
         "park4night": "",
-        "info": "Of blijf nog een nacht op Camping Preikestolen. Let op: na deze nacht volgen 2 nachten off-grid bij Kjerag, dus kies een plek met stroom, water en afvoer."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Stavanger was rond 1900 de sardinehoofdstad van de wereld, met tientallen conservenfabrieken. Sinds de jaren 70 is het de oliehoofdstad van Noorwegen. De domkerk werd rond 1125 gebouwd, waarschijnlijk door Engelse bouwmeesters.",
       "verhalen": [
@@ -1480,7 +1530,7 @@
       "datum": "2027-06-30",
       "titel": "Door het Lysefjord naar Lysebotn",
       "regio": "rogaland",
-      "samenvatting": "Met de ferry door het hele Lysefjord, langs de houten trap van Flørli, naar Lysebotn. Dan de haarspeldbochten omhoog naar de Kjerag-parkeerplaats.",
+      "samenvatting": "Met de ferry door het hele Lysefjord, langs de houten trap van Flørli, naar Lysebotn aan het eind van het fjord. Overnachten op de camping in Lysebotn.",
       "rijden": {
         "tijd": "45 min (vanaf Stavanger ca. 1¾ u)",
         "ferry": "Forsand – Lysebotn (ca. 2 u, reserveren)",
@@ -1493,8 +1543,10 @@
           "lat": 58.901,
           "lng": 6.094,
           "info": "Door het hele Lysefjord.",
-          "prijs": "nog te controleren",
-          "beschrijving": "Een tocht van ongeveer twee uur door het hele Lysefjord. Je ziet Preikestolen van onderen, vaart langs watervallen en rotswanden van bijna 1.000 meter, en langs de trap van Flørli."
+          "prijs": "prijs nog onbekend. Verplicht vooraf boeken via billetter.kolumbus.no (uiterlijk 2 uur voor vertrek, liever een week van tevoren). Let op: volgens oudere bronnen niet op dinsdag, donderdag en zaterdag — dag 17 is een woensdag",
+          "beschrijving": "Een tocht van ongeveer twee uur door het hele Lysefjord. Je ziet Preikestolen van onderen, vaart langs watervallen en rotswanden van bijna 1.000 meter, en langs de trap van Flørli.",
+          "bron": "https://www.kolumbus.no/en/travel/timetables/boats-and-ferries/lysefjorden",
+          "gecontroleerd": "2026-10-21"
         },
         {
           "naam": "Flørli",
@@ -1532,15 +1584,22 @@
         }
       ],
       "overnachting": {
-        "naam": "Kjerag-parkeerplaats Øygardstøl",
-        "type": "camperplaats",
-        "lat": 59.031,
-        "lng": 6.594,
+        "naam": "Kjerag Lysebotn Camping Resort",
+        "type": "camping",
+        "lat": 59.054,
+        "lng": 6.645,
         "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
           "toilet"
         ],
+        "prijs": "ca. NOK 285 voor 2 personen (2026; ca. €25); een gast betaalde in het hoogseizoen NOK 900 voor 2 nachten incl. stroom",
+        "bron": "https://www.campercontact.com/en/md/55674",
+        "info": "In Lysebotn, aan het eind van het fjord. Morgen ca. 20 min de haarspeldbochten omhoog naar de start van Kjerag (Øygardstøl). Of je op de parkeerplaats Øygardstøl mag overnachten, is onduidelijk — daarom deze camping.",
         "park4night": "",
-        "info": "1e nacht off-grid. Overnachten toegestaan? Nog controleren."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Het Lysefjord is 42 km lang en heeft bijna geen dorpen: de wanden zijn te steil. Lysebotn was tot de weg in 1984 opende alleen per boot bereikbaar.",
       "verhalen": [
@@ -1559,12 +1618,23 @@
       "datum": "2027-07-01",
       "titel": "Kjerag",
       "regio": "rogaland",
-      "samenvatting": "Geen rijden. De wandeling naar Kjerag met de beroemde vastgeklemde rots Kjeragbolten, bijna 1.000 m boven het Lysefjord.",
+      "samenvatting": "'s Ochtends ca. 20 min de 27 haarspeldbochten omhoog naar Øygardstøl. Dan de wandeling naar Kjerag met de beroemde vastgeklemde rots Kjeragbolten, bijna 1.000 m boven het Lysefjord. Daarna nog een stukje over het hoogland richting Sirdal.",
       "rijden": {
-        "tijd": "geen",
+        "tijd": "ca. 50 min (20 min heen + 30 min na de wandeling)",
         "ferry": "",
-        "rijdag": false
+        "rijdag": true
       },
+      "stops": [
+        {
+          "naam": "Øygardstøl (start Kjerag)",
+          "type": "parkeren",
+          "lat": 59.031,
+          "lng": 6.594,
+          "info": "Parkeerplaats met café en toiletten.",
+          "prijs": "ca. NOK 300 per dag (2021, reisblog) — nog controleren",
+          "beschrijving": ""
+        }
+      ],
       "wandelingen": [
         {
           "naam": "Kjerag",
@@ -1589,15 +1659,16 @@
         }
       ],
       "overnachting": {
-        "naam": "Kjerag-parkeerplaats Øygardstøl",
-        "type": "camperplaats",
-        "lat": 59.031,
-        "lng": 6.594,
-        "voorzieningen": [
-          "toilet"
-        ],
+        "naam": "Vrij kamperen langs de Fv500 richting Sirdal",
+        "type": "vrij",
+        "lat": 59.04,
+        "lng": 6.75,
+        "voorzieningen": [],
+        "prijs": "gratis",
+        "bron": "",
+        "info": "Na de wandeling een stukje doorrijden over het hoogland richting Sirdal en bij een meer overnachten; dat scheelt morgen rijtijd. Liever rust? Blijf een 2e nacht op Kjerag Lysebotn Camping.",
         "park4night": "",
-        "info": "2e nacht off-grid."
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Kjeragbolten is een rotsblok van een paar kubieke meter dat tijdens de ijstijd in een spleet klem kwam te zitten, met bijna 1.000 meter lucht eronder. De wanden van Kjerag zijn wereldberoemd bij basejumpers.",
       "verhalen": [
@@ -1606,7 +1677,6 @@
           "tekst": "Tijdens de ijstijden schoven enorme gletsjers door bestaande rivierdalen naar zee. Ze sleten de dalen uit tot diepe U-vormige troggen, soms dieper dan de zee ervoor. Toen het ijs smolt, liep de zee naar binnen: een fjord. De zijdalen bleven hoog hangen; daarom storten er zoveel watervallen in de fjorden."
         }
       ],
-      "stops": [],
       "boodschappen": [],
       "meenemen": [],
       "omgeving": "Kjerag ligt op een kale granieten hoogvlakte op ongeveer 1.000 meter. Het weer kan hier snel omslaan: neem altijd een warme laag, regenkleding en genoeg water mee."
@@ -1709,10 +1779,10 @@
         }
       ],
       "overnachting": {
-        "naam": "Camping bij Hirtshals",
+        "naam": "Hirtshals Camping (Kystvejen 6)",
         "type": "camping",
-        "lat": 57.579,
-        "lng": 9.942,
+        "lat": 57.5905,
+        "lng": 9.948,
         "voorzieningen": [
           "stroom",
           "water",
@@ -1720,8 +1790,11 @@
           "douche",
           "toilet"
         ],
+        "prijs": "ca. DKK 200–240 voor 2 personen + DKK 40 stroom (ca. €32–38)",
+        "bron": "https://www.promobil.de/stellplatz/hirtshals-camping-599a5f48f0f332157d6181a0.html",
+        "info": "Aankomst 's avonds met de ferry.",
         "park4night": "",
-        "info": ""
+        "gecontroleerd": "2026-10-21"
       },
       "achtergrond": "Sirdal is een lang, dunbevolkt dal met meren en stuwdammen; het water drijft enkele van de grootste waterkrachtcentrales van Noorwegen aan. Mandal is de zuidelijkste stad van Noorwegen en was in de 17e en 18e eeuw een belangrijke haven voor de houthandel met Nederland. Gustav Vigeland, de maker van het beroemde beeldenpark in Oslo, groeide hier op.",
       "verhalen": [
