@@ -3,8 +3,18 @@
 // VITE_SUPABASE_URL en VITE_SUPABASE_ANON_KEY). Zonder die gegevens werkt de app alleen lokaal.
 import { createClient } from '@supabase/supabase-js';
 
-const url = import.meta.env.VITE_SUPABASE_URL;
-const sleutel = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const sleutel = import.meta.env.VITE_SUPABASE_ANON_KEY?.trim();
+// Alleen het begin van het adres gebruiken (https://….supabase.co), ook als er per ongeluk
+// een langer adres is ingevuld, zoals https://….supabase.co/rest/v1/.
+const url = basisAdres(import.meta.env.VITE_SUPABASE_URL);
+
+function basisAdres(tekst) {
+  try {
+    return tekst ? new URL(tekst.trim()).origin : null;
+  } catch {
+    return null;
+  }
+}
 
 export const supabase = url && sleutel ? createClient(url, sleutel) : null;
 
