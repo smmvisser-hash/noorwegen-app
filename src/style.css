@@ -367,3 +367,69 @@ button.knop--licht { border: 2px solid var(--blauw); }
 .p4n-rij { display: flex; gap: 8px; }
 .p4n-rij input { flex: 1; min-width: 0; }
 .p4n-rij .knop--klein { align-self: stretch; }
+
+/* ---------- Budget ---------- */
+.budget-totaal { gap: 8px; }
+.budget-cijfers { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; }
+.budget-cijfers strong { font-size: 1.4rem; color: var(--blauw); }
+.balk { height: 14px; border-radius: 99px; background: #e3e6ee; overflow: hidden; }
+.balk i { display: block; height: 100%; background: var(--rood); border-radius: 99px; }
+.balk--dun { height: 6px; grid-column: 1 / -1; }
+.balk--dun i { background: var(--blauw); }
+.budget-formulier select {
+  min-height: 48px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid var(--lijn);
+  border-radius: 8px;
+  background: var(--wit);
+}
+.budget-formulier input[name='bedrag'] { font-size: 1.4rem; font-weight: 700; }
+.keuze { border: 0; padding: 0; margin: 0; display: flex; gap: 8px; flex-wrap: wrap; }
+.keuze legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.keuze label { flex: 1; }
+.keuze input { position: absolute; opacity: 0; pointer-events: none; }
+.keuze span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 12px;
+  border: 2px solid var(--blauw);
+  border-radius: 10px;
+  font-weight: 600;
+  color: var(--blauw);
+  background: var(--wit);
+}
+.keuze input:checked + span { background: var(--blauw); color: var(--wit); }
+.keuze input:focus-visible + span { outline: 3px solid var(--rood); outline-offset: 2px; }
+.koersregel { font-size: 0.8rem; }
+.categorielijst, .uitgavenlijst { list-style: none; margin: 0; padding: 0; }
+.categorielijst li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--lijn);
+}
+.uitgavenlijst li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--lijn);
+}
+.uitgave-icoon { width: 28px; text-align: center; font-size: 1.2rem; }
+.uitgave-tekst { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.uitgave-tekst strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.uitgave-bedrag { white-space: nowrap; }
+.wis {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--stil);
+  font-size: 1.1rem;
+  cursor: pointer;
+}

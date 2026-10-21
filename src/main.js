@@ -5,6 +5,8 @@ import { toonDagen } from './views/dagen.js';
 import { toonDag } from './views/dag.js';
 import { toonKaart, sluitKaart } from './views/kaart.js';
 import { toonSync, statusTekst } from './views/sync.js';
+import { toonBudget } from './views/budget.js';
+import { ververstKoers } from './koers.js';
 import { maakOpslag } from './opslag.js';
 import { backend } from './supabase.js';
 
@@ -13,20 +15,22 @@ const { dagen } = reis;
 const opslag = maakOpslag({ backend });
 
 // Eenvoudige navigatie via het deel na # in de adresbalk:
-// #/ = dagen, #/dag/3 = dag 3, #/kaart = kaart, #/kaart/3 = kaart van dag 3.
+// #/ = dagen, #/dag/3 = dag 3, #/kaart = kaart, #/kaart/3 = kaart van dag 3, #/budget = budget, #/sync = inloggen.
 function route(bovenaan = true) {
   const delen = location.hash.replace(/^#\/?/, '').split('/');
   const nummer = delen[1] ? Number(delen[1]) : null;
   sluitKaart();
   if (bovenaan) window.scrollTo(0, 0);
 
-  const tab = delen[0] === 'kaart' ? 'kaart' : 'dagen';
+  const tab = ['kaart', 'budget'].includes(delen[0]) ? delen[0] : 'dagen';
   // Eerst de opmaak omzetten, zodat de kaart meteen de juiste grootte heeft.
   document.body.classList.toggle('met-kaart', tab === 'kaart');
   if (tab === 'kaart') {
     toonKaart(app, dagen, nummer);
   } else if (delen[0] === 'dag' && nummer) {
     toonDag(app, dagen, nummer, opslag);
+  } else if (tab === 'budget') {
+    toonBudget(app, opslag);
   } else if (delen[0] === 'sync') {
     toonSync(app, opslag);
   } else {
@@ -82,7 +86,16 @@ opslag.luister((soort) => {
   if (soort === 'data' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(veld) && !location.hash.startsWith('#/kaart')) route(false);
   if (soort === 'status' && location.hash === '#/sync' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(veld)) route(false);
 });
-window.addEventListener('online', () => opslag.synchroniseer());
+window.addEventListener('online', () => {
+  opslag.synchroniseer();
+  haalKoers();
+});
+// Wisselkoers ophalen (maximaal twee keer per dag) en het budgetscherm bijwerken als dat open staat.
+async function haalKoers() {
+  await ververstKoers();
+  if (location.hash === '#/budget' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) route(false);
+}
+haalKoers();
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') opslag.synchroniseer();
 });
