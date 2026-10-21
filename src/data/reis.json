@@ -1236,19 +1236,47 @@
       "datum": "2027-07-02",
       "titel": "Door Sirdal naar Kristiansand en de ferry",
       "regio": "agder",
-      "samenvatting": "Door het stille Sirdal terug naar Kristiansand en met de ferry naar Hirtshals.",
+      "samenvatting": "Door het stille Sirdal en via Kvinesdal en Mandal naar Kristiansand, dan met de ferry naar Hirtshals. Hoeveel stops jullie maken hangt af van de vertrektijd van de ferry; hieronder staan korte opties (max. ~1 uur).",
       "rijden": {
-        "tijd": "3½ u",
+        "tijd": "3½ u (+ stops)",
         "ferry": "Kristiansand – Hirtshals (ca. 3¼ u, tijden handmatig invullen)",
         "rijdag": true
       },
       "stops": [
         {
-          "naam": "Tonstad (Sirdal)",
+          "naam": "Sirdal",
+          "type": "stadje",
+          "lat": 58.89,
+          "lng": 6.85,
+          "info": "Optie: korte koffiestop aan het Sirdalsvatnet; mooie uitzichten over het lange meer."
+        },
+        {
+          "naam": "Tonstad",
           "type": "stadje",
           "lat": 58.664,
           "lng": 6.715,
           "info": ""
+        },
+        {
+          "naam": "Mandal – oude centrum",
+          "type": "stadje",
+          "lat": 58.0294,
+          "lng": 7.4609,
+          "info": "Optie (ca. 45 min): smalle straatjes met witte houten huizen langs de rivier; geboorteplaats van beeldhouwer Gustav Vigeland. Goede plek voor de laatste kanelboller."
+        },
+        {
+          "naam": "Sjøsanden, Mandal",
+          "type": "bezienswaardigheid",
+          "lat": 58.0225,
+          "lng": 7.471,
+          "info": "Optie: een van de mooiste zandstranden van Noorwegen, met dennenbos erachter."
+        },
+        {
+          "naam": "Kristiansand – Fiskebrygga",
+          "type": "koffie",
+          "lat": 58.1435,
+          "lng": 7.993,
+          "info": "Optie: vismarkt en kadecafés aan het water, 5 min van de ferry."
         },
         {
           "naam": "Veerhaven Kristiansand",
@@ -1257,6 +1285,30 @@
           "lng": 7.989,
           "info": "Ferry naar Hirtshals.",
           "prijs": "nog te controleren"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Optie: Sjøsanden en Furulunden (Mandal)",
+          "afstand_km": 3,
+          "hoogtemeters": 30,
+          "duur": "ca. 1 u",
+          "niveau": "makkelijk",
+          "markering": "bewegwijzerde bospaden (nog controleren)",
+          "lat": 58.0225,
+          "lng": 7.471,
+          "info": "Rondje over het strand en door het dennenbos erachter."
+        },
+        {
+          "naam": "Optie: Odderøya (Kristiansand)",
+          "afstand_km": 3,
+          "hoogtemeters": 60,
+          "duur": "ca. 1 u",
+          "niveau": "makkelijk",
+          "markering": "bewegwijzerde paden (nog controleren)",
+          "lat": 58.139,
+          "lng": 7.988,
+          "info": "Schiereiland vlak naast de ferryhaven: rotskust, uitzicht over de scherenkust en resten van oude forten. Ideaal als je moet wachten op de ferry."
         }
       ],
       "overnachting": {
@@ -1274,9 +1326,13 @@
         "park4night": "",
         "info": ""
       },
-      "achtergrond": "Sirdal is een lang, dunbevolkt dal met meren en stuwdammen. Het water hier drijft enkele van de grootste waterkrachtcentrales van Noorwegen aan.",
-      "verhalen": [],
-      "wandelingen": [],
+      "achtergrond": "Sirdal is een lang, dunbevolkt dal met meren en stuwdammen; het water drijft enkele van de grootste waterkrachtcentrales van Noorwegen aan. Mandal is de zuidelijkste stad van Noorwegen en was in de 17e en 18e eeuw een belangrijke haven voor de houthandel met Nederland. Gustav Vigeland, de maker van het beroemde beeldenpark in Oslo, groeide hier op.",
+      "verhalen": [
+        {
+          "titel": "Hollandertiden",
+          "tekst": "In de 16e tot 18e eeuw kwamen Nederlandse schepen massaal naar de zuidkust van Noorwegen om eikenhout en dennenhout te halen, onder meer voor de grachtenpanden van Amsterdam, die op Noorse palen staan. Deze periode heet in Noorwegen 'hollendertida': de Hollandse tijd. Veel Noorse jongens monsterden aan op Nederlandse schepen."
+        }
+      ],
       "boodschappen": [],
       "meenemen": []
     },
