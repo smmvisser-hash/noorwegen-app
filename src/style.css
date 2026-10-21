@@ -1,0 +1,243 @@
+/* Kleuren: Noors rood, donkerblauw en wit. Per dag komt er een accentkleur (--accent) bij. */
+:root {
+  --rood: #ba0c2f;
+  --blauw: #00205b;
+  --wit: #ffffff;
+  --achtergrond: #f4f5f8;
+  --tekst: #0d1530;
+  --stil: #4b5468;
+  --lijn: #d6d9e2;
+  --accent: var(--rood);
+  --onderbalk-hoogte: 64px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--tekst);
+  background: var(--achtergrond);
+  -webkit-text-size-adjust: 100%;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  padding-bottom: calc(var(--onderbalk-hoogte) + env(safe-area-inset-bottom));
+  background: var(--achtergrond);
+}
+
+a { color: var(--blauw); }
+
+/* ---------- Kop ---------- */
+.kop {
+  background: var(--blauw);
+  color: var(--wit);
+  padding-top: env(safe-area-inset-top);
+}
+.kop-inhoud {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px 16px 10px;
+}
+.kop h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.02em; }
+.kop-sub { margin: 0; font-size: 0.85rem; opacity: 0.85; }
+.kop-motief {
+  width: 52px;
+  height: 26px;
+  flex: none;
+  fill: none;
+  stroke: var(--wit);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+/* Strakke golvende lijn geïnspireerd op rosemaling-ranken */
+.rosemaling {
+  height: 12px;
+  background-color: var(--rood);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='12' viewBox='0 0 48 12'%3E%3Cpath d='M0 6 C8 0 16 0 24 6 S40 12 48 6' fill='none' stroke='%23ffffff' stroke-width='1.6'/%3E%3Ccircle cx='24' cy='6' r='1.6' fill='%23ffffff'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.offline-melding {
+  background: #fff4cc;
+  color: #4a3b00;
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #e8d48a;
+}
+
+/* ---------- Schermen ---------- */
+.scherm {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.schermtitel { margin: 4px 0 12px; font-size: 1.4rem; color: var(--blauw); }
+h3 { color: var(--blauw); margin: 24px 0 8px; }
+.stil { color: var(--stil); }
+
+/* ---------- Dagenlijst ---------- */
+.dagenlijst {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+/* Op een tablet twee kolommen */
+@media (min-width: 700px) {
+  .dagenlijst { grid-template-columns: 1fr 1fr; }
+}
+.dagkaart {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 72px;
+  padding: 10px 14px 10px 0;
+  background: var(--wit);
+  border: 1px solid var(--lijn);
+  border-left: 8px solid var(--accent);
+  border-radius: 10px;
+  color: var(--tekst);
+  text-decoration: none;
+}
+.dagkaart:active { background: #eef0f5; }
+.dagkaart--leeg .dagtitel { color: var(--stil); font-weight: 500; }
+.dagnummer {
+  flex: none;
+  width: 52px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--blauw);
+}
+.dagtekst { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.dagdatum { font-size: 0.85rem; color: var(--stil); margin: 0; }
+.dagtitel { font-weight: 650; }
+.label {
+  flex: none;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 99px;
+  border: 1px solid var(--rood);
+  color: var(--rood);
+}
+
+/* ---------- Dagdetail ---------- */
+.dagdetail { border-top: 6px solid var(--accent); background: var(--wit); min-height: 60vh; }
+.terug {
+  display: inline-block;
+  padding: 10px 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+.waarschuwing {
+  background: #fdecef;
+  border-left: 4px solid var(--rood);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.stoplijst { padding-left: 1.4rem; margin: 0; }
+.stoplijst li { margin-bottom: 14px; }
+.stoplijst strong, .stoplijst span { display: block; }
+.stoptype {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--stil);
+}
+.bladeren {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.knop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: var(--blauw);
+  color: var(--wit);
+  font-weight: 600;
+  text-decoration: none;
+}
+.knop--licht { background: var(--wit); color: var(--blauw); border: 2px solid var(--blauw); }
+
+/* ---------- Kaart ---------- */
+/* Op het kaartscherm vult de kaart precies de ruimte tussen kop en onderbalk. */
+body.met-kaart { height: 100dvh; display: flex; flex-direction: column; }
+body.met-kaart #app { flex: 1; min-height: 0; display: flex; }
+.kaartscherm { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.dagkiezer {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 16px;
+  background: var(--wit);
+  border-bottom: 1px solid var(--lijn);
+  flex: none;
+}
+.chip {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 99px;
+  border: 2px solid var(--accent, var(--blauw));
+  color: var(--blauw);
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--wit);
+}
+.chip--actief { background: var(--blauw); border-color: var(--blauw); color: var(--wit); }
+.kaart { flex: 1; min-height: 300px; }
+.leaflet-popup-content { font-size: 0.95rem; }
+.leaflet-popup-content p { margin: 6px 0; }
+
+/* ---------- Onderbalk ---------- */
+.onderbalk {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  height: calc(var(--onderbalk-hoogte) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--blauw);
+}
+.onderbalk a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #c9d2e8;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.onderbalk a[aria-current] { color: var(--wit); box-shadow: inset 0 4px 0 var(--rood); }
+.onderbalk svg {
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

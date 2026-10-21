@@ -1,0 +1,27 @@
+# Bouwinstellingen voor Netlify.
+# Netlify leest dit bestand automatisch; je hoeft in het Netlify-dashboard niets in te vullen.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# De service worker en het manifest mogen nooit lang in de cache blijven hangen,
+# anders zie je na een update nog steeds de oude versie.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+    Cache-Control = "no-cache"
+
+# Gebouwde bestanden hebben een unieke naam per versie en mogen lang bewaard worden.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
