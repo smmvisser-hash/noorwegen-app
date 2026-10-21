@@ -325,3 +325,4 @@ details.verhaal p, details.meer p { margin: 4px 0 8px; }
 .profiel text { font-size: 10px; fill: var(--stil); }
 .knop--klein { min-height: 44px; padding: 6px 14px; font-size: 0.9rem; align-self: flex-start; }
 .bronregel { font-size: 0.72rem; color: var(--stil); }
+.versie { text-align: center; font-size: 0.8rem; color: var(--stil); margin: 20px 0 8px; }

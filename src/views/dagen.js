@@ -9,6 +9,7 @@ export function toonDagen(app, dagen, reis) {
       <ol class="dagenlijst">
         ${dagen.map(dagKaart).join('')}
       </ol>
+      <p class="versie">Versie: ${escapeHtml(__VERSIE__)}</p>
     </section>`;
 }
 

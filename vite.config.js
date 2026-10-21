@@ -1,10 +1,16 @@
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
+// Versie = moment van bouwen (Nederlandse tijd); zichtbaar onderaan het startscherm.
+const versie = new Date().toLocaleString('nl-NL', { timeZone: 'Europe/Amsterdam', dateStyle: 'medium', timeStyle: 'short' });
+
 export default defineConfig({
+  define: { __VERSIE__: JSON.stringify(versie) },
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
+      // De registratie gebeurt in main.js, zodat de app zichzelf herlaadt bij een nieuwe versie.
+      injectRegister: false,
       includeAssets: ['icons/favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
         name: 'Noorwegen 2027',
@@ -28,6 +34,9 @@ export default defineConfig({
         // zodat de app daarna ook zonder internet opent.
         globPatterns: ['**/*.{js,css,html,svg,png,jpg,webp,json,webmanifest,gpx}'],
         navigateFallback: '/index.html',
+        // Nieuwe versie direct actief maken en meteen de geopende app overnemen.
+        skipWaiting: true,
+        clientsClaim: true,
         runtimeCaching: [
           {
             // Kaarttegels die je al eens bekeken hebt, blijven offline beschikbaar.
