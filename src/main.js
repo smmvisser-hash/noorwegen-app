@@ -30,12 +30,32 @@ function route() {
   }
 }
 
-function toonVerbinding() {
-  document.getElementById('offline-melding').hidden = navigator.onLine;
+// navigator.onLine zegt alleen of er een netwerk is (bijv. wifi), niet of internet echt werkt.
+// Daarom halen we ook een klein bestand van de server op; lukt dat niet, dan zijn we offline.
+// Het extra ?verbinding=… zorgt dat dit verzoek niet uit de offline-opslag komt.
+async function toonVerbinding() {
+  let online = navigator.onLine;
+  if (online) {
+    try {
+      const antwoord = await fetch(`/manifest.webmanifest?verbinding=${Date.now()}`, {
+        cache: 'no-store',
+        signal: AbortSignal.timeout(5000),
+      });
+      online = antwoord.ok;
+    } catch {
+      online = false;
+    }
+  }
+  document.getElementById('offline-melding').hidden = online;
 }
 
 window.addEventListener('hashchange', route);
 window.addEventListener('online', toonVerbinding);
 window.addEventListener('offline', toonVerbinding);
+// Opnieuw controleren als je de app terughaalt uit de achtergrond, en elke 30 seconden.
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') toonVerbinding();
+});
+setInterval(toonVerbinding, 30000);
 route();
 toonVerbinding();
