@@ -282,11 +282,11 @@
     {
       "dag": 5,
       "datum": "2027-06-18",
-      "titel": "Røldal en de Folgefonna: Blådalen",
+      "titel": "Røldal, Låtefossen en de gletsjer Buarbreen",
       "regio": "vestland",
-      "samenvatting": "Langs de staafkerk van Røldal en de waterval Låtefossen naar Odda, door de Folgefonna-tunnel naar de westkant van de gletsjer voor de wandeling in Blådalen.",
+      "samenvatting": "Langs de staafkerk van Røldal en de waterval Låtefossen naar Odda. 's Middags de wandeling naar de gletsjertong Buarbreen, een arm van de Folgefonna. Alternatief: het gletsjermeer Bondhusvatnet aan de andere kant van de Folgefonna-tunnel.",
       "rijden": {
-        "tijd": "2½ u (wandeling halverwege)",
+        "tijd": "ca. 2 u (wandeling 's middags)",
         "ferry": "",
         "rijdag": true
       },
@@ -327,26 +327,39 @@
           }
         },
         {
-          "naam": "Folgefonna-tunnel",
-          "type": "bezienswaardigheid",
-          "lat": 60.07,
-          "lng": 6.4,
-          "info": "11 km lange tunnel onder de gletsjer door.",
-          "beschrijving": "Een ruim 11 km lange tunnel dwars onder de Folgefonna-gletsjer door, geopend rond 2001. Hij verbindt Odda met Mauranger aan de westkant. Vroeger moest je er helemaal omheen rijden."
+          "naam": "Parkeerplaats Buer",
+          "type": "parkeren",
+          "lat": 60.033,
+          "lng": 6.475,
+          "info": "Start van de wandeling naar Buarbreen, ca. 8 km (15 min) van Odda.",
+          "prijs": "NOK 230 (2024), betalen met bankpas bij het wegrijden",
+          "beschrijving": "Grote parkeerplaats bij de boerderijen van Buer, aan het eind van een smalle weg vanuit Odda. Met een grote camper: rustig rijden, er zijn uitwijkplaatsen."
         }
       ],
       "wandelingen": [
         {
-          "naam": "Blådalen en Møsevassbreen",
-          "afstand_km": null,
-          "hoogtemeters": null,
-          "duur": "nog uitzoeken",
-          "niveau": "nog uitzoeken",
-          "markering": "nog te controleren",
-          "lat": 60.02,
-          "lng": 6.26,
-          "info": "Locatie, lengte en markering nog controleren. Alleen lopen als het pad gemarkeerd is; anders alternatief: Bondhusbreen (vanuit Sunndal, gemarkeerd pad naar het gletsjermeer).",
-          "beschrijving": "Aan de westkant van de Folgefonna liggen dalen met gletsjermeren, watervallen en gletsjertongen die vanaf de hoogvlakte naar beneden hangen. Lees ter plaatse goed de informatieborden over de markering."
+          "naam": "Buarbreen",
+          "afstand_km": 5.5,
+          "hoogtemeters": 450,
+          "duur": "3½–4 u",
+          "niveau": "middel; rotsig, op een paar steile stukken touwen, glad bij regen",
+          "markering": "gemarkeerd (rode T)",
+          "lat": 60.033,
+          "lng": 6.475,
+          "info": "Ongeveer 1½–2 uur heen naar de gletsjertong, door het dal langs de gletsjerrivier. Niet het ijs op zonder gids. Bij mist of sneeuw kan de markering lastig te zien zijn.",
+          "beschrijving": "Buarbreen (ook Buerbreen) is een gletsjertong van de Folgefonna die in het Buerdalen naar beneden hangt. Het pad volgt de woeste gletsjerrivier langs oude boerderijen van Buer, over rotsen en morenes, tot vlak bij het blauwe ijs. Rond 1900 reikte het ijs nog tot bijna bij de boerderijen; sindsdien is de gletsjer flink teruggetrokken. Met een gids (Hardanger Breføring) kun je ook óp het ijs."
+        },
+        {
+          "naam": "Alternatief: Bondhusvatnet",
+          "afstand_km": 4.6,
+          "hoogtemeters": 130,
+          "duur": "ca. 2 u",
+          "niveau": "makkelijk (grindweg)",
+          "markering": "brede grindweg, bewegwijzerd",
+          "lat": 60.05,
+          "lng": 6.22,
+          "info": "Door de Folgefonna-tunnel naar Sunndal (ca. 30 min vanaf Odda). Over een brede grindweg naar het groene gletsjermeer met uitzicht op de Bondhusbreen. Parkeren ca. NOK 100. Ga niet verder dan het meer: het pad daarna is niet overal gemarkeerd.",
+          "beschrijving": "Het Bondhusvatnet is een gletsjermeer met helder groen water, omringd door steile wanden. Boven het meer zie je de Bondhusbreen. Vroeger werd ijs van deze gletsjer met paarden naar beneden gebracht en per schip naar Engeland verkocht om vis en dranken koel te houden: de 'isvegen' (ijsweg) is nog te zien."
         }
       ],
       "boodschappen": [
