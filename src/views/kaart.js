@@ -101,6 +101,9 @@ export function toonKaart(app, dagen, nummer) {
       punt(s.lat, s.lng, SYMBOOL[s.type] ?? '•', kleur, popupTekst(s.naam, dag, s.info), klein).addTo(lagen['Route en stops']);
     }
     for (const w of dag.wandelingen) {
+      if (w.route) {
+        L.polyline(w.route.lijn, { color: '#00205b', weight: 4, opacity: 0.8, dashArray: '6 6' }).addTo(lagen['Wandelingen']);
+      }
       const tekst = w.afstand_km != null ? `${w.afstand_km} km · ${w.hoogtemeters} hm · ${w.duur}` : w.info;
       punt(w.lat, w.lng, SYMBOOL.wandeling, kleur, popupTekst(w.naam, dag, tekst), klein).addTo(lagen['Wandelingen']);
       punten.push([w.lat, w.lng]);

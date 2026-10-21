@@ -318,3 +318,10 @@ details.verhaal p, details.meer p { margin: 4px 0 8px; }
 .foto figcaption { font-size: 0.75rem; color: var(--stil); margin-top: 4px; }
 .prijs { font-size: 0.9rem; margin-top: 4px; }
 .prijs .stil { font-size: 0.8rem; }
+.route { display: flex; flex-direction: column; gap: 6px; margin: 10px 0 4px; }
+.profiel { width: 100%; height: auto; background: #f4f6fa; border-radius: 6px; }
+.profiel-vlak { fill: var(--accent); opacity: 0.25; }
+.profiel-lijn { fill: none; stroke: var(--blauw); stroke-width: 2; }
+.profiel text { font-size: 10px; fill: var(--stil); }
+.knop--klein { min-height: 44px; padding: 6px 14px; font-size: 0.9rem; align-self: flex-start; }
+.bronregel { font-size: 0.72rem; color: var(--stil); }
