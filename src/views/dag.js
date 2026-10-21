@@ -80,6 +80,18 @@ export function toonDag(app, dagen, nummer) {
         <h3>Meenemen</h3>
         <ul class="vinklijst">${dag.meenemen.map((m) => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
 
+      ${dag.achtergrond ? `
+        <h3>Achtergrond</h3>
+        <p>${escapeHtml(dag.achtergrond)}</p>` : ''}
+
+      ${dag.verhalen.length ? `
+        <h3>Verhalen en legendes</h3>
+        ${dag.verhalen.map((v) => `
+          <div class="blok verhaal">
+            <strong>${escapeHtml(v.titel)}</strong>
+            <span>${escapeHtml(v.tekst)}</span>
+          </div>`).join('')}` : ''}
+
       <div class="bladeren">
         ${vorige ? `<a class="knop knop--licht" href="#/dag/${vorige.dag}">← Dag ${vorige.dag}</a>` : '<span></span>'}
         ${volgende ? `<a class="knop knop--licht" href="#/dag/${volgende.dag}">Dag ${volgende.dag} →</a>` : '<span></span>'}
@@ -92,10 +104,11 @@ function wandelKaart(w) {
     <div class="blok">
       <strong>🥾 ${escapeHtml(w.naam)}</strong>
       <dl class="feiten">
-        <dt>Afstand</dt><dd>${w.afstand_km} km</dd>
-        <dt>Hoogtemeters</dt><dd>${w.hoogtemeters} m</dd>
+        <dt>Afstand</dt><dd>${w.afstand_km != null ? `${w.afstand_km} km` : 'nog uitzoeken'}</dd>
+        <dt>Hoogtemeters</dt><dd>${w.hoogtemeters != null ? `${w.hoogtemeters} m` : 'nog uitzoeken'}</dd>
         <dt>Duur (jullie tempo)</dt><dd>${escapeHtml(w.duur)}</dd>
         <dt>Niveau</dt><dd>${escapeHtml(w.niveau)}</dd>
+        <dt>Markering</dt><dd>${escapeHtml(w.markering)}</dd>
       </dl>
       <span>${escapeHtml(w.info)}</span>
     </div>`;

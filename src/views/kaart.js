@@ -101,7 +101,7 @@ export function toonKaart(app, dagen, nummer) {
       punt(s.lat, s.lng, SYMBOOL[s.type] ?? '•', kleur, popupTekst(s.naam, dag, s.info), klein).addTo(lagen['Route en stops']);
     }
     for (const w of dag.wandelingen) {
-      const tekst = `${w.afstand_km} km · ${w.hoogtemeters} hm · ${w.duur}`;
+      const tekst = w.afstand_km != null ? `${w.afstand_km} km · ${w.hoogtemeters} hm · ${w.duur}` : w.info;
       punt(w.lat, w.lng, SYMBOOL.wandeling, kleur, popupTekst(w.naam, dag, tekst), klein).addTo(lagen['Wandelingen']);
       punten.push([w.lat, w.lng]);
     }

@@ -292,3 +292,4 @@ body.met-kaart #app { flex: 1; min-height: 0; display: flex; }
 }
 .leaflet-control-layers-toggle { width: 44px; height: 44px; }
 .leaflet-control-layers label { font-size: 1rem; padding: 6px 0; }
+.verhaal { background: #f7f4ec; }

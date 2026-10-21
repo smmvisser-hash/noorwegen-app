@@ -41,8 +41,10 @@
         "park4night": "",
         "info": ""
       },
-      "boodschappen": [],
+      "achtergrond": "Hirtshals ligt in het uiterste noorden van Jutland. Een half uur verderop ligt Skagen, waar bij de landtong Grenen de Noordzee en het Kattegat tegen elkaar in golven.",
+      "verhalen": [],
       "wandelingen": [],
+      "boodschappen": [],
       "meenemen": []
     },
     {
@@ -50,7 +52,7 @@
       "datum": "2027-06-15",
       "titel": "Ferry naar Kristiansand, door naar Setesdal",
       "regio": "agder",
-      "samenvatting": "Ferry Hirtshals – Kristiansand. Grote boodschappen in Kristiansand (ook eten voor de kanotocht) en dan rustig het Setesdal in naar de Byglandsfjord.",
+      "samenvatting": "Ferry Hirtshals – Kristiansand. Grote boodschappen in Kristiansand en dan rustig het Setesdal in naar de Byglandsfjord.",
       "rijden": {
         "tijd": "1¼ u",
         "ferry": "Hirtshals – Kristiansand (ca. 3¼ u, tijden handmatig invullen)",
@@ -77,7 +79,7 @@
           "type": "stadje",
           "lat": 58.585,
           "lng": 7.798,
-          "info": "Klein plaatsje in het Setesdal."
+          "info": "Mineralendorp in het Setesdal."
         }
       ],
       "boodschappen": [
@@ -85,7 +87,7 @@
           "plaats": "Kristiansand",
           "lat": 58.153,
           "lng": 8.003,
-          "info": "Grote boodschappen voor de eerste dagen + eten voor de 2-daagse kanotocht (zie Meenemen bij dag 3)."
+          "info": "Grote boodschappen voor de eerste dagen + lunch voor de kanodag."
         }
       ],
       "overnachting": {
@@ -101,25 +103,32 @@
           "toilet"
         ],
         "park4night": "",
-        "info": "Hier begint de kanotocht. Vraag of je de camper er 1 nacht mag laten staan."
+        "info": "Uitvalsbasis voor de kanodag."
       },
+      "achtergrond": "Kristiansand werd in 1641 gesticht door koning Christian IV, die de stad zijn naam gaf en haar een strak stratenpatroon meegaf: de Kvadraturen. Het Setesdal was eeuwenlang zo afgelegen dat oude tradities er bewaard bleven: zilversmeedkunst, de eigen klederdracht (bunad) en 'stev', korte gezongen verzen.",
+      "verhalen": [
+        {
+          "titel": "Het Setesdal",
+          "tekst": "Tot ver in de 19e eeuw was het dal alleen via smalle paden bereikbaar. Reizigers beschreven de Setesdølen als een volk apart, met eigen muziek, dansen en kleding die nergens anders in Noorwegen voorkwamen."
+        }
+      ],
       "wandelingen": [],
       "meenemen": []
     },
     {
       "dag": 3,
       "datum": "2027-06-16",
-      "titel": "Kanotocht dag 1 – Byglandsfjorden",
+      "titel": "Kanodag op de Byglandsfjorden",
       "regio": "agder",
-      "samenvatting": "Eerste dag van de 2-daagse kanotocht over het lange, rustige meer. 's Avonds tentje opzetten op een eilandje of rustige oever (allemannsretten).",
+      "samenvatting": "Geen rijden. Een dag kanoën op het lange, rustige meer. 's Avonds vrij kamperen aan het water.",
       "rijden": {
-        "tijd": "geen",
+        "tijd": "10 min",
         "ferry": "",
         "rijdag": false
       },
       "stops": [
         {
-          "naam": "Start kanotocht Byglandsfjord",
+          "naam": "Start kanodag Byglandsfjord",
           "type": "kano",
           "lat": 58.67,
           "lng": 7.807,
@@ -127,37 +136,44 @@
           "prijs": "nog te controleren"
         }
       ],
-      "boodschappen": [],
-      "wandelingen": [],
       "overnachting": {
-        "naam": "Tentje op de oever van Byglandsfjorden",
-        "type": "tent",
-        "lat": 58.75,
+        "naam": "Vrij kamperen aan de Byglandsfjorden",
+        "type": "vrij",
+        "lat": 58.8,
         "lng": 7.8,
         "voorzieningen": [],
         "park4night": "",
-        "info": "Wildkamperen: minimaal 150 m van huizen, geen sporen achterlaten."
+        "info": "1e nacht off-grid."
       },
       "meenemen": [
-        "Drinken: per persoon 2 flessen van 1 liter; bijvullen uit het meer met waterfilter of zuiveringstabletten",
-        "Thee en oploskoffie",
-        "Ontbijt: havermout of muesli met melkpoeder (2 porties)",
-        "Lunch (2x): wraps met Norvegia-kaas, salami en makreel in tomatensaus",
-        "Avondeten: 2 gevriesdroogde maaltijden (bijv. Real Turmat) of couscous met pesto en tonijn",
-        "Snacks: noten, rozijnen, chocolade (Kvikk Lunsj), kanelboller van de bakker",
-        "Gasbrander + gasbus, pannetje, aansteker, lepels",
-        "Lichtgewicht tentje, slaapzakken, matjes",
-        "Afvalzak (alles mee terug), droogzakken voor in de kano"
-      ]
+        "Drinken: per persoon 1–1,5 liter water en een thermosfles thee/koffie",
+        "Lunch: wraps met Norvegia-kaas, salami of makreel in tomatensaus, komkommer",
+        "Snacks: noten, rozijnen, chocolade (Kvikk Lunsj), kanelboller",
+        "Zwemvest (bij de huur inbegrepen? nog controleren), droogzak voor telefoon en kleding",
+        "Regenjas, warme laag, zonnebrand, pet"
+      ],
+      "achtergrond": "De Byglandsfjorden is ondanks zijn naam een meer: een verbreding van de rivier de Otra. Rond Evje werd vroeger nikkel en veldspaat gewonnen; de streek staat bekend om zijn zeldzame mineralen. In de zomer vaart op het meer het historische stoomschip Bjoren.",
+      "verhalen": [
+        {
+          "titel": "Nøkken, de watergeest",
+          "tekst": "In Noorse meren en rivieren woont volgens de folklore Nøkken. Hij lokt mensen met betoverend vioolspel of in de gedaante van een prachtig wit paard naar het water. Wie zijn naam hardop zegt, verbreekt de betovering — handig om te onthouden in de kano."
+        },
+        {
+          "titel": "Huldra",
+          "tekst": "In de bossen langs het meer kun je de Huldra tegenkomen: een beeldschone vrouw met een koeienstaart onder haar rok. Ze verleidt houthakkers en herders; wie haar beledigt, krijgt ongeluk."
+        }
+      ],
+      "wandelingen": [],
+      "boodschappen": []
     },
     {
       "dag": 4,
       "datum": "2027-06-17",
-      "titel": "Kanotocht dag 2, door naar Hovden",
+      "titel": "Door het Setesdal naar het fjell bij Haukeli",
       "regio": "agder",
-      "samenvatting": "Terugpeddelen naar de camping. 's Middags verder door het Setesdal omhoog naar het hoogland bij Hovden.",
+      "samenvatting": "Het Setesdal omhoog langs Valle en de middeleeuwse boerderij Rygnestad, naar het kale hoogland van Haukeli.",
       "rijden": {
-        "tijd": "1½ u",
+        "tijd": "3 u",
         "ferry": "",
         "rijdag": true
       },
@@ -168,6 +184,21 @@
           "lat": 59.205,
           "lng": 7.533,
           "info": "Traditioneel Setesdal-dorp met zilversmeden."
+        },
+        {
+          "naam": "Rygnestadtunet",
+          "type": "bezienswaardigheid",
+          "lat": 59.23,
+          "lng": 7.51,
+          "info": "Middeleeuwse boerderij met een opslaghuis van drie verdiepingen.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Hovden",
+          "type": "stadje",
+          "lat": 59.555,
+          "lng": 7.355,
+          "info": ""
         }
       ],
       "boodschappen": [
@@ -175,46 +206,46 @@
           "plaats": "Valle",
           "lat": 59.205,
           "lng": 7.533,
-          "info": "Kleine supermarkt: vers aanvullen."
+          "info": "Aanvullen voor 2 dagen."
         }
       ],
       "overnachting": {
-        "naam": "Vrij kamperen bij Hovden",
+        "naam": "Vrij kamperen aan een meer bij Haukeli",
         "type": "vrij",
-        "lat": 59.555,
-        "lng": 7.355,
+        "lat": 59.77,
+        "lng": 7.37,
         "voorzieningen": [],
         "park4night": "",
-        "info": "2e nacht off-grid (na de tent)."
+        "info": "2e nacht off-grid."
       },
+      "achtergrond": "Rygnestadtunet is een van de best bewaarde middeleeuwse boerderijen van Noorwegen. Bij Haukeli begint het hoogland: kaal, vol meren en sneeuwvelden, ook in juni.",
+      "verhalen": [
+        {
+          "titel": "Vond Åsmund",
+          "tekst": "Op Rygnestad woonde in de 16e eeuw 'Vond (kwade) Åsmund', een krijger die als huurling in Europa zou hebben gevochten en met zijn buit terugkeerde. Het hoge opslaghuis zou zijn schatkamer zijn geweest; zijn wapenrusting werd er bewaard."
+        }
+      ],
       "wandelingen": [],
       "meenemen": []
     },
     {
       "dag": 5,
       "datum": "2027-06-18",
-      "titel": "Over Haukeli naar Odda",
+      "titel": "Røldal en de Folgefonna: Blådalen",
       "regio": "vestland",
-      "samenvatting": "Over het kale fjell bij Haukeli, langs de staafkerk van Røldal en de dubbele waterval Låtefossen naar Odda aan de Sørfjord.",
+      "samenvatting": "Langs de staafkerk van Røldal en de waterval Låtefossen naar Odda, door de Folgefonna-tunnel naar de westkant van de gletsjer voor de wandeling in Blådalen.",
       "rijden": {
-        "tijd": "2½ u",
+        "tijd": "2½ u (wandeling halverwege)",
         "ferry": "",
         "rijdag": true
       },
       "stops": [
         {
-          "naam": "Haukeligrend",
-          "type": "stadje",
-          "lat": 59.733,
-          "lng": 7.55,
-          "info": "Begin van het hoogland."
-        },
-        {
           "naam": "Staafkerk Røldal",
           "type": "bezienswaardigheid",
           "lat": 59.8316,
           "lng": 6.8226,
-          "info": "Middeleeuwse staafkerk met legende over het 'genezende' kruisbeeld.",
+          "info": "Staafkerk uit ca. 1250.",
           "prijs": "nog te controleren"
         },
         {
@@ -223,6 +254,26 @@
           "lat": 59.9475,
           "lng": 6.5836,
           "info": "Dubbele waterval direct langs de weg; gratis."
+        },
+        {
+          "naam": "Folgefonna-tunnel",
+          "type": "bezienswaardigheid",
+          "lat": 60.07,
+          "lng": 6.4,
+          "info": "11 km lange tunnel onder de gletsjer door."
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Blådalen en Møsevassbreen",
+          "afstand_km": null,
+          "hoogtemeters": null,
+          "duur": "nog uitzoeken",
+          "niveau": "nog uitzoeken",
+          "markering": "nog te controleren",
+          "lat": 60.02,
+          "lng": 6.26,
+          "info": "Locatie, lengte en markering nog controleren. Alleen lopen als het pad gemarkeerd is; anders alternatief: Bondhusbreen (vanuit Sunndal, gemarkeerd pad naar het gletsjermeer)."
         }
       ],
       "boodschappen": [
@@ -230,7 +281,7 @@
           "plaats": "Odda",
           "lat": 60.069,
           "lng": 6.546,
-          "info": "Boodschappen voor 2 dagen."
+          "info": "Boodschappen voor 2 dagen (morgen is het zaterdag, daarna zondag)."
         }
       ],
       "overnachting": {
@@ -248,66 +299,27 @@
         "park4night": "",
         "info": ""
       },
-      "wandelingen": [],
+      "achtergrond": "De staafkerk van Røldal was tot in de 19e eeuw een bedevaartsplaats. De Folgefonna is de op twee na grootste gletsjer van het Noorse vasteland; aan alle kanten hangen gletsjertongen omlaag naar de dalen.",
+      "verhalen": [
+        {
+          "titel": "Het zwetende kruisbeeld van Røldal",
+          "tekst": "Volgens de legende 'zweette' het houten kruisbeeld in de kerk in de midzomernacht. Het zweet zou ziekten genezen, en duizenden pelgrims kwamen erop af — zelfs nog lang nadat de Reformatie bedevaarten verbood."
+        },
+        {
+          "titel": "Waarom de Folgefonna ontstond",
+          "tekst": "Een oude sage vertelt dat waar nu de gletsjer ligt, ooit zeven bloeiende parochies lagen. Omdat de bewoners zondig en hoogmoedig waren, liet God het sneeuwen tot alles onder het ijs verdween. Soms zou je onder de gletsjer nog kerkklokken horen."
+        }
+      ],
       "meenemen": []
     },
     {
       "dag": 6,
       "datum": "2027-06-19",
-      "titel": "Rustdag Odda – Buarbreen",
+      "titel": "Hardangervidda en de Nærøyfjord",
       "regio": "vestland",
-      "samenvatting": "Geen rijden. Wandeling naar de gletsjertong Buarbreen (Folgefonna): wild en ruig, met touwen op een paar stukken.",
+      "samenvatting": "Langs de Sørfjord met fruitboomgaarden naar Vøringsfossen, omhoog naar de Hardangervidda voor een wandeling, dan via Voss en Stalheim naar Gudvangen aan de Nærøyfjord.",
       "rijden": {
-        "tijd": "10 min",
-        "ferry": "",
-        "rijdag": false
-      },
-      "stops": [],
-      "wandelingen": [
-        {
-          "naam": "Buarbreen",
-          "afstand_km": 5,
-          "hoogtemeters": 400,
-          "duur": "3–3½ u",
-          "niveau": "middel (stukken met touwen, glad bij regen)",
-          "lat": 60.032,
-          "lng": 6.47,
-          "info": "Start bij boerderij Buer. Niet het ijs op gaan."
-        }
-      ],
-      "boodschappen": [
-        {
-          "plaats": "Odda",
-          "lat": 60.069,
-          "lng": 6.546,
-          "info": "Zaterdag: inslaan voor zondag."
-        }
-      ],
-      "overnachting": {
-        "naam": "Camping Odda",
-        "type": "camping",
-        "lat": 60.058,
-        "lng": 6.545,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
-        "park4night": "",
-        "info": ""
-      },
-      "meenemen": []
-    },
-    {
-      "dag": 7,
-      "datum": "2027-06-20",
-      "titel": "Langs de Hardangerfjord naar Voss",
-      "regio": "vestland",
-      "samenvatting": "De Hardangerfjord: fruitboomgaarden bij Lofthus, de waterval Vøringsfossen boven Eidfjord, dorpje Ulvik en door naar Voss.",
-      "rijden": {
-        "tijd": "3½ u (met stops)",
+        "tijd": "4½ u (wandeling halverwege)",
         "ferry": "",
         "rijdag": true
       },
@@ -320,34 +332,112 @@
           "info": "Kersen- en appelboomgaarden aan de fjord."
         },
         {
-          "naam": "Kinsarvik",
-          "type": "stadje",
-          "lat": 60.375,
-          "lng": 6.722,
-          "info": ""
+          "naam": "Hardangervidda Natursenter",
+          "type": "bezienswaardigheid",
+          "lat": 60.468,
+          "lng": 7.08,
+          "info": "Museum over het hoogland, in Eidfjord.",
+          "prijs": "nog te controleren"
         },
         {
           "naam": "Vøringsfossen",
           "type": "bezienswaardigheid",
           "lat": 60.427,
           "lng": 7.252,
-          "info": "182 m hoge waterval met uitzichtbrug; korte wandelingetjes bij Fossli.",
+          "info": "182 m hoge waterval met uitzichtbrug.",
           "prijs": "nog te controleren"
         },
         {
-          "naam": "Ulvik",
-          "type": "stadje",
-          "lat": 60.568,
-          "lng": 6.915,
-          "info": "Rustig fjorddorp."
+          "naam": "Stalheim",
+          "type": "bezienswaardigheid",
+          "lat": 60.839,
+          "lng": 6.681,
+          "info": "Uitzicht over het Nærøydal; Stalheimskleiva met 13 haarspeldbochten."
         }
       ],
-      "boodschappen": [],
+      "wandelingen": [
+        {
+          "naam": "Hardangervidda bij Dyranut/Halne",
+          "afstand_km": 6,
+          "hoogtemeters": 150,
+          "duur": "2–2½ u",
+          "niveau": "makkelijk",
+          "markering": "gemarkeerd (rode T van DNT) — route nog kiezen",
+          "lat": 60.4,
+          "lng": 7.5,
+          "info": "Kort stuk heen en terug over een gemarkeerd DNT-pad over het hoogland."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Voss",
+          "lat": 60.628,
+          "lng": 6.415,
+          "info": "Zaterdag: inslaan voor zondag én de kanodag."
+        }
+      ],
       "overnachting": {
-        "naam": "Camping Voss",
+        "naam": "Camping Gudvangen",
         "type": "camping",
-        "lat": 60.6265,
-        "lng": 6.419,
+        "lat": 60.875,
+        "lng": 6.84,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "achtergrond": "De Hardangervidda is de grootste hoogvlakte van Europa en het leefgebied van de grootste wilde rendierkudde van Europa. Al duizenden jaren jaagden mensen hier op rendieren; je ziet nog oude vangkuilen en stenen jachtmuurtjes. In Hardanger komt ook de hardingfele vandaan: een viool met extra snaren die meeklinken.",
+      "verhalen": [
+        {
+          "titel": "Fruit van de monniken",
+          "tekst": "Volgens de overlevering brachten middeleeuwse monniken de fruitteelt naar Hardanger. Nu bloeien hier in mei duizenden kersen-, appel- en pruimenbomen langs de fjord."
+        },
+        {
+          "titel": "Muziek van de duivel",
+          "tekst": "De hardingfele werd lang gewantrouwd: predikers noemden haar het instrument van de duivel en lieten violen verbranden. Wie 's nachts bij een waterval oefende, kon volgens de verhalen spelen leren van Fossegrimen, de watergeest — als je hem een vet stuk vlees bracht."
+        }
+      ],
+      "meenemen": []
+    },
+    {
+      "dag": 7,
+      "datum": "2027-06-20",
+      "titel": "Kanodag op de Nærøyfjord",
+      "regio": "vestland",
+      "samenvatting": "Geen rijden. Met de kano of kajak de smalste fjord van Noorwegen op, tussen bijna loodrechte bergwanden.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [
+        {
+          "naam": "Kano/kajakverhuur Gudvangen",
+          "type": "kano",
+          "lat": 60.878,
+          "lng": 6.842,
+          "info": "Verhuur en eventueel gids nog uitzoeken en reserveren.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Njardarheimr",
+          "type": "bezienswaardigheid",
+          "lat": 60.877,
+          "lng": 6.838,
+          "info": "Nagebouwd Vikingdorp in Gudvangen.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Gudvangen",
+        "type": "camping",
+        "lat": 60.875,
+        "lng": 6.84,
         "voorzieningen": [
           "stroom",
           "water",
@@ -358,41 +448,41 @@
         "park4night": "",
         "info": "Zondag: supermarkten dicht."
       },
+      "meenemen": [
+        "Drinken: per persoon 1–1,5 liter water en een thermosfles thee/koffie",
+        "Lunch: wraps met Norvegia-kaas, salami of makreel in tomatensaus, komkommer",
+        "Snacks: noten, rozijnen, chocolade (Kvikk Lunsj), kanelboller",
+        "Zwemvest (bij de huur inbegrepen? nog controleren), droogzak voor telefoon en kleding",
+        "Regenjas, warme laag, zonnebrand, pet"
+      ],
+      "achtergrond": "De Nærøyfjord staat sinds 2005 op de UNESCO-werelderfgoedlijst. Op het smalste punt is hij maar zo'n 250 meter breed, met bergen tot 1.700 meter erboven. De naam zou teruggaan op Njord, de Noorse god van de zee, de wind en de vruchtbaarheid.",
+      "verhalen": [
+        {
+          "titel": "Njord",
+          "tekst": "Njord was de god van de zee en van zeelieden. Hij trouwde met de reuzin Skadi, maar het huwelijk mislukte: zij kon niet slapen door het geschreeuw van de meeuwen bij zijn haven, en hij haatte het gehuil van de wolven in haar bergen. Ze besloten om beurten negen nachten bij de ander te wonen."
+        }
+      ],
       "wandelingen": [],
-      "meenemen": []
+      "boodschappen": []
     },
     {
       "dag": 8,
       "datum": "2027-06-21",
-      "titel": "Via de Nærøyfjord naar Jostedal",
+      "titel": "Lærdal en de gletsjer Nigardsbreen",
       "regio": "vestland",
-      "samenvatting": "Langs Stalheim en de smalle Nærøyfjord, door naar het oude houten Lærdalsøyri, ferry over de Sognefjord en het Jostedal in.",
+      "samenvatting": "Door de tunnels naar het oude houten Lærdalsøyri, ferry over de Sognefjord, het Jostedal in naar Nigardsbreen.",
       "rijden": {
-        "tijd": "3½ u",
+        "tijd": "3 u",
         "ferry": "Fodnes – Mannheller (15 min)",
         "rijdag": true
       },
       "stops": [
         {
-          "naam": "Stalheim",
-          "type": "bezienswaardigheid",
-          "lat": 60.839,
-          "lng": 6.681,
-          "info": "Uitzicht over het Nærøydal."
-        },
-        {
-          "naam": "Gudvangen – Nærøyfjord",
-          "type": "bezienswaardigheid",
-          "lat": 60.877,
-          "lng": 6.841,
-          "info": "Smalste fjordarm van Noorwegen (UNESCO)."
-        },
-        {
           "naam": "Lærdalsøyri",
           "type": "stadje",
           "lat": 61.099,
           "lng": 7.479,
-          "info": "Oude houten huizen; mooi voor koffie."
+          "info": "Straatjes met 18e-eeuwse houten huizen; koffiestop."
         },
         {
           "naam": "Ferry Fodnes – Mannheller",
@@ -401,6 +491,27 @@
           "lng": 7.383,
           "info": "Over de Sognefjord.",
           "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Breheimsenteret",
+          "type": "bezienswaardigheid",
+          "lat": 61.66,
+          "lng": 7.27,
+          "info": "Gletsjercentrum bij Nigardsbreen.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Nigardsbreen",
+          "afstand_km": 3,
+          "hoogtemeters": 100,
+          "duur": "1½–2 u",
+          "niveau": "makkelijk (rotsen bij de gletsjer)",
+          "markering": "gemarkeerd pad",
+          "lat": 61.673,
+          "lng": 7.233,
+          "info": "Met het bootje over het gletsjermeer of over het pad naar de gletsjertong. Niet zonder gids het ijs op."
         }
       ],
       "boodschappen": [
@@ -408,7 +519,7 @@
           "plaats": "Sogndal",
           "lat": 61.229,
           "lng": 7.1,
-          "info": "Boodschappen voor 2–3 dagen (Jotunheimen heeft weinig winkels)."
+          "info": "Boodschappen voor 3 dagen (in Jotunheimen zijn bijna geen winkels)."
         }
       ],
       "overnachting": {
@@ -420,17 +531,23 @@
         "park4night": "",
         "info": "1e nacht off-grid."
       },
-      "wandelingen": [],
+      "achtergrond": "Nigardsbreen is een tong van de Jostedalsbreen, de grootste gletsjer van het Europese vasteland. Rond 1750 reikte het ijs nog tot in het dal en verwoestte het boerderijen; sindsdien is de gletsjer kilometers teruggetrokken.",
+      "verhalen": [
+        {
+          "titel": "Jostedalsrypa",
+          "tekst": "Toen in 1349 de Zwarte Dood het Jostedal bereikte, stierf iedereen. Jaren later vonden jagers een verwilderd meisje dat alleen had overleefd en schuw was als een sneeuwhoen (rype). Ze noemden haar Jostedalsrypa. Ze kreeg de grond van het hele dal, en veel families in de streek zouden van haar afstammen."
+        }
+      ],
       "meenemen": []
     },
     {
       "dag": 9,
       "datum": "2027-06-22",
-      "titel": "Nigardsbreen en de Sognefjellsvegen",
+      "titel": "Over de Sognefjellsvegen naar Jotunheimen",
       "regio": "innlandet",
-      "samenvatting": "'s Ochtends naar de gletsjer Nigardsbreen, dan over de Sognefjellsvegen (hoogste bergweg van Noord-Europa) naar Lom en Jotunheimen.",
+      "samenvatting": "Over de hoogste bergweg van Noord-Europa, tussen sneeuwmuren en gletsjers, naar Lom en door naar het Gjendemeer.",
       "rijden": {
-        "tijd": "3½ u (wandeling halverwege)",
+        "tijd": "3½ u",
         "ferry": "",
         "rijdag": true
       },
@@ -440,14 +557,14 @@
           "type": "bezienswaardigheid",
           "lat": 61.565,
           "lng": 7.997,
-          "info": "Hoogste punt van de bergweg; sneeuwmuren mogelijk."
+          "info": "Hoogste punt: 1.434 m."
         },
         {
           "naam": "Lom – staafkerk",
           "type": "bezienswaardigheid",
           "lat": 61.838,
           "lng": 8.568,
-          "info": "Grote staafkerk.",
+          "info": "Grote staafkerk met drakenkoppen.",
           "prijs": "nog te controleren"
         },
         {
@@ -458,24 +575,76 @@
           "info": "Bekende bakkerij: kanelboller!"
         }
       ],
-      "wandelingen": [
-        {
-          "naam": "Nigardsbreen",
-          "afstand_km": 3,
-          "hoogtemeters": 100,
-          "duur": "1½–2 u",
-          "niveau": "makkelijk (rotsen bij de gletsjer)",
-          "lat": 61.673,
-          "lng": 7.233,
-          "info": "Met het bootje over het gletsjermeer of over het pad naar de gletsjertong. Niet zonder gids het ijs op."
-        }
-      ],
       "boodschappen": [
         {
           "plaats": "Lom",
           "lat": 61.838,
           "lng": 8.567,
           "info": "Aanvullen."
+        }
+      ],
+      "overnachting": {
+        "naam": "Vrij kamperen op de Valdresflye",
+        "type": "vrij",
+        "lat": 61.39,
+        "lng": 8.8,
+        "voorzieningen": [],
+        "park4night": "",
+        "info": "2e nacht off-grid. Hoog en kaal: kan 's nachts koud zijn."
+      },
+      "achtergrond": "Jotunheimen betekent 'thuis van de reuzen' (de jotnen uit de Noorse mythologie). Hier liggen de hoogste bergen van Noord-Europa, met de Galdhøpiggen (2.469 m) als top. De staafkerk van Lom draagt drakenkoppen op het dak: oude heidense symbolen die het kwaad moesten afweren.",
+      "verhalen": [
+        {
+          "titel": "De jotnen",
+          "tekst": "In de Noorse mythen waren de jotnen reuzen van ijs, steen en chaos — de eeuwige tegenstanders van de goden. Uit het lichaam van de oerreus Ymir maakten Odin en zijn broers de wereld: zijn bloed werd de zee, zijn botten de bergen."
+        }
+      ],
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 10,
+      "datum": "2027-06-23",
+      "titel": "Wandeldag Jotunheimen: Knutshøe óf Besseggen",
+      "regio": "innlandet",
+      "samenvatting": "Geen rijden. Kies op de dag zelf, afhankelijk van weer en fitheid: Knutshøe (korter) of de beroemde Besseggen-graat (lang en zwaar).",
+      "rijden": {
+        "tijd": "15 min",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [
+        {
+          "naam": "Gjendesheim",
+          "type": "parkeren",
+          "lat": 61.495,
+          "lng": 8.813,
+          "info": "Start van beide wandelingen; boot naar Memurubu voor Besseggen.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Keuze 1: Knutshøe",
+          "afstand_km": 8,
+          "hoogtemeters": 700,
+          "duur": "5–6 u",
+          "niveau": "pittig (stukken klauteren)",
+          "markering": "gemarkeerd (nog controleren)",
+          "lat": 61.495,
+          "lng": 8.813,
+          "info": "Bij twijfel over het weer of je benen: deze. Minder druk, met uitzicht op het groene Gjendemeer en Besseggen."
+        },
+        {
+          "naam": "Keuze 2: Besseggen",
+          "afstand_km": 14,
+          "hoogtemeters": 1100,
+          "duur": "8–9 u",
+          "niveau": "zwaar, lang, steile klim",
+          "markering": "gemarkeerd (rode T van DNT)",
+          "lat": 61.495,
+          "lng": 8.813,
+          "info": "Met de boot naar Memurubu en over de graat terug naar Gjendesheim. Op jullie tempo boven de 8 uur: alleen bij droog weer en als jullie je fit voelen. Eerste boot nemen; vaartijden en sneeuw half juni nog controleren."
         }
       ],
       "overnachting": {
@@ -493,58 +662,14 @@
         "park4night": "",
         "info": "Voorzieningen nog controleren."
       },
-      "meenemen": []
-    },
-    {
-      "dag": 10,
-      "datum": "2027-06-23",
-      "titel": "Wandeldag Jotunheimen – Knutshøe",
-      "regio": "innlandet",
-      "samenvatting": "Geen rijden. Wandeling over de bergkam Knutshøe met uitzicht op het groene Gjendemeer en Besseggen.",
-      "rijden": {
-        "tijd": "geen",
-        "ferry": "",
-        "rijdag": false
-      },
-      "stops": [],
-      "wandelingen": [
+      "achtergrond": "Het Gjendemeer is smaragdgroen door 'gletsjermeel': fijngemalen steenpoeder dat smeltwater meevoert. Besseggen is de beroemdste bergwandeling van Noorwegen; je loopt op een graat tussen het groene Gjende en het blauwe Bessvatnet, dat 400 meter hoger ligt.",
+      "verhalen": [
         {
-          "naam": "Knutshøe",
-          "afstand_km": 8,
-          "hoogtemeters": 700,
-          "duur": "5–6 u",
-          "niveau": "pittig (klauterstukken)",
-          "lat": 61.495,
-          "lng": 8.813,
-          "info": "Start bij Gjendesheim. Minder druk dan Besseggen."
-        },
-        {
-          "naam": "Alternatief: Besseggen",
-          "afstand_km": 14,
-          "hoogtemeters": 1100,
-          "duur": "8–9 u",
-          "niveau": "zwaar, lang",
-          "lat": 61.495,
-          "lng": 8.813,
-          "info": "Boot naar Memurubu en terug over de kam. Op jullie tempo boven de 8 uur: alleen bij topvorm en goed weer. Boot en sneeuw half juni nog controleren."
+          "titel": "De bokkenrit van Peer Gynt",
+          "tekst": "In Ibsens toneelstuk Peer Gynt vertelt Peer hoe hij op de rug van een rendierbok over de Besseggen-graat raasde en in een duizelingwekkende sprong met de bok in het Gjendemeer dook. Ibsen baseerde het op een oud volksverhaal over een jager uit de streek."
         }
       ],
       "boodschappen": [],
-      "overnachting": {
-        "naam": "Camping Bessheim / Gjendesheim",
-        "type": "camping",
-        "lat": 61.531,
-        "lng": 8.804,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
-        "park4night": "",
-        "info": ""
-      },
       "meenemen": []
     },
     {
@@ -552,7 +677,7 @@
       "datum": "2027-06-24",
       "titel": "Via Dalsnibba naar Geiranger",
       "regio": "more",
-      "samenvatting": "Terug via Lom en over de bergen naar het uitzichtpunt Dalsnibba, met de Geirangerfjord diep onder je. Afdalen naar Geiranger.",
+      "samenvatting": "Terug via Lom en over de bergen naar het uitzichtpunt Dalsnibba, met de Geirangerfjord diep onder je. 's Middags de Fossevandring.",
       "rijden": {
         "tijd": "2½ u",
         "ferry": "",
@@ -571,7 +696,7 @@
           "type": "bezienswaardigheid",
           "lat": 62.045,
           "lng": 7.272,
-          "info": "Uitzichtpunt op 1.500 m; tolweg.",
+          "info": "Uitzichtpunt op 1.476 m; tolweg.",
           "prijs": "nog te controleren"
         },
         {
@@ -582,44 +707,6 @@
           "info": "Klassiek uitzicht over Geiranger."
         }
       ],
-      "boodschappen": [
-        {
-          "plaats": "Lom",
-          "lat": 61.838,
-          "lng": 8.567,
-          "info": "Boodschappen voor 2 dagen (Geiranger is duur)."
-        }
-      ],
-      "overnachting": {
-        "naam": "Camping Geiranger",
-        "type": "camping",
-        "lat": 62.1,
-        "lng": 7.203,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
-        "park4night": "",
-        "info": ""
-      },
-      "wandelingen": [],
-      "meenemen": []
-    },
-    {
-      "dag": 12,
-      "datum": "2027-06-25",
-      "titel": "Watervallen van Geiranger",
-      "regio": "more",
-      "samenvatting": "Geen rijden. De Fossevandring (trappen langs de waterval) en een wandeling naar Storseterfossen, waar je achter de waterval langs loopt.",
-      "rijden": {
-        "tijd": "geen",
-        "ferry": "",
-        "rijdag": false
-      },
-      "stops": [],
       "wandelingen": [
         {
           "naam": "Fossevandring",
@@ -627,22 +714,31 @@
           "hoogtemeters": 150,
           "duur": "1 u",
           "niveau": "makkelijk (327 traptreden)",
+          "markering": "trappenpad",
           "lat": 62.1,
           "lng": 7.205,
-          "info": "Trappenpad langs de Storfossen, start in het dorp."
+          "info": "Trappenpad langs de waterval Storfossen, start in het dorp."
         },
         {
-          "naam": "Storseterfossen via Westerås",
+          "naam": "Extra als je nog zin hebt: Storseterfossen via Westerås",
           "afstand_km": 6,
           "hoogtemeters": 450,
           "duur": "3–3½ u",
           "niveau": "middel",
+          "markering": "gemarkeerd pad",
           "lat": 62.105,
           "lng": 7.133,
           "info": "Vanaf boerderij Westerås naar de waterval waar je achterlangs loopt."
         }
       ],
-      "boodschappen": [],
+      "boodschappen": [
+        {
+          "plaats": "Lom",
+          "lat": 61.838,
+          "lng": 8.567,
+          "info": "Boodschappen (Geiranger is duur)."
+        }
+      ],
       "overnachting": {
         "naam": "Camping Geiranger",
         "type": "camping",
@@ -658,16 +754,23 @@
         "park4night": "",
         "info": ""
       },
+      "achtergrond": "De Geirangerfjord staat samen met de Nærøyfjord op de UNESCO-lijst. Hoog tegen de rotswanden liggen verlaten boerderijen zoals Skageflå en Knivsflå, waar tot in de 20e eeuw mensen woonden die alleen via steile paden bereikbaar waren.",
+      "verhalen": [
+        {
+          "titel": "Kinderen aan een touw",
+          "tekst": "Op de steile boerderijen aan de Geirangerfjord werden kleine kinderen volgens de verhalen met een touw vastgebonden, zodat ze niet in de fjord konden vallen. En als de belastinginner kwam, haalde de boer de ladder in die naar zijn boerderij leidde."
+        }
+      ],
       "meenemen": []
     },
     {
-      "dag": 13,
-      "datum": "2027-06-26",
-      "titel": "Geirangerfjord per ferry, naar Fjærland",
+      "dag": 12,
+      "datum": "2027-06-25",
+      "titel": "Geirangerfjord, Gaularfjellet en Vetlefjord",
       "regio": "vestland",
-      "samenvatting": "De mooiste fjordtocht: ferry Geiranger – Hellesylt langs de Zeven Zusters. Via Stryn naar het boekendorp Fjærland bij de gletsjers.",
+      "samenvatting": "De mooiste fjordtocht: ferry Geiranger – Hellesylt langs de Zeven Zusters. Via Stryn en Skei naar de toeristische route Gaularfjellet met uitzichtpunt Utsikten, en omlaag naar de Vetlefjord.",
       "rijden": {
-        "tijd": "2½ u",
+        "tijd": "4½ u",
         "ferry": "Geiranger – Hellesylt (ca. 1 u, reserveren)",
         "rijdag": true
       },
@@ -688,19 +791,25 @@
           "info": ""
         },
         {
-          "naam": "Norsk Bremuseum, Fjærland",
-          "type": "bezienswaardigheid",
-          "lat": 61.428,
-          "lng": 6.765,
-          "info": "Gletsjermuseum.",
-          "prijs": "nog te controleren"
+          "naam": "Skei",
+          "type": "stadje",
+          "lat": 61.575,
+          "lng": 6.482,
+          "info": ""
         },
         {
-          "naam": "Bøyabreen",
+          "naam": "Utsikten (Gaularfjellet)",
           "type": "bezienswaardigheid",
-          "lat": 61.49,
-          "lng": 6.73,
-          "info": "Gletsjertong vlak bij de weg."
+          "lat": 61.38,
+          "lng": 6.43,
+          "info": "Uitzichtplatform boven de haarspeldbochten naar de Vetlefjord."
+        },
+        {
+          "naam": "Vetlefjord",
+          "type": "stadje",
+          "lat": 61.33,
+          "lng": 6.52,
+          "info": "Stille zijarm van de Sognefjord."
         }
       ],
       "boodschappen": [
@@ -708,36 +817,37 @@
           "plaats": "Stryn",
           "lat": 61.905,
           "lng": 6.717,
-          "info": "Zaterdag: inslaan voor zondag."
+          "info": "Boodschappen voor 2 dagen."
         }
       ],
       "overnachting": {
-        "naam": "Camping Fjærland",
-        "type": "camping",
-        "lat": 61.428,
-        "lng": 6.766,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
+        "naam": "Vrij kamperen bij de Vetlefjord",
+        "type": "vrij",
+        "lat": 61.33,
+        "lng": 6.52,
+        "voorzieningen": [],
         "park4night": "",
-        "info": ""
+        "info": "1e nacht off-grid."
       },
+      "achtergrond": "Gaularfjellet is een van de Noorse 'Nasjonale turistveger': routes langs mooie natuur met bijzondere architectuur. Utsikten (letterlijk: het uitzicht) is een hoekig betonnen platform boven de bochten naar de Vetlefjord.",
+      "verhalen": [
+        {
+          "titel": "De Zeven Zusters en De Vrijer",
+          "tekst": "Aan de ene kant van de fjord storten zeven watervallen naast elkaar omlaag: de Zeven Zusters. Recht tegenover staat één waterval, De Vrijer. Hij vroeg de zusters één voor één ten huwelijk, maar allemaal wezen ze hem af. Sindsdien zoekt hij troost in de fles — de waterval heeft de vorm van een fles."
+        }
+      ],
       "wandelingen": [],
       "meenemen": []
     },
     {
-      "dag": 14,
-      "datum": "2027-06-27",
-      "titel": "Langs Balestrand naar Bergen",
+      "dag": 13,
+      "datum": "2027-06-26",
+      "titel": "Via Balestrand naar Bergen",
       "regio": "vestland",
       "samenvatting": "Via het sfeervolle dorp Balestrand en twee korte ferry's naar Bergen.",
       "rijden": {
         "tijd": "3½ u",
-        "ferry": "Hella – Dragsvik (15 min), Lavik – Oppedal (20 min)",
+        "ferry": "Lavik – Oppedal (20 min)",
         "rijdag": true
       },
       "stops": [
@@ -746,7 +856,7 @@
           "type": "stadje",
           "lat": 61.208,
           "lng": 6.533,
-          "info": "Houten villa's en kerkje; koffiestop."
+          "info": "Houten villa's en de Engelse kerk van St. Olaf; koffiestop."
         },
         {
           "naam": "Ferry Lavik – Oppedal",
@@ -755,6 +865,88 @@
           "lng": 5.51,
           "info": "",
           "prijs": "nog te controleren"
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Bergen",
+          "lat": 60.39,
+          "lng": 5.33,
+          "info": "Zaterdag: inslaan voor zondag."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping bij Bergen",
+        "type": "camping",
+        "lat": 60.338,
+        "lng": 5.46,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "Bus naar het centrum."
+      },
+      "achtergrond": "Balestrand werd rond 1900 populair bij kunstenaars en rijke toeristen. De Duitse keizer Wilhelm II kwam hier bijna elke zomer en liet beelden plaatsen van twee helden uit de oude sage van Fridtjof de Dappere.",
+      "verhalen": [
+        {
+          "titel": "Fridtjof en Ingebjørg",
+          "tekst": "De sage vertelt van Fridtjof, zoon van een boer, die verliefd was op Ingebjørg, de dochter van koning Bele. Haar broers wilden haar niet aan een gewone man geven en stuurden Fridtjof weg. Na veel avonturen kreeg hij haar toch. In Balestrand staat een beeld van koning Bele, aan de overkant in Vangsnes een reusachtig beeld van Fridtjof."
+        }
+      ],
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 14,
+      "datum": "2027-06-27",
+      "titel": "Stadsdag Bergen",
+      "regio": "vestland",
+      "samenvatting": "Geen rijden; met de bus de stad in. Bryggen, de vismarkt, met de Fløibanen omhoog en lopend terug naar beneden, KODE-kunstmusea.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [
+        {
+          "naam": "Bryggen",
+          "type": "bezienswaardigheid",
+          "lat": 60.3975,
+          "lng": 5.3245,
+          "info": "Hanzekade met houten pakhuizen (UNESCO)."
+        },
+        {
+          "naam": "Fløyen",
+          "type": "bezienswaardigheid",
+          "lat": 60.394,
+          "lng": 5.343,
+          "info": "Kabelspoor omhoog, lopend terug.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "KODE",
+          "type": "bezienswaardigheid",
+          "lat": 60.389,
+          "lng": 5.326,
+          "info": "Kunstmusea met o.a. Munch, J.C. Dahl en Nikolai Astrup.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Fløyen naar beneden",
+          "afstand_km": 3,
+          "hoogtemeters": 0,
+          "duur": "1 u",
+          "niveau": "makkelijk",
+          "markering": "bewegwijzerd pad",
+          "lat": 60.394,
+          "lng": 5.343,
+          "info": "Omlaag door het bos naar de stad. Boven bij Fløyen staan houten trollen in het bos."
         }
       ],
       "boodschappen": [],
@@ -771,90 +963,23 @@
           "toilet"
         ],
         "park4night": "",
-        "info": "Zondag: supermarkten dicht. Bus naar het centrum."
+        "info": "Zondag: supermarkten dicht."
       },
-      "wandelingen": [],
+      "achtergrond": "Bergen werd rond 1070 gesticht en was eeuwenlang de grootste stad van Noorwegen. Duitse Hanze-kooplieden beheersten vanaf Bryggen de handel in gedroogde stokvis uit Noord-Noorwegen. De houten pakhuizen zijn vaak afgebrand en steeds op dezelfde manier herbouwd.",
+      "verhalen": [
+        {
+          "titel": "De Hanze op Bryggen",
+          "tekst": "De Duitse kooplieden leefden op Bryggen in een eigen, streng mannenwereldje: vrouwen waren verboden, jonge leerjongens werden hard ontgroend. Ze spraken Nederduits en trouwden niet met Noorse vrouwen. In het Hanzemuseum zie je hoe ze woonden."
+        }
+      ],
       "meenemen": []
     },
     {
       "dag": 15,
       "datum": "2027-06-28",
-      "titel": "Stadsdag Bergen",
-      "regio": "vestland",
-      "samenvatting": "Geen rijden; met de bus de stad in. Bryggen, de vismarkt, met de Fløibanen omhoog en lopend terug naar beneden, KODE-kunstmusea.",
-      "rijden": {
-        "tijd": "geen",
-        "ferry": "",
-        "rijdag": false
-      },
-      "stops": [
-        {
-          "naam": "Bryggen",
-          "type": "bezienswaardigheid",
-          "lat": 60.3975,
-          "lng": 5.3245,
-          "info": "Hanzekade met houten pakhuizen."
-        },
-        {
-          "naam": "Fløyen",
-          "type": "bezienswaardigheid",
-          "lat": 60.394,
-          "lng": 5.343,
-          "info": "Kabelspoor omhoog, lopend terug.",
-          "prijs": "nog te controleren"
-        },
-        {
-          "naam": "KODE",
-          "type": "bezienswaardigheid",
-          "lat": 60.389,
-          "lng": 5.326,
-          "info": "Kunstmusea (o.a. Munch).",
-          "prijs": "nog te controleren"
-        }
-      ],
-      "wandelingen": [
-        {
-          "naam": "Fløyen naar beneden",
-          "afstand_km": 3,
-          "hoogtemeters": 0,
-          "duur": "1 u",
-          "niveau": "makkelijk",
-          "lat": 60.394,
-          "lng": 5.343,
-          "info": "Omlaag door het bos naar de stad."
-        }
-      ],
-      "boodschappen": [
-        {
-          "plaats": "Bergen",
-          "lat": 60.39,
-          "lng": 5.33,
-          "info": "Boodschappen voor 2 dagen."
-        }
-      ],
-      "overnachting": {
-        "naam": "Camping bij Bergen",
-        "type": "camping",
-        "lat": 60.338,
-        "lng": 5.46,
-        "voorzieningen": [
-          "stroom",
-          "water",
-          "afvoer",
-          "douche",
-          "toilet"
-        ],
-        "park4night": "",
-        "info": ""
-      },
-      "meenemen": []
-    },
-    {
-      "dag": 16,
-      "datum": "2027-06-29",
       "titel": "Langs de kust naar Preikestolen",
       "regio": "rogaland",
-      "samenvatting": "Zuidwaarts langs de kust met twee ferry's en door de onderzeese tunnel naar het Lysefjord-gebied.",
+      "samenvatting": "Zuidwaarts langs de kust met twee ferry's en door de onderzeese tunnel naar het Lysefjord-gebied. Onderweg eventueel het monument Sverd i fjell.",
       "rijden": {
         "tijd": "4 u",
         "ferry": "Halhjem – Sandvikvåg (40 min), Arsvågen – Mortavika (25 min)",
@@ -876,6 +1001,20 @@
           "lng": 5.333,
           "info": "",
           "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Sverd i fjell",
+          "type": "bezienswaardigheid",
+          "lat": 58.937,
+          "lng": 5.682,
+          "info": "Drie reusachtige zwaarden in de rots (kleine omweg)."
+        },
+        {
+          "naam": "Ryfylketunnel",
+          "type": "bezienswaardigheid",
+          "lat": 59.0,
+          "lng": 5.85,
+          "info": "Een van de langste onderzeese tunnels ter wereld."
         }
       ],
       "boodschappen": [
@@ -883,7 +1022,7 @@
           "plaats": "Jørpeland",
           "lat": 59.017,
           "lng": 6.045,
-          "info": "Boodschappen voor 3 dagen (daarna geen winkels meer tot Kristiansand)."
+          "info": "Boodschappen voor 5 dagen (daarna geen winkels meer tot Kristiansand)."
         }
       ],
       "overnachting": {
@@ -901,19 +1040,26 @@
         "park4night": "",
         "info": ""
       },
+      "achtergrond": "Sverd i fjell herdenkt de slag in de Hafrsfjord (rond 872), waarna Harald Schoonhaar zich de eerste koning van heel Noorwegen kon noemen. De drie zwaarden staan voor vrede, eenheid en vrijheid.",
+      "verhalen": [
+        {
+          "titel": "Harald Schoonhaar",
+          "tekst": "Harald vroeg de mooie Gyda ten huwelijk, maar zij wilde pas trouwen met een man die heel Noorwegen regeerde. Harald zwoer zijn haar niet te knippen of te kammen tot dat gelukt was. Na de overwinning in de Hafrsfjord liet hij het eindelijk knippen — vandaar zijn bijnaam."
+        }
+      ],
       "wandelingen": [],
       "meenemen": []
     },
     {
-      "dag": 17,
-      "datum": "2027-06-30",
-      "titel": "Preikestolen en de Lysefjord-ferry",
+      "dag": 16,
+      "datum": "2027-06-29",
+      "titel": "Preikestolen",
       "regio": "rogaland",
-      "samenvatting": "Heel vroeg naar Preikestolen (vóór de drukte). 's Middags met de ferry door het hele Lysefjord naar Lysebotn en de haarspeldbochten omhoog naar Kjerag.",
+      "samenvatting": "Heel vroeg naar Preikestolen, vóór de drukte. 's Middags rust op de camping.",
       "rijden": {
-        "tijd": "45 min",
-        "ferry": "Forsand – Lysebotn (ca. 2 u, reserveren; vertrektijd bepaalt de planning)",
-        "rijdag": true
+        "tijd": "10 min",
+        "ferry": "",
+        "rijdag": false
       },
       "stops": [
         {
@@ -923,21 +1069,6 @@
           "lng": 6.1376,
           "info": "Start van de wandeling.",
           "prijs": "nog te controleren"
-        },
-        {
-          "naam": "Ferry Forsand – Lysebotn",
-          "type": "ferry",
-          "lat": 58.901,
-          "lng": 6.094,
-          "info": "Door het hele Lysefjord.",
-          "prijs": "nog te controleren"
-        },
-        {
-          "naam": "Lysebotn",
-          "type": "stadje",
-          "lat": 59.055,
-          "lng": 6.649,
-          "info": "Eind van het fjord; 27 haarspeldbochten omhoog."
         }
       ],
       "wandelingen": [
@@ -947,12 +1078,72 @@
           "hoogtemeters": 500,
           "duur": "5 u",
           "niveau": "middel (rotstrappen)",
+          "markering": "gemarkeerd pad (rode T)",
           "lat": 58.9927,
           "lng": 6.1376,
-          "info": "Rond 6–7 uur starten, dan haal je de middagferry."
+          "info": "Rond 6–7 uur starten voor de rust en het ochtendlicht."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Preikestolen",
+        "type": "camping",
+        "lat": 58.9985,
+        "lng": 6.0986,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "achtergrond": "Preikestolen ('de preekstoel') is een vlak rotsplateau van zo'n 25 bij 25 meter, 604 meter boven het Lysefjord. Het ontstond ongeveer 10.000 jaar geleden, toen bevroren water in spleten de rots openbrak.",
+      "verhalen": [
+        {
+          "titel": "Zeven broers, zeven zussen",
+          "tekst": "Er gaat een verhaal dat Preikestolen in het fjord zal storten op de dag dat zeven broers uit de streek trouwen met zeven zussen uit de streek. Er zijn mensen die dat serieus nemen en een stap verder van de rand gaan staan."
         }
       ],
       "boodschappen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 17,
+      "datum": "2027-06-30",
+      "titel": "Door het Lysefjord naar Lysebotn",
+      "regio": "rogaland",
+      "samenvatting": "Met de ferry door het hele Lysefjord, langs de houten trap van Flørli, naar Lysebotn. Dan de haarspeldbochten omhoog naar de Kjerag-parkeerplaats.",
+      "rijden": {
+        "tijd": "45 min",
+        "ferry": "Forsand – Lysebotn (ca. 2 u, reserveren)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Ferry Forsand – Lysebotn",
+          "type": "ferry",
+          "lat": 58.901,
+          "lng": 6.094,
+          "info": "Door het hele Lysefjord.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Flørli",
+          "type": "bezienswaardigheid",
+          "lat": 59.016,
+          "lng": 6.37,
+          "info": "Langste houten trap ter wereld (4.444 treden), vanaf de boot te zien."
+        },
+        {
+          "naam": "Lysebotn",
+          "type": "stadje",
+          "lat": 59.055,
+          "lng": 6.649,
+          "info": "Eind van het fjord; 27 haarspeldbochten omhoog."
+        }
+      ],
       "overnachting": {
         "naam": "Kjerag-parkeerplaats Øygardstøl",
         "type": "camperplaats",
@@ -964,6 +1155,15 @@
         "park4night": "",
         "info": "1e nacht off-grid. Overnachten toegestaan? Nog controleren."
       },
+      "achtergrond": "Het Lysefjord is 42 km lang en heeft bijna geen dorpen: de wanden zijn te steil. Lysebotn was tot de weg in 1984 opende alleen per boot bereikbaar.",
+      "verhalen": [
+        {
+          "titel": "De trap van Flørli",
+          "tekst": "In Flørli bouwden ze in 1918 een waterkrachtcentrale. Langs de pijpleiding de berg op liep een onderhoudstrap van 4.444 houten treden. Nu lopen wandelaars hem voor de lol omhoog."
+        }
+      ],
+      "wandelingen": [],
+      "boodschappen": [],
       "meenemen": []
     },
     {
@@ -971,13 +1171,12 @@
       "datum": "2027-07-01",
       "titel": "Kjerag",
       "regio": "rogaland",
-      "samenvatting": "Geen rijden. De wandeling naar Kjerag met de beroemde vastgeklemde rots Kjeragbolten, 1.000 m boven het Lysefjord.",
+      "samenvatting": "Geen rijden. De wandeling naar Kjerag met de beroemde vastgeklemde rots Kjeragbolten, bijna 1.000 m boven het Lysefjord.",
       "rijden": {
         "tijd": "geen",
         "ferry": "",
         "rijdag": false
       },
-      "stops": [],
       "wandelingen": [
         {
           "naam": "Kjerag",
@@ -985,12 +1184,12 @@
           "hoogtemeters": 800,
           "duur": "7–8 u",
           "niveau": "zwaar (3 steile klimmen met kettingen)",
+          "markering": "gemarkeerd pad (rode T)",
           "lat": 59.031,
           "lng": 6.594,
           "info": "Alleen bij droog weer; sneeuw mogelijk tot eind juni. Parkeren is betaald."
         }
       ],
-      "boodschappen": [],
       "overnachting": {
         "naam": "Kjerag-parkeerplaats Øygardstøl",
         "type": "camperplaats",
@@ -1002,6 +1201,10 @@
         "park4night": "",
         "info": "2e nacht off-grid."
       },
+      "achtergrond": "Kjeragbolten is een rotsblok van een paar kubieke meter dat tijdens de ijstijd in een spleet klem kwam te zitten, met bijna 1.000 meter lucht eronder. De wanden van Kjerag zijn wereldberoemd bij basejumpers.",
+      "verhalen": [],
+      "stops": [],
+      "boodschappen": [],
       "meenemen": []
     },
     {
@@ -1032,7 +1235,6 @@
           "prijs": "nog te controleren"
         }
       ],
-      "boodschappen": [],
       "overnachting": {
         "naam": "Camping bij Hirtshals",
         "type": "camping",
@@ -1048,7 +1250,10 @@
         "park4night": "",
         "info": ""
       },
+      "achtergrond": "Sirdal is een lang, dunbevolkt dal met meren en stuwdammen. Het water hier drijft enkele van de grootste waterkrachtcentrales van Noorwegen aan.",
+      "verhalen": [],
       "wandelingen": [],
+      "boodschappen": [],
       "meenemen": []
     },
     {
@@ -1062,10 +1267,12 @@
         "ferry": "",
         "rijdag": true
       },
-      "stops": [],
-      "boodschappen": [],
-      "wandelingen": [],
       "overnachting": null,
+      "achtergrond": "",
+      "verhalen": [],
+      "stops": [],
+      "wandelingen": [],
+      "boodschappen": [],
       "meenemen": []
     }
   ]

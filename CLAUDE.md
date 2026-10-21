@@ -15,15 +15,18 @@
 - Gebied: zuid- en westkust van Noorwegen (provincies Agder, Rogaland, Vestland), plus uitstapjes naar Geiranger (Møre og Romsdal) en Jotunheimen/Lom (Innlandet).
 - Heen en terug: in één dag van Nederland naar Denemarken, daarna ferry Hirtshals–Kristiansand (heen en terug; tijden nog te kiezen, handmatig in te voeren).
 - Voertuig: gehuurde grote camperbus (type VW Crafter). Kan maximaal 2 dagen off-grid staan. Afmetingen volgen nog.
-- Must-sees: Preikestolen, Kjerag, Lysefjord, Bergen, Hardangerfjord, Sognefjord, Geiranger (watervallen, Fossevandring), Nigardsbreen. Daarnaast graag kleinere, minder toeristische plekken en minder bekende wandelingen zonder drukte. Wensen: Knutshøe/Besseggen (Jotunheimen). Trolltunga valt af.
-- Kanoën: óf 2× een dagtocht, óf 1× een 2-daagse mini-tocht met overnachting (lichtgewicht tentje en slaapspullen optioneel mee). Geef bij een mini-tocht aan wat we aan eten en drinken meenemen.
+- Must-sees: Preikestolen, Kjerag, Lysefjord, Bergen, Hardangerfjord, Sognefjord, Geiranger (watervallen, Fossevandring), Nigardsbreen. Daarnaast graag kleinere, minder toeristische plekken en minder bekende wandelingen zonder drukte. Jotunheimen: keuze op de dag zelf tussen Knutshøe en Besseggen (afhankelijk van weer en fitheid). Trolltunga, Trollstigen, Røros en Trondheim vallen af. Ook gewenst: Nærøyfjord, Gaularfjellet en Vetlefjord, Blådalen/Møsevassbreen, Hardangervidda.
+- Kanoën: 2× een dagtocht (gekozen: Byglandsfjorden en Nærøyfjord).
 
 ### Reisregels (gebruik bij elke routesuggestie)
 - Maximaal 6 uur rijden per dag in Noorwegen. Ferry's zijn rusttijd en tellen niet mee. Een rijdag mag langer zijn als er ongeveer halverwege een wandeling is ingepland.
 - Na elke 3 rijdagen 1 dag zonder rijden. Een kort ritje (max. ~30 min, bijv. naar een startpunt) telt niet als rijdag.
-- Nooit meer dan 2 nachten achter elkaar off-grid; daarna een camping of camperplaats met stroom/water/afvoer.
+- Nooit meer dan 2 nachten achter elkaar off-grid; daarna een camping of camperplaats met stroom/water/afvoer. Verder graag zo veel mogelijk vrij kamperen.
+- Preikestolen en Kjerag niet op opeenvolgende dagen.
+- Alleen **gemarkeerde** wandelingen (wij kunnen slecht zelf navigeren); vermeld de markering bij elke wandeling.
 - Wandelingen maximaal 6–8 uur inclusief pauzes (korter mag natuurlijk). Korte wandelingen mogen ook midden op een reisdag. We zijn redelijk fit maar lopen langzaam: reken met een rustig tempo en geef bij twijfel de langere tijd.
 - Geef in de dagplanning aan waar een supermarkt is voor boodschappen (let op: zondag zijn Noorse supermarkten dicht).
+- Geef per dag achtergrondinformatie: geschiedenis, legendes en folkloreverhalen.
 - Overnachten: mix van campings, camperplaatsen en vrij kamperen (allemannsretten).
 
 ### Interesses
@@ -77,7 +80,7 @@ Wandelen, kanoën, kleine stadjes, koffie en kaneelbroodjes (kanelboller), wildk
 - **Fase 2 (installeren en offline testen):** af. App geïnstalleerd via Chrome op Android; opent offline en toont de melding "Geen internet" (ook als wifi aan staat zonder internet).
 - Netlify: repository is aan twee projecten gekoppeld (`noorwegen-app` en `super-monstera-5e7f12`); `noorwegen-app` is het hoofdproject.
 - Kaarttegels worden nu alleen offline bewaard als je ze eerst online bekeken hebt; vooraf cachen van het hele reisgebied volgt later.
-- **Fase 3 (reisinhoud), eerste versie:** route voor alle 20 dagen in `src/data/reis.json` (tegen de klok in: Setesdal → Odda → Hardanger → Jostedal → Jotunheimen → Geiranger → Fjærland → Bergen → Preikestolen → Lysefjord → Kjerag). Per dag: rijtijd, ferry's, wandelingen, stops, supermarkten, overnachting. Kaart met lagen. Alles nog ongecontroleerd (tijden, prijzen, coördinaten).
-- Nog te doen in fase 3: GPX-routes en hoogteprofielen van wandelingen, controle van prijzen en coördinaten, park4night-codes, kanoverhuur Byglandsfjord uitzoeken.
-- Te reserveren: ferry Hirtshals–Kristiansand (heen/terug), ferry Geiranger–Hellesylt, ferry Forsand–Lysebotn, parkeren Kjerag/Preikestolen (nog controleren).
+- **Fase 3 (reisinhoud), tweede versie:** route voor alle 20 dagen in `src/data/reis.json`: Setesdal (kanodag) → Haukeli → Røldal → Odda/Blådalen → Hardangervidda → Nærøyfjord (kanodag) → Jostedal → Jotunheimen → Geiranger → Gaularfjellet/Vetlefjord → Bergen → Preikestolen → Lysefjord → Kjerag. Per dag: rijtijd, ferry's, wandelingen (met markering), stops, supermarkten, overnachting, achtergrond en verhalen. 7 nachten off-grid. Alles nog ongecontroleerd (tijden, prijzen, coördinaten).
+- Nog te doen in fase 3: GPX-routes en hoogteprofielen van wandelingen, controle van prijzen en coördinaten, park4night-codes, kanoverhuur Byglandsfjord en Gudvangen uitzoeken, locatie en markering Blådalen/Møsevassbreen controleren.
+- Te reserveren: ferry Hirtshals–Kristiansand (heen/terug), ferry Geiranger–Hellesylt, ferry Forsand–Lysebotn, kano/kajak Nærøyfjord, parkeren Kjerag/Preikestolen (nog controleren).
 - Open vragen: accentkleuren per provincie zijn voorlopig (staan in `src/regio.js`); ferrytijden nog kiezen.
