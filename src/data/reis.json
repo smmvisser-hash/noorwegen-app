@@ -2,243 +2,1054 @@
   "reis": {
     "naam": "Noorwegen 2027",
     "start": "2027-06-14",
-    "eind": "2027-07-03"
+    "eind": "2027-07-03",
+    "let_op": "Rijtijden, prijzen, coördinaten en voorzieningen zijn schattingen en nog niet gecontroleerd."
   },
   "dagen": [
     {
       "dag": 1,
       "datum": "2027-06-14",
-      "titel": "Van Nederland naar Denemarken",
+      "titel": "Van Nederland naar Hirtshals",
       "regio": "onderweg",
-      "samenvatting": "Lange rijdag naar Noord-Denemarken.",
-      "stops": []
+      "samenvatting": "Lange rijdag door Duitsland en Denemarken naar de ferryhaven van Hirtshals.",
+      "rijden": {
+        "tijd": "~9 u (buiten Noorwegen)",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Hirtshals",
+          "type": "stadje",
+          "lat": 57.588,
+          "lng": 9.96,
+          "info": "Overnachten vlak bij de haven, zodat je 's ochtends uitgerust aan boord gaat."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping bij Hirtshals",
+        "type": "camping",
+        "lat": 57.579,
+        "lng": 9.942,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "boodschappen": [],
+      "wandelingen": [],
+      "meenemen": []
     },
     {
       "dag": 2,
       "datum": "2027-06-15",
-      "titel": "Ferry naar Kristiansand",
+      "titel": "Ferry naar Kristiansand, door naar Setesdal",
       "regio": "agder",
-      "samenvatting": "Ochtendferry Hirtshals – Kristiansand, daarna rustig aankomen en de oude houten huizen van Posebyen bekijken.",
+      "samenvatting": "Ferry Hirtshals – Kristiansand. Grote boodschappen in Kristiansand (ook eten voor de kanotocht) en dan rustig het Setesdal in naar de Byglandsfjord.",
+      "rijden": {
+        "tijd": "1¼ u",
+        "ferry": "Hirtshals – Kristiansand (ca. 3¼ u, tijden handmatig invullen)",
+        "rijdag": true
+      },
       "stops": [
         {
           "naam": "Veerhaven Hirtshals",
           "type": "ferry",
           "lat": 57.5937,
           "lng": 9.9634,
-          "info": "Vertrek ferry (tijd nog in te vullen)."
+          "info": "Vertrek ferry naar Kristiansand.",
+          "prijs": "nog te controleren"
         },
         {
           "naam": "Kristiansand – Posebyen",
-          "type": "bezienswaardigheid",
+          "type": "stadje",
           "lat": 58.1491,
           "lng": 7.9983,
-          "info": "Oude wijk met witte houten huisjes; mooi voor een eerste kanelbolle."
+          "info": "Oude wijk met witte houten huisjes; eerste kanelbolle."
         },
         {
-          "naam": "Camping bij Kristiansand",
-          "type": "overnachting",
-          "lat": 58.1462,
-          "lng": 8.0573,
-          "info": "Voorbeeldplek: camping met stroom, water en afvoer."
+          "naam": "Evje",
+          "type": "stadje",
+          "lat": 58.585,
+          "lng": 7.798,
+          "info": "Klein plaatsje in het Setesdal."
         }
       ],
-      "voorbeeld": true
+      "boodschappen": [
+        {
+          "plaats": "Kristiansand",
+          "lat": 58.153,
+          "lng": 8.003,
+          "info": "Grote boodschappen voor de eerste dagen + eten voor de 2-daagse kanotocht (zie Meenemen bij dag 3)."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping bij Byglandsfjord",
+        "type": "camping",
+        "lat": 58.68,
+        "lng": 7.81,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "Hier begint de kanotocht. Vraag of je de camper er 1 nacht mag laten staan."
+      },
+      "wandelingen": [],
+      "meenemen": []
     },
     {
       "dag": 3,
       "datum": "2027-06-16",
-      "titel": "Langs de zuidkust naar Lindesnes",
+      "titel": "Kanotocht dag 1 – Byglandsfjorden",
       "regio": "agder",
-      "samenvatting": "Over de kustweg naar de vuurtoren van Lindesnes, het zuidelijkste puntje van het vasteland, en door naar Flekkefjord.",
+      "samenvatting": "Eerste dag van de 2-daagse kanotocht over het lange, rustige meer. 's Avonds tentje opzetten op een eilandje of rustige oever (allemannsretten).",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
       "stops": [
         {
-          "naam": "Mandal",
-          "type": "stadje",
-          "lat": 58.0294,
-          "lng": 7.4609,
-          "info": "Klein stadje met lang zandstrand (Sjøsanden)."
-        },
-        {
-          "naam": "Lindesnes fyr",
-          "type": "bezienswaardigheid",
-          "lat": 57.9826,
-          "lng": 7.0477,
-          "info": "Vuurtoren op de zuidpunt van Noorwegen. Toegangsprijs nog te controleren."
-        },
-        {
-          "naam": "Flekkefjord – Hollenderbyen",
-          "type": "stadje",
-          "lat": 58.2969,
-          "lng": 6.6614,
-          "info": "Wijk met Nederlandse invloeden uit de houthandel."
-        },
-        {
-          "naam": "Vrij kamperen bij Flekkefjord",
-          "type": "overnachting",
-          "lat": 58.3127,
-          "lng": 6.6262,
-          "info": "Voorbeeldplek (allemannsretten); 1e nacht off-grid."
+          "naam": "Start kanotocht Byglandsfjord",
+          "type": "kano",
+          "lat": 58.67,
+          "lng": 7.807,
+          "info": "Kanoverhuur nog uitzoeken (bijv. via de camping).",
+          "prijs": "nog te controleren"
         }
       ],
-      "voorbeeld": true
+      "boodschappen": [],
+      "wandelingen": [],
+      "overnachting": {
+        "naam": "Tentje op de oever van Byglandsfjorden",
+        "type": "tent",
+        "lat": 58.75,
+        "lng": 7.8,
+        "voorzieningen": [],
+        "park4night": "",
+        "info": "Wildkamperen: minimaal 150 m van huizen, geen sporen achterlaten."
+      },
+      "meenemen": [
+        "Drinken: per persoon 2 flessen van 1 liter; bijvullen uit het meer met waterfilter of zuiveringstabletten",
+        "Thee en oploskoffie",
+        "Ontbijt: havermout of muesli met melkpoeder (2 porties)",
+        "Lunch (2x): wraps met Norvegia-kaas, salami en makreel in tomatensaus",
+        "Avondeten: 2 gevriesdroogde maaltijden (bijv. Real Turmat) of couscous met pesto en tonijn",
+        "Snacks: noten, rozijnen, chocolade (Kvikk Lunsj), kanelboller van de bakker",
+        "Gasbrander + gasbus, pannetje, aansteker, lepels",
+        "Lichtgewicht tentje, slaapzakken, matjes",
+        "Afvalzak (alles mee terug), droogzakken voor in de kano"
+      ]
     },
     {
       "dag": 4,
       "datum": "2027-06-17",
-      "titel": "Naar het Lysefjord-gebied",
-      "regio": "rogaland",
-      "samenvatting": "Door het kale heuvelland van Dalane naar Egersund en verder richting Preikestolen.",
+      "titel": "Kanotocht dag 2, door naar Hovden",
+      "regio": "agder",
+      "samenvatting": "Terugpeddelen naar de camping. 's Middags verder door het Setesdal omhoog naar het hoogland bij Hovden.",
+      "rijden": {
+        "tijd": "1½ u",
+        "ferry": "",
+        "rijdag": true
+      },
       "stops": [
         {
-          "naam": "Egersund",
+          "naam": "Valle",
           "type": "stadje",
-          "lat": 58.4517,
-          "lng": 5.9997,
-          "info": "Kleine havenstad met witte houten huizen en aardewerkmuseum."
+          "lat": 59.205,
+          "lng": 7.533,
+          "info": "Traditioneel Setesdal-dorp met zilversmeden."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Valle",
+          "lat": 59.205,
+          "lng": 7.533,
+          "info": "Kleine supermarkt: vers aanvullen."
+        }
+      ],
+      "overnachting": {
+        "naam": "Vrij kamperen bij Hovden",
+        "type": "vrij",
+        "lat": 59.555,
+        "lng": 7.355,
+        "voorzieningen": [],
+        "park4night": "",
+        "info": "2e nacht off-grid (na de tent)."
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 5,
+      "datum": "2027-06-18",
+      "titel": "Over Haukeli naar Odda",
+      "regio": "vestland",
+      "samenvatting": "Over het kale fjell bij Haukeli, langs de staafkerk van Røldal en de dubbele waterval Låtefossen naar Odda aan de Sørfjord.",
+      "rijden": {
+        "tijd": "2½ u",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Haukeligrend",
+          "type": "stadje",
+          "lat": 59.733,
+          "lng": 7.55,
+          "info": "Begin van het hoogland."
         },
+        {
+          "naam": "Staafkerk Røldal",
+          "type": "bezienswaardigheid",
+          "lat": 59.8316,
+          "lng": 6.8226,
+          "info": "Middeleeuwse staafkerk met legende over het 'genezende' kruisbeeld.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Låtefossen",
+          "type": "bezienswaardigheid",
+          "lat": 59.9475,
+          "lng": 6.5836,
+          "info": "Dubbele waterval direct langs de weg; gratis."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Odda",
+          "lat": 60.069,
+          "lng": 6.546,
+          "info": "Boodschappen voor 2 dagen."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Odda",
+        "type": "camping",
+        "lat": 60.058,
+        "lng": 6.545,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 6,
+      "datum": "2027-06-19",
+      "titel": "Rustdag Odda – Buarbreen",
+      "regio": "vestland",
+      "samenvatting": "Geen rijden. Wandeling naar de gletsjertong Buarbreen (Folgefonna): wild en ruig, met touwen op een paar stukken.",
+      "rijden": {
+        "tijd": "10 min",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [],
+      "wandelingen": [
+        {
+          "naam": "Buarbreen",
+          "afstand_km": 5,
+          "hoogtemeters": 400,
+          "duur": "3–3½ u",
+          "niveau": "middel (stukken met touwen, glad bij regen)",
+          "lat": 60.032,
+          "lng": 6.47,
+          "info": "Start bij boerderij Buer. Niet het ijs op gaan."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Odda",
+          "lat": 60.069,
+          "lng": 6.546,
+          "info": "Zaterdag: inslaan voor zondag."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Odda",
+        "type": "camping",
+        "lat": 60.058,
+        "lng": 6.545,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "meenemen": []
+    },
+    {
+      "dag": 7,
+      "datum": "2027-06-20",
+      "titel": "Langs de Hardangerfjord naar Voss",
+      "regio": "vestland",
+      "samenvatting": "De Hardangerfjord: fruitboomgaarden bij Lofthus, de waterval Vøringsfossen boven Eidfjord, dorpje Ulvik en door naar Voss.",
+      "rijden": {
+        "tijd": "3½ u (met stops)",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Lofthus",
+          "type": "stadje",
+          "lat": 60.329,
+          "lng": 6.656,
+          "info": "Kersen- en appelboomgaarden aan de fjord."
+        },
+        {
+          "naam": "Kinsarvik",
+          "type": "stadje",
+          "lat": 60.375,
+          "lng": 6.722,
+          "info": ""
+        },
+        {
+          "naam": "Vøringsfossen",
+          "type": "bezienswaardigheid",
+          "lat": 60.427,
+          "lng": 7.252,
+          "info": "182 m hoge waterval met uitzichtbrug; korte wandelingetjes bij Fossli.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Ulvik",
+          "type": "stadje",
+          "lat": 60.568,
+          "lng": 6.915,
+          "info": "Rustig fjorddorp."
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Camping Voss",
+        "type": "camping",
+        "lat": 60.6265,
+        "lng": 6.419,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "Zondag: supermarkten dicht."
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 8,
+      "datum": "2027-06-21",
+      "titel": "Via de Nærøyfjord naar Jostedal",
+      "regio": "vestland",
+      "samenvatting": "Langs Stalheim en de smalle Nærøyfjord, door naar het oude houten Lærdalsøyri, ferry over de Sognefjord en het Jostedal in.",
+      "rijden": {
+        "tijd": "3½ u",
+        "ferry": "Fodnes – Mannheller (15 min)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Stalheim",
+          "type": "bezienswaardigheid",
+          "lat": 60.839,
+          "lng": 6.681,
+          "info": "Uitzicht over het Nærøydal."
+        },
+        {
+          "naam": "Gudvangen – Nærøyfjord",
+          "type": "bezienswaardigheid",
+          "lat": 60.877,
+          "lng": 6.841,
+          "info": "Smalste fjordarm van Noorwegen (UNESCO)."
+        },
+        {
+          "naam": "Lærdalsøyri",
+          "type": "stadje",
+          "lat": 61.099,
+          "lng": 7.479,
+          "info": "Oude houten huizen; mooi voor koffie."
+        },
+        {
+          "naam": "Ferry Fodnes – Mannheller",
+          "type": "ferry",
+          "lat": 61.15,
+          "lng": 7.383,
+          "info": "Over de Sognefjord.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Sogndal",
+          "lat": 61.229,
+          "lng": 7.1,
+          "info": "Boodschappen voor 2–3 dagen (Jotunheimen heeft weinig winkels)."
+        }
+      ],
+      "overnachting": {
+        "naam": "Vrij kamperen in het Jostedal",
+        "type": "vrij",
+        "lat": 61.63,
+        "lng": 7.28,
+        "voorzieningen": [],
+        "park4night": "",
+        "info": "1e nacht off-grid."
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 9,
+      "datum": "2027-06-22",
+      "titel": "Nigardsbreen en de Sognefjellsvegen",
+      "regio": "innlandet",
+      "samenvatting": "'s Ochtends naar de gletsjer Nigardsbreen, dan over de Sognefjellsvegen (hoogste bergweg van Noord-Europa) naar Lom en Jotunheimen.",
+      "rijden": {
+        "tijd": "3½ u (wandeling halverwege)",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Sognefjellet",
+          "type": "bezienswaardigheid",
+          "lat": 61.565,
+          "lng": 7.997,
+          "info": "Hoogste punt van de bergweg; sneeuwmuren mogelijk."
+        },
+        {
+          "naam": "Lom – staafkerk",
+          "type": "bezienswaardigheid",
+          "lat": 61.838,
+          "lng": 8.568,
+          "info": "Grote staafkerk.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Bakeriet i Lom",
+          "type": "koffie",
+          "lat": 61.8375,
+          "lng": 8.5665,
+          "info": "Bekende bakkerij: kanelboller!"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Nigardsbreen",
+          "afstand_km": 3,
+          "hoogtemeters": 100,
+          "duur": "1½–2 u",
+          "niveau": "makkelijk (rotsen bij de gletsjer)",
+          "lat": 61.673,
+          "lng": 7.233,
+          "info": "Met het bootje over het gletsjermeer of over het pad naar de gletsjertong. Niet zonder gids het ijs op."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Lom",
+          "lat": 61.838,
+          "lng": 8.567,
+          "info": "Aanvullen."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Bessheim / Gjendesheim",
+        "type": "camping",
+        "lat": 61.531,
+        "lng": 8.804,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "Voorzieningen nog controleren."
+      },
+      "meenemen": []
+    },
+    {
+      "dag": 10,
+      "datum": "2027-06-23",
+      "titel": "Wandeldag Jotunheimen – Knutshøe",
+      "regio": "innlandet",
+      "samenvatting": "Geen rijden. Wandeling over de bergkam Knutshøe met uitzicht op het groene Gjendemeer en Besseggen.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [],
+      "wandelingen": [
+        {
+          "naam": "Knutshøe",
+          "afstand_km": 8,
+          "hoogtemeters": 700,
+          "duur": "5–6 u",
+          "niveau": "pittig (klauterstukken)",
+          "lat": 61.495,
+          "lng": 8.813,
+          "info": "Start bij Gjendesheim. Minder druk dan Besseggen."
+        },
+        {
+          "naam": "Alternatief: Besseggen",
+          "afstand_km": 14,
+          "hoogtemeters": 1100,
+          "duur": "8–9 u",
+          "niveau": "zwaar, lang",
+          "lat": 61.495,
+          "lng": 8.813,
+          "info": "Boot naar Memurubu en terug over de kam. Op jullie tempo boven de 8 uur: alleen bij topvorm en goed weer. Boot en sneeuw half juni nog controleren."
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Camping Bessheim / Gjendesheim",
+        "type": "camping",
+        "lat": 61.531,
+        "lng": 8.804,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "meenemen": []
+    },
+    {
+      "dag": 11,
+      "datum": "2027-06-24",
+      "titel": "Via Dalsnibba naar Geiranger",
+      "regio": "more",
+      "samenvatting": "Terug via Lom en over de bergen naar het uitzichtpunt Dalsnibba, met de Geirangerfjord diep onder je. Afdalen naar Geiranger.",
+      "rijden": {
+        "tijd": "2½ u",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Lom",
+          "type": "stadje",
+          "lat": 61.838,
+          "lng": 8.567,
+          "info": "Nog een keer langs de bakker?"
+        },
+        {
+          "naam": "Dalsnibba",
+          "type": "bezienswaardigheid",
+          "lat": 62.045,
+          "lng": 7.272,
+          "info": "Uitzichtpunt op 1.500 m; tolweg.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Flydalsjuvet",
+          "type": "bezienswaardigheid",
+          "lat": 62.088,
+          "lng": 7.214,
+          "info": "Klassiek uitzicht over Geiranger."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Lom",
+          "lat": 61.838,
+          "lng": 8.567,
+          "info": "Boodschappen voor 2 dagen (Geiranger is duur)."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Geiranger",
+        "type": "camping",
+        "lat": 62.1,
+        "lng": 7.203,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 12,
+      "datum": "2027-06-25",
+      "titel": "Watervallen van Geiranger",
+      "regio": "more",
+      "samenvatting": "Geen rijden. De Fossevandring (trappen langs de waterval) en een wandeling naar Storseterfossen, waar je achter de waterval langs loopt.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [],
+      "wandelingen": [
+        {
+          "naam": "Fossevandring",
+          "afstand_km": 1.5,
+          "hoogtemeters": 150,
+          "duur": "1 u",
+          "niveau": "makkelijk (327 traptreden)",
+          "lat": 62.1,
+          "lng": 7.205,
+          "info": "Trappenpad langs de Storfossen, start in het dorp."
+        },
+        {
+          "naam": "Storseterfossen via Westerås",
+          "afstand_km": 6,
+          "hoogtemeters": 450,
+          "duur": "3–3½ u",
+          "niveau": "middel",
+          "lat": 62.105,
+          "lng": 7.133,
+          "info": "Vanaf boerderij Westerås naar de waterval waar je achterlangs loopt."
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Camping Geiranger",
+        "type": "camping",
+        "lat": 62.1,
+        "lng": 7.203,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "meenemen": []
+    },
+    {
+      "dag": 13,
+      "datum": "2027-06-26",
+      "titel": "Geirangerfjord per ferry, naar Fjærland",
+      "regio": "vestland",
+      "samenvatting": "De mooiste fjordtocht: ferry Geiranger – Hellesylt langs de Zeven Zusters. Via Stryn naar het boekendorp Fjærland bij de gletsjers.",
+      "rijden": {
+        "tijd": "2½ u",
+        "ferry": "Geiranger – Hellesylt (ca. 1 u, reserveren)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Ferry Geiranger – Hellesylt",
+          "type": "ferry",
+          "lat": 62.101,
+          "lng": 7.206,
+          "info": "Langs de watervallen De Zeven Zusters en De Vrijer.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Stryn",
+          "type": "stadje",
+          "lat": 61.905,
+          "lng": 6.717,
+          "info": ""
+        },
+        {
+          "naam": "Norsk Bremuseum, Fjærland",
+          "type": "bezienswaardigheid",
+          "lat": 61.428,
+          "lng": 6.765,
+          "info": "Gletsjermuseum.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Bøyabreen",
+          "type": "bezienswaardigheid",
+          "lat": 61.49,
+          "lng": 6.73,
+          "info": "Gletsjertong vlak bij de weg."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Stryn",
+          "lat": 61.905,
+          "lng": 6.717,
+          "info": "Zaterdag: inslaan voor zondag."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Fjærland",
+        "type": "camping",
+        "lat": 61.428,
+        "lng": 6.766,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 14,
+      "datum": "2027-06-27",
+      "titel": "Langs Balestrand naar Bergen",
+      "regio": "vestland",
+      "samenvatting": "Via het sfeervolle dorp Balestrand en twee korte ferry's naar Bergen.",
+      "rijden": {
+        "tijd": "3½ u",
+        "ferry": "Hella – Dragsvik (15 min), Lavik – Oppedal (20 min)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Balestrand",
+          "type": "stadje",
+          "lat": 61.208,
+          "lng": 6.533,
+          "info": "Houten villa's en kerkje; koffiestop."
+        },
+        {
+          "naam": "Ferry Lavik – Oppedal",
+          "type": "ferry",
+          "lat": 61.105,
+          "lng": 5.51,
+          "info": "",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Camping bij Bergen",
+        "type": "camping",
+        "lat": 60.338,
+        "lng": 5.46,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "Zondag: supermarkten dicht. Bus naar het centrum."
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 15,
+      "datum": "2027-06-28",
+      "titel": "Stadsdag Bergen",
+      "regio": "vestland",
+      "samenvatting": "Geen rijden; met de bus de stad in. Bryggen, de vismarkt, met de Fløibanen omhoog en lopend terug naar beneden, KODE-kunstmusea.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [
+        {
+          "naam": "Bryggen",
+          "type": "bezienswaardigheid",
+          "lat": 60.3975,
+          "lng": 5.3245,
+          "info": "Hanzekade met houten pakhuizen."
+        },
+        {
+          "naam": "Fløyen",
+          "type": "bezienswaardigheid",
+          "lat": 60.394,
+          "lng": 5.343,
+          "info": "Kabelspoor omhoog, lopend terug.",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "KODE",
+          "type": "bezienswaardigheid",
+          "lat": 60.389,
+          "lng": 5.326,
+          "info": "Kunstmusea (o.a. Munch).",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "wandelingen": [
+        {
+          "naam": "Fløyen naar beneden",
+          "afstand_km": 3,
+          "hoogtemeters": 0,
+          "duur": "1 u",
+          "niveau": "makkelijk",
+          "lat": 60.394,
+          "lng": 5.343,
+          "info": "Omlaag door het bos naar de stad."
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Bergen",
+          "lat": 60.39,
+          "lng": 5.33,
+          "info": "Boodschappen voor 2 dagen."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping bij Bergen",
+        "type": "camping",
+        "lat": 60.338,
+        "lng": 5.46,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "meenemen": []
+    },
+    {
+      "dag": 16,
+      "datum": "2027-06-29",
+      "titel": "Langs de kust naar Preikestolen",
+      "regio": "rogaland",
+      "samenvatting": "Zuidwaarts langs de kust met twee ferry's en door de onderzeese tunnel naar het Lysefjord-gebied.",
+      "rijden": {
+        "tijd": "4 u",
+        "ferry": "Halhjem – Sandvikvåg (40 min), Arsvågen – Mortavika (25 min)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Ferry Halhjem – Sandvikvåg",
+          "type": "ferry",
+          "lat": 60.148,
+          "lng": 5.241,
+          "info": "",
+          "prijs": "nog te controleren"
+        },
+        {
+          "naam": "Ferry Arsvågen – Mortavika",
+          "type": "ferry",
+          "lat": 59.36,
+          "lng": 5.333,
+          "info": "",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "boodschappen": [
+        {
+          "plaats": "Jørpeland",
+          "lat": 59.017,
+          "lng": 6.045,
+          "info": "Boodschappen voor 3 dagen (daarna geen winkels meer tot Kristiansand)."
+        }
+      ],
+      "overnachting": {
+        "naam": "Camping Preikestolen",
+        "type": "camping",
+        "lat": 58.9985,
+        "lng": 6.0986,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "wandelingen": [],
+      "meenemen": []
+    },
+    {
+      "dag": 17,
+      "datum": "2027-06-30",
+      "titel": "Preikestolen en de Lysefjord-ferry",
+      "regio": "rogaland",
+      "samenvatting": "Heel vroeg naar Preikestolen (vóór de drukte). 's Middags met de ferry door het hele Lysefjord naar Lysebotn en de haarspeldbochten omhoog naar Kjerag.",
+      "rijden": {
+        "tijd": "45 min",
+        "ferry": "Forsand – Lysebotn (ca. 2 u, reserveren; vertrektijd bepaalt de planning)",
+        "rijdag": true
+      },
+      "stops": [
         {
           "naam": "Preikestolen parkeerplaats",
           "type": "parkeren",
           "lat": 58.9927,
           "lng": 6.1376,
-          "info": "Start van de wandeling naar Preikestolen. Parkeerprijs nog te controleren."
+          "info": "Start van de wandeling.",
+          "prijs": "nog te controleren"
         },
         {
-          "naam": "Preikestolen",
-          "type": "bezienswaardigheid",
-          "lat": 58.9864,
-          "lng": 6.1904,
-          "info": "Beroemde rotsplateau boven het Lysefjord (wandeling op een latere dag)."
+          "naam": "Ferry Forsand – Lysebotn",
+          "type": "ferry",
+          "lat": 58.901,
+          "lng": 6.094,
+          "info": "Door het hele Lysefjord.",
+          "prijs": "nog te controleren"
         },
         {
-          "naam": "Camping bij Preikestolen",
-          "type": "overnachting",
-          "lat": 58.9985,
-          "lng": 6.0986,
-          "info": "Voorbeeldplek: camping met voorzieningen."
+          "naam": "Lysebotn",
+          "type": "stadje",
+          "lat": 59.055,
+          "lng": 6.649,
+          "info": "Eind van het fjord; 27 haarspeldbochten omhoog."
         }
       ],
-      "voorbeeld": true
-    },
-    {
-      "dag": 5,
-      "datum": "2027-06-18",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 6,
-      "datum": "2027-06-19",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 7,
-      "datum": "2027-06-20",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 8,
-      "datum": "2027-06-21",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 9,
-      "datum": "2027-06-22",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 10,
-      "datum": "2027-06-23",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 11,
-      "datum": "2027-06-24",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 12,
-      "datum": "2027-06-25",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 13,
-      "datum": "2027-06-26",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 14,
-      "datum": "2027-06-27",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 15,
-      "datum": "2027-06-28",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 16,
-      "datum": "2027-06-29",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
-    },
-    {
-      "dag": 17,
-      "datum": "2027-06-30",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
+      "wandelingen": [
+        {
+          "naam": "Preikestolen",
+          "afstand_km": 8,
+          "hoogtemeters": 500,
+          "duur": "5 u",
+          "niveau": "middel (rotstrappen)",
+          "lat": 58.9927,
+          "lng": 6.1376,
+          "info": "Rond 6–7 uur starten, dan haal je de middagferry."
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Kjerag-parkeerplaats Øygardstøl",
+        "type": "camperplaats",
+        "lat": 59.031,
+        "lng": 6.594,
+        "voorzieningen": [
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "1e nacht off-grid. Overnachten toegestaan? Nog controleren."
+      },
+      "meenemen": []
     },
     {
       "dag": 18,
       "datum": "2027-07-01",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
+      "titel": "Kjerag",
+      "regio": "rogaland",
+      "samenvatting": "Geen rijden. De wandeling naar Kjerag met de beroemde vastgeklemde rots Kjeragbolten, 1.000 m boven het Lysefjord.",
+      "rijden": {
+        "tijd": "geen",
+        "ferry": "",
+        "rijdag": false
+      },
+      "stops": [],
+      "wandelingen": [
+        {
+          "naam": "Kjerag",
+          "afstand_km": 11,
+          "hoogtemeters": 800,
+          "duur": "7–8 u",
+          "niveau": "zwaar (3 steile klimmen met kettingen)",
+          "lat": 59.031,
+          "lng": 6.594,
+          "info": "Alleen bij droog weer; sneeuw mogelijk tot eind juni. Parkeren is betaald."
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Kjerag-parkeerplaats Øygardstøl",
+        "type": "camperplaats",
+        "lat": 59.031,
+        "lng": 6.594,
+        "voorzieningen": [
+          "toilet"
+        ],
+        "park4night": "",
+        "info": "2e nacht off-grid."
+      },
+      "meenemen": []
     },
     {
       "dag": 19,
       "datum": "2027-07-02",
-      "titel": "Nog te plannen",
-      "regio": null,
-      "samenvatting": "",
-      "stops": []
+      "titel": "Door Sirdal naar Kristiansand en de ferry",
+      "regio": "agder",
+      "samenvatting": "Door het stille Sirdal terug naar Kristiansand en met de ferry naar Hirtshals.",
+      "rijden": {
+        "tijd": "3½ u",
+        "ferry": "Kristiansand – Hirtshals (ca. 3¼ u, tijden handmatig invullen)",
+        "rijdag": true
+      },
+      "stops": [
+        {
+          "naam": "Tonstad (Sirdal)",
+          "type": "stadje",
+          "lat": 58.664,
+          "lng": 6.715,
+          "info": ""
+        },
+        {
+          "naam": "Veerhaven Kristiansand",
+          "type": "ferry",
+          "lat": 58.144,
+          "lng": 7.989,
+          "info": "Ferry naar Hirtshals.",
+          "prijs": "nog te controleren"
+        }
+      ],
+      "boodschappen": [],
+      "overnachting": {
+        "naam": "Camping bij Hirtshals",
+        "type": "camping",
+        "lat": 57.579,
+        "lng": 9.942,
+        "voorzieningen": [
+          "stroom",
+          "water",
+          "afvoer",
+          "douche",
+          "toilet"
+        ],
+        "park4night": "",
+        "info": ""
+      },
+      "wandelingen": [],
+      "meenemen": []
     },
     {
       "dag": 20,
@@ -246,7 +1057,16 @@
       "titel": "Terug naar Nederland",
       "regio": "onderweg",
       "samenvatting": "Laatste rijdag naar huis.",
-      "stops": []
+      "rijden": {
+        "tijd": "~9 u (buiten Noorwegen)",
+        "ferry": "",
+        "rijdag": true
+      },
+      "stops": [],
+      "boodschappen": [],
+      "wandelingen": [],
+      "overnachting": null,
+      "meenemen": []
     }
   ]
 }

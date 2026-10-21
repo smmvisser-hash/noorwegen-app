@@ -4,6 +4,8 @@ export const REGIO = {
   agder: { naam: 'Agder', kleur: '#c8961e' },
   rogaland: { naam: 'Rogaland', kleur: '#b0122d' },
   vestland: { naam: 'Vestland', kleur: '#1d5f8a' },
+  innlandet: { naam: 'Innlandet', kleur: '#4f7a3a' },
+  more: { naam: 'Møre og Romsdal', kleur: '#6a4c93' },
   onderweg: { naam: 'Onderweg', kleur: '#6b7280' },
 };
 

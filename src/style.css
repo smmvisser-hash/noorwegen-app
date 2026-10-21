@@ -107,7 +107,6 @@ h3 { color: var(--blauw); margin: 24px 0 8px; }
   text-decoration: none;
 }
 .dagkaart:active { background: #eef0f5; }
-.dagkaart--leeg .dagtitel { color: var(--stil); font-weight: 500; }
 .dagnummer {
   flex: none;
   width: 52px;
@@ -241,3 +240,55 @@ body.met-kaart #app { flex: 1; min-height: 0; display: flex; }
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+/* ---------- Kenmerken, blokken en kaartpunten ---------- */
+.kenmerken {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin: 4px 0 0;
+}
+.kenmerken span {
+  font-size: 0.78rem;
+  padding: 1px 8px;
+  border-radius: 99px;
+  background: #eef0f5;
+  color: var(--tekst);
+  white-space: nowrap;
+}
+.blok {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: 1px solid var(--lijn);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+}
+.feiten {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  margin: 6px 0;
+}
+.feiten dt { color: var(--stil); }
+.feiten dd { margin: 0; font-weight: 600; }
+.vinklijst { padding-left: 1.2rem; }
+.vinklijst li { margin-bottom: 6px; }
+.kaartpunt span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--wit);
+  border: 3px solid var(--accent);
+  color: var(--blauw);
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
+}
+.leaflet-control-layers-toggle { width: 44px; height: 44px; }
+.leaflet-control-layers label { font-size: 1rem; padding: 6px 0; }

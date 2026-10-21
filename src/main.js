@@ -15,16 +15,16 @@ function route() {
   sluitKaart();
   window.scrollTo(0, 0);
 
-  let tab = 'dagen';
-  if (delen[0] === 'kaart') {
-    tab = 'kaart';
+  const tab = delen[0] === 'kaart' ? 'kaart' : 'dagen';
+  // Eerst de opmaak omzetten, zodat de kaart meteen de juiste grootte heeft.
+  document.body.classList.toggle('met-kaart', tab === 'kaart');
+  if (tab === 'kaart') {
     toonKaart(app, dagen, nummer);
   } else if (delen[0] === 'dag' && nummer) {
     toonDag(app, dagen, nummer);
   } else {
-    toonDagen(app, dagen);
+    toonDagen(app, dagen, reis.reis);
   }
-  document.body.classList.toggle('met-kaart', tab === 'kaart');
   for (const link of document.querySelectorAll('.onderbalk a')) {
     link.toggleAttribute('aria-current', link.dataset.tab === tab);
   }
