@@ -4,17 +4,21 @@ import reis from './data/reis.json';
 import { toonDagen } from './views/dagen.js';
 import { toonDag } from './views/dag.js';
 import { toonKaart, sluitKaart } from './views/kaart.js';
+import { toonSync, statusTekst } from './views/sync.js';
+import { maakOpslag } from './opslag.js';
+import { backend } from './supabase.js';
 
 const app = document.getElementById('app');
 const { dagen } = reis;
+const opslag = maakOpslag({ backend });
 
 // Eenvoudige navigatie via het deel na # in de adresbalk:
 // #/ = dagen, #/dag/3 = dag 3, #/kaart = kaart, #/kaart/3 = kaart van dag 3.
-function route() {
+function route(bovenaan = true) {
   const delen = location.hash.replace(/^#\/?/, '').split('/');
   const nummer = delen[1] ? Number(delen[1]) : null;
   sluitKaart();
-  window.scrollTo(0, 0);
+  if (bovenaan) window.scrollTo(0, 0);
 
   const tab = delen[0] === 'kaart' ? 'kaart' : 'dagen';
   // Eerst de opmaak omzetten, zodat de kaart meteen de juiste grootte heeft.
@@ -22,7 +26,9 @@ function route() {
   if (tab === 'kaart') {
     toonKaart(app, dagen, nummer);
   } else if (delen[0] === 'dag' && nummer) {
-    toonDag(app, dagen, nummer);
+    toonDag(app, dagen, nummer, opslag);
+  } else if (delen[0] === 'sync') {
+    toonSync(app, opslag);
   } else {
     toonDagen(app, dagen, reis.reis);
   }
@@ -60,6 +66,29 @@ document.addEventListener('visibilitychange', () => {
 setInterval(toonVerbinding, 30000);
 route();
 toonVerbinding();
+
+// Synchronisatie: bij starten, bij terugkeer van internet, bij terughalen van de app en elke minuut.
+function toonSyncStatus() {
+  const s = opslag.status();
+  const knop = document.getElementById('syncstatus');
+  knop.dataset.toestand = s.toestand;
+  knop.title = statusTekst(s).uitleg;
+  knop.querySelector('span').textContent = { bijgewerkt: 'Gedeeld', bezig: 'Bezig…', wacht: `${s.wachtend} wacht`, offline: 'Offline', uitgelogd: 'Inloggen', fout: 'Probleem', 'niet-ingesteld': 'Lokaal' }[s.toestand] ?? '…';
+}
+opslag.luister((soort) => {
+  toonSyncStatus();
+  const veld = document.activeElement?.tagName;
+  // Gegevens van een ander apparaat binnengekomen: scherm bijwerken (niet tijdens typen, niet op de kaart).
+  if (soort === 'data' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(veld) && !location.hash.startsWith('#/kaart')) route(false);
+  if (soort === 'status' && location.hash === '#/sync' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(veld)) route(false);
+});
+window.addEventListener('online', () => opslag.synchroniseer());
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') opslag.synchroniseer();
+});
+setInterval(() => opslag.synchroniseer(), 60000);
+toonSyncStatus();
+opslag.synchroniseer();
 
 // Offline-opslag registreren. Komt er een nieuwe versie binnen, dan herlaadt de app zichzelf,
 // zodat je niet eerst nog de oude opgeslagen versie ziet. Er wordt elk uur gekeken of er een nieuwe versie is,

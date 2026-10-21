@@ -1,5 +1,6 @@
 import { regioVan, korteDatum, escapeHtml } from '../regio.js';
 import { kenmerken } from './dagen.js';
+import { vasteId } from '../opslag.js';
 
 const TYPE_NAAM = {
   ferry: 'Ferry',
@@ -18,7 +19,7 @@ const SLAAP_NAAM = {
 };
 
 // Detailscherm van één dag.
-export function toonDag(app, dagen, nummer) {
+export function toonDag(app, dagen, nummer, opslag) {
   const dag = dagen.find((d) => d.dag === nummer);
   if (!dag) {
     app.innerHTML = `<section class="scherm"><p>Deze dag bestaat niet.</p><a class="knop" href="#/">Terug</a></section>`;
@@ -73,7 +74,14 @@ export function toonDag(app, dagen, nummer) {
           <span class="stoptype">${escapeHtml(SLAAP_NAAM[dag.overnachting.type] ?? dag.overnachting.type)}</span>
           <strong>${escapeHtml(dag.overnachting.naam)}</strong>
           <span>Voorzieningen: ${dag.overnachting.voorzieningen.length ? escapeHtml(dag.overnachting.voorzieningen.join(', ')) : 'geen (off-grid)'}</span>
-          <span>park4night-code: ${dag.overnachting.park4night ? escapeHtml(dag.overnachting.park4night) : '<span class="stil">nog niet ingevuld</span>'}</span>
+          <form class="p4n" id="p4n">
+            <label for="p4n-code">park4night-code</label>
+            <div class="p4n-rij">
+              <input id="p4n-code" name="code" inputmode="numeric" autocomplete="off" placeholder="bijv. 123456" value="${escapeHtml(park4night(dag, opslag))}">
+              <button class="knop knop--klein" type="submit">Bewaar</button>
+            </div>
+            <span class="stil" id="p4n-melding" aria-live="polite"></span>
+          </form>
           ${dag.overnachting.info ? `<span>${escapeHtml(dag.overnachting.info)}</span>` : ''}
           ${prijsRegel(dag.overnachting)}
         </div>` : ''}
@@ -103,6 +111,19 @@ export function toonDag(app, dagen, nummer) {
         ${volgende ? `<a class="knop knop--licht" href="#/dag/${volgende.dag}">Dag ${volgende.dag} →</a>` : '<span></span>'}
       </div>
     </section>`;
+
+  // park4night-code bewaren (gedeeld met de andere apparaten).
+  app.querySelector('#p4n')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const code = e.target.code.value.trim();
+    opslag.bewaar('park4night', vasteId('park4night', dag.dag), { dag: dag.dag, code });
+    e.target.code.blur();
+    app.querySelector('#p4n-melding').textContent = code ? 'Bewaard.' : 'Gewist.';
+  });
+}
+
+function park4night(dag, opslag) {
+  return opslag?.haal(vasteId('park4night', dag.dag))?.data.code ?? dag.overnachting.park4night ?? '';
 }
 
 function wandelKaart(w) {

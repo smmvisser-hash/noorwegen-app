@@ -326,3 +326,44 @@ details.verhaal p, details.meer p { margin: 4px 0 8px; }
 .knop--klein { min-height: 44px; padding: 6px 14px; font-size: 0.9rem; align-self: flex-start; }
 .bronregel { font-size: 0.72rem; color: var(--stil); }
 .versie { text-align: center; font-size: 0.8rem; color: var(--stil); margin: 20px 0 8px; }
+
+/* ---------- Synchronisatie ---------- */
+.kop-tekst { flex: 1; min-width: 0; }
+.syncstatus {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 10px;
+  border-radius: 99px;
+  background: rgb(255 255 255 / 0.12);
+  color: var(--wit);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.syncstatus i { width: 10px; height: 10px; border-radius: 50%; background: #c9d2e8; }
+.syncstatus[data-toestand='bijgewerkt'] i { background: #3ccf6e; }
+.syncstatus[data-toestand='wacht'] i,
+.syncstatus[data-toestand='offline'] i,
+.syncstatus[data-toestand='uitgelogd'] i { background: #f5b13d; }
+.syncstatus[data-toestand='fout'] i { background: #ff6b6b; }
+.formulier { display: flex; flex-direction: column; gap: 12px; margin: 16px 0; }
+.formulier label, .p4n label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; }
+.formulier input, .p4n input {
+  min-height: 48px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid var(--lijn);
+  border-radius: 8px;
+}
+.formulier input:focus, .p4n input:focus { outline: none; border-color: var(--blauw); }
+.foutmelding { color: var(--rood); font-weight: 600; margin: 0; }
+.knoppen { display: flex; flex-wrap: wrap; gap: 10px; }
+button.knop { border: 0; font: inherit; font-weight: 600; cursor: pointer; }
+button.knop--licht { border: 2px solid var(--blauw); }
+.p4n { display: flex; flex-direction: column; gap: 4px; margin: 6px 0; }
+.p4n-rij { display: flex; gap: 8px; }
+.p4n-rij input { flex: 1; min-width: 0; }
+.p4n-rij .knop--klein { align-self: stretch; }
