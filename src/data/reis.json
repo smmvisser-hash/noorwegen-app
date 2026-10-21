@@ -347,7 +347,16 @@
           "lat": 60.033,
           "lng": 6.475,
           "info": "Ongeveer 1½–2 uur heen naar de gletsjertong, door het dal langs de gletsjerrivier. Niet het ijs op zonder gids. Bij mist of sneeuw kan de markering lastig te zien zijn.",
-          "beschrijving": "Buarbreen (ook Buerbreen) is een gletsjertong van de Folgefonna die in het Buerdalen naar beneden hangt. Het pad volgt de woeste gletsjerrivier langs oude boerderijen van Buer, over rotsen en morenes, tot vlak bij het blauwe ijs. Rond 1900 reikte het ijs nog tot bijna bij de boerderijen; sindsdien is de gletsjer flink teruggetrokken. Met een gids (Hardanger Breføring) kun je ook óp het ijs."
+          "beschrijving": "Buarbreen (ook Buerbreen) is een gletsjertong van de Folgefonna die in het Buerdalen naar beneden hangt. Het pad volgt de woeste gletsjerrivier langs oude boerderijen van Buer, over rotsen en morenes, tot vlak bij het blauwe ijs. Rond 1900 reikte het ijs nog tot bijna bij de boerderijen; sindsdien is de gletsjer flink teruggetrokken. Met een gids (Hardanger Breføring) kun je ook óp het ijs.",
+          "afbeelding": {
+            "src": "fotos/buarbreen.jpg",
+            "breedte": 800,
+            "hoogte": 600,
+            "bijschrift": "Buarbreen",
+            "maker": "Svein Harkestad",
+            "licentie": "CC BY-SA 3.0",
+            "bron": "https://commons.wikimedia.org/wiki/File:Buerbreen.JPG"
+          }
         },
         {
           "naam": "Alternatief: Bondhusvatnet",
