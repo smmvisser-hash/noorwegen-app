@@ -293,3 +293,26 @@ body.met-kaart #app { flex: 1; min-height: 0; display: flex; }
 .leaflet-control-layers-toggle { width: 44px; height: 44px; }
 .leaflet-control-layers label { font-size: 1rem; padding: 6px 0; }
 .verhaal { background: #f7f4ec; }
+
+/* ---------- Uitklapbare teksten en foto's ---------- */
+details.meer { margin-top: 6px; }
+details.meer summary,
+details.verhaal summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--blauw);
+}
+details.verhaal summary { font-weight: 700; }
+details.verhaal p, details.meer p { margin: 4px 0 8px; }
+.foto { margin: 8px 0; }
+.foto img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #e6e8ee;
+}
+.foto figcaption { font-size: 0.75rem; color: var(--stil); margin-top: 4px; }

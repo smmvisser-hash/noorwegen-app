@@ -57,6 +57,7 @@ export function toonDag(app, dagen, nummer) {
               <strong>${escapeHtml(s.naam)}</strong>
               ${s.info ? `<span>${escapeHtml(s.info)}</span>` : ''}
               ${s.prijs ? `<span class="stil">Prijs: ${escapeHtml(s.prijs)}</span>` : ''}
+              ${meerOver(s)}
             </li>`).join('')}
         </ol>` : ''}
 
@@ -84,13 +85,17 @@ export function toonDag(app, dagen, nummer) {
         <h3>Achtergrond</h3>
         <p>${escapeHtml(dag.achtergrond)}</p>` : ''}
 
+      ${dag.omgeving ? `
+        <h3>Natuur en omgeving</h3>
+        <p>${escapeHtml(dag.omgeving)}</p>` : ''}
+
       ${dag.verhalen.length ? `
         <h3>Verhalen en legendes</h3>
         ${dag.verhalen.map((v) => `
-          <div class="blok verhaal">
-            <strong>${escapeHtml(v.titel)}</strong>
-            <span>${escapeHtml(v.tekst)}</span>
-          </div>`).join('')}` : ''}
+          <details class="blok verhaal">
+            <summary>${escapeHtml(v.titel)}</summary>
+            <p>${escapeHtml(v.tekst)}</p>
+          </details>`).join('')}` : ''}
 
       <div class="bladeren">
         ${vorige ? `<a class="knop knop--licht" href="#/dag/${vorige.dag}">← Dag ${vorige.dag}</a>` : '<span></span>'}
@@ -111,5 +116,28 @@ function wandelKaart(w) {
         <dt>Markering</dt><dd>${escapeHtml(w.markering)}</dd>
       </dl>
       <span>${escapeHtml(w.info)}</span>
+      ${meerOver(w)}
     </div>`;
+}
+
+// Foto (als die er is) en een uitklapbaar stuk met de uitgebreide beschrijving.
+function meerOver(item) {
+  return `
+    ${item.afbeelding ? foto(item.afbeelding) : ''}
+    ${item.beschrijving ? `
+      <details class="meer">
+        <summary>Meer over ${escapeHtml(item.naam)}</summary>
+        <p>${escapeHtml(item.beschrijving)}</p>
+      </details>` : ''}`;
+}
+
+function foto(a) {
+  return `
+    <figure class="foto">
+      <img src="${escapeHtml(a.src)}" alt="${escapeHtml(a.bijschrift ?? '')}" loading="lazy" width="${a.breedte ?? ''}" height="${a.hoogte ?? ''}">
+      <figcaption>
+        ${escapeHtml(a.bijschrift ?? '')}${a.maker ? ` · Foto: ${escapeHtml(a.maker)}` : ''}${a.licentie ? ` (${escapeHtml(a.licentie)})` : ''}
+        ${a.bron ? ` · <a href="${escapeHtml(a.bron)}" target="_blank" rel="noopener">bron</a>` : ''}
+      </figcaption>
+    </figure>`;
 }
