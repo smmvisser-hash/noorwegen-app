@@ -16,6 +16,20 @@ export function statusTekst(s) {
   return { uitleg: UITLEG[s.toestand] ?? s.toestand, tijd };
 }
 
+// Vertaalt de foutmelding van Supabase naar gewone taal, met de originele melding erachter.
+function inlogFout(err) {
+  if (!navigator.onLine) return 'Voor inloggen is internet nodig.';
+  const melding = String(err?.message ?? err ?? '');
+  const uitleg = [
+    [/invalid login credentials/i, 'E-mailadres of wachtwoord klopt niet, of dit account bestaat niet in dit Supabase-project (Authentication → Users).'],
+    [/email not confirmed/i, 'Dit account is nog niet bevestigd. Maak het in Supabase opnieuw aan met "Auto confirm user" aangevinkt.'],
+    [/secret api key/i, 'In Netlify staat de geheime (secret) sleutel. Gebruik de publishable/anon key.'],
+    [/invalid api key|no api key|apikey/i, 'De sleutel in Netlify (VITE_SUPABASE_ANON_KEY) klopt niet.'],
+    [/failed to fetch|networkerror|load failed|fetch/i, 'Supabase is niet bereikbaar. Klopt de Project URL in Netlify (VITE_SUPABASE_URL)? Die moet eruitzien als https://….supabase.co'],
+  ].find(([patroon]) => patroon.test(melding));
+  return `${uitleg ? uitleg[1] : 'Inloggen lukte niet.'} (Melding: ${melding || 'onbekend'})`;
+}
+
 // Scherm met synchronisatiestatus en inloggen/uitloggen.
 export async function toonSync(app, opslag) {
   const s = opslag.status();
@@ -64,7 +78,7 @@ export async function toonSync(app, opslag) {
       await opslag.synchroniseer();
       toonSync(app, opslag);
     } catch (err) {
-      fout.textContent = navigator.onLine ? 'Inloggen lukte niet. Klopt het e-mailadres en wachtwoord?' : 'Voor inloggen is internet nodig.';
+      fout.textContent = inlogFout(err);
       fout.hidden = false;
     }
   });
