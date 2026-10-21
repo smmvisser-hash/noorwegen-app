@@ -120,21 +120,24 @@ function wandelKaart(w) {
     </div>`;
 }
 
-// Uitklapbaar stuk met de uitgebreide beschrijving en (als die er is) een foto.
+// Foto (als die er is) en een uitklapbaar stuk met de uitgebreide beschrijving.
 function meerOver(item) {
-  if (!item.beschrijving && !item.afbeelding) return '';
   return `
-    <details class="meer">
-      <summary>Meer over ${escapeHtml(item.naam)}</summary>
-      ${item.afbeelding ? foto(item.afbeelding) : ''}
-      ${item.beschrijving ? `<p>${escapeHtml(item.beschrijving)}</p>` : ''}
-    </details>`;
+    ${item.afbeelding ? foto(item.afbeelding) : ''}
+    ${item.beschrijving ? `
+      <details class="meer">
+        <summary>Meer over ${escapeHtml(item.naam)}</summary>
+        <p>${escapeHtml(item.beschrijving)}</p>
+      </details>` : ''}`;
 }
 
 function foto(a) {
   return `
     <figure class="foto">
       <img src="${escapeHtml(a.src)}" alt="${escapeHtml(a.bijschrift ?? '')}" loading="lazy" width="${a.breedte ?? ''}" height="${a.hoogte ?? ''}">
-      <figcaption>${escapeHtml(a.bijschrift ?? '')}${a.maker ? ` · Foto: ${escapeHtml(a.maker)}` : ''}${a.licentie ? ` (${escapeHtml(a.licentie)})` : ''}</figcaption>
+      <figcaption>
+        ${escapeHtml(a.bijschrift ?? '')}${a.maker ? ` · Foto: ${escapeHtml(a.maker)}` : ''}${a.licentie ? ` (${escapeHtml(a.licentie)})` : ''}
+        ${a.bron ? ` · <a href="${escapeHtml(a.bron)}" target="_blank" rel="noopener">bron</a>` : ''}
+      </figcaption>
     </figure>`;
 }
