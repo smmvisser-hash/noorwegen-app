@@ -26,7 +26,7 @@ export default defineConfig({
       workbox: {
         // Alle bestanden van de app zelf worden bij de eerste keer opslaan in de cache gezet,
         // zodat de app daarna ook zonder internet opent.
-        globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,jpg,webp,json,webmanifest}'],
         navigateFallback: '/index.html',
         runtimeCaching: [
           {
