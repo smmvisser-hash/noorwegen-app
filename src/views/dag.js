@@ -2,6 +2,9 @@ import { regioVan, korteDatum, escapeHtml } from '../regio.js';
 import { kenmerken } from './dagen.js';
 import { vasteId } from '../opslag.js';
 import { toonRugzak } from './paklijst.js';
+import { vulWeer } from './weer.js';
+import { ferryHtml, vulFerry } from './ferry.js';
+import { ferriesOpDag } from '../data/ferries.js';
 
 const TYPE_NAAM = {
   ferry: 'Ferry',
@@ -30,6 +33,8 @@ export function toonDag(app, dagen, nummer, opslag) {
   const vorige = dagen.find((d) => d.dag === nummer - 1);
   const volgende = dagen.find((d) => d.dag === nummer + 1);
   const opKaart = dag.stops.length || dag.wandelingen.length || dag.overnachting;
+  const plek = weerPlek(dag, dagen);
+  const ferries = ferriesOpDag(dag.dag);
 
   app.innerHTML = `
     <section class="scherm dagdetail" style="--accent:${regio.kleur}">
@@ -40,11 +45,16 @@ export function toonDag(app, dagen, nummer, opslag) {
       <p>${escapeHtml(dag.samenvatting)}</p>
       ${opKaart ? `<a class="knop" href="#/kaart/${dag.dag}">Bekijk deze dag op de kaart</a>` : ''}
 
+      ${plek ? `
+        <h3>Weer</h3>
+        <div class="blok weer" id="weer-dag"><p class="stil weer-plek">${escapeHtml(plek.naam)}</p><div class="weer-inhoud"></div></div>` : ''}
+
       <h3>Rijden</h3>
       <dl class="feiten">
         <dt>Rijtijd</dt><dd>${escapeHtml(dag.rijden.tijd)}${dag.rijden.rijdag ? '' : ' (telt niet als rijdag)'}</dd>
         ${dag.rijden.ferry ? `<dt>Ferry</dt><dd>${escapeHtml(dag.rijden.ferry)}</dd>` : ''}
       </dl>
+      ${ferries.map((f) => ferryHtml(f, dag, opslag)).join('')}
 
       ${dag.wandelingen.length ? `
         <h3>Wandelingen</h3>
@@ -115,6 +125,17 @@ export function toonDag(app, dagen, nummer, opslag) {
       </div>
     </section>`;
 
+  if (plek) vulWeer(app.querySelector('#weer-dag .weer-inhoud'), { lat: plek.lat, lon: plek.lng, datum: dag.datum });
+  for (const f of ferries) vulFerry(app.querySelector(`[data-ferry="${f.id}"]`), f, dag, opslag);
+  // Weer bij het startpunt van een wandeling: pas ophalen als je het openklapt.
+  for (const blok of app.querySelectorAll('details.weer-start')) {
+    blok.addEventListener('toggle', () => {
+      if (!blok.open || blok.dataset.geladen) return;
+      blok.dataset.geladen = '1';
+      vulWeer(blok.querySelector('.weer-inhoud'), { lat: Number(blok.dataset.lat), lon: Number(blok.dataset.lng), datum: dag.datum });
+    });
+  }
+
   const rugzak = app.querySelector('#rugzak');
   if (rugzak) toonRugzak(rugzak, dag.dag, opslag);
 
@@ -126,6 +147,12 @@ export function toonDag(app, dagen, nummer, opslag) {
     e.target.code.blur();
     app.querySelector('#p4n-melding').textContent = code ? 'Bewaard.' : 'Gewist.';
   });
+}
+
+// Plek voor het weerbericht: de overnachting van die dag (of anders die van de vorige dag).
+function weerPlek(dag, dagen) {
+  const o = dag.overnachting ?? dagen.find((d) => d.dag === dag.dag - 1)?.overnachting;
+  return o?.lat != null ? { lat: o.lat, lng: o.lng, naam: `Bij de overnachting: ${o.naam}` } : null;
 }
 
 function park4night(dag, opslag) {
@@ -146,6 +173,11 @@ function wandelKaart(w) {
       <span>${escapeHtml(w.info)}</span>
       ${prijsRegel(w)}
       ${w.route ? routeBlok(w.route) : ''}
+      ${w.lat != null ? `
+        <details class="weer-start" data-lat="${w.lat}" data-lng="${w.lng}">
+          <summary>🌦️ Weer bij het startpunt</summary>
+          <div class="weer-inhoud"></div>
+        </details>` : ''}
       ${meerOver(w)}
     </div>`;
 }

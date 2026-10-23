@@ -484,3 +484,64 @@ button.knop--licht { border: 2px solid var(--blauw); }
   border-radius: 8px;
 }
 .rugzak-toevoegen .knop { min-width: 56px; font-size: 1.4rem; }
+
+/* ---------- Weer en ferry's ---------- */
+.weer { gap: 6px; }
+.weer-plek { margin: 0; font-size: 0.85rem; }
+.weer-kop { margin: 0 0 4px; }
+.weer-kop span:first-of-type { font-weight: 700; color: var(--blauw); }
+.weer-dag + .weer-dag { margin-top: 10px; }
+.weer-delen { list-style: none; margin: 0; padding: 0; }
+.weer-delen li {
+  display: grid;
+  grid-template-columns: 4.6rem 2rem 2.6rem 1fr;
+  grid-template-areas: 'deel icoon temp wind' 'deel icoon temp regen';
+  align-items: center;
+  gap: 0 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--lijn);
+}
+.weer-delen li:last-child { border-bottom: 0; }
+.weer-deel { grid-area: deel; display: flex; flex-direction: column; font-weight: 600; }
+.weer-icoon { grid-area: icoon; font-size: 1.6rem; text-align: center; }
+.weer-temp { grid-area: temp; font-size: 1.3rem; color: var(--blauw); }
+.weer-wind { grid-area: wind; }
+.weer-regen { grid-area: regen; }
+.weer-delen small { color: var(--stil); font-weight: 400; font-size: 0.8rem; margin-left: 6px; }
+.weer-deel small { margin-left: 0; }
+.weer-bron { font-size: 0.8rem; margin: 6px 0 0; }
+.weer .knop { margin-top: 6px; }
+.weer-start { margin: 8px 0 4px; }
+.weer-start summary { font-weight: 600; cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.weer-start .weer-inhoud { display: flex; flex-direction: column; }
+.vandaag { text-decoration: none; color: var(--blauw); }
+
+.ferry { gap: 6px; margin-top: 10px; }
+.label {
+  align-self: flex-start;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.label--rood { background: #fde3e7; color: #8a0a23; }
+.label--oranje { background: #fff0d6; color: #7a4a00; }
+.label--groen { background: #def4e4; color: #1d5e2f; }
+.ferry p { margin: 4px 0 0; }
+.tijden { list-style: none; margin: 4px 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tijden li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  padding: 4px 8px;
+  border: 1px solid var(--lijn);
+  border-radius: 8px;
+  font-weight: 700;
+  color: var(--blauw);
+}
+.tijden small { font-weight: 400; color: var(--stil); font-size: 0.75rem; }
+.ferry-boeking { margin: 6px 0; }
+.ferry-boeking .twee { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ferry-lijst summary { cursor: pointer; min-height: 44px; padding: 4px 0; }
+.ferry-lijst p { margin: 4px 0; }
