@@ -3,6 +3,7 @@ import { vulWeer } from './weer.js';
 import { vandaagOslo } from '../weer.js';
 import { FERRIES } from '../data/ferries.js';
 import { boekingId } from './ferry.js';
+import { polarstepsLink } from '../polarsteps.js';
 
 // Startscherm: alle 20 reisdagen onder elkaar.
 export function toonDagen(app, dagen, reis, opslag) {
@@ -17,6 +18,7 @@ export function toonDagen(app, dagen, reis, opslag) {
           <strong>Vandaag: dag ${vandaag.dag} · ${escapeHtml(vandaag.titel)}</strong>
         </a>
         <div class="blok weer" id="weer-vandaag"></div>` : ''}
+      ${polarstepsLink(opslag) ? `<a class="knop polarsteps-knop" href="${escapeHtml(polarstepsLink(opslag))}" target="_blank" rel="noopener">📖 Ons reisdagboek in Polarsteps</a>` : ''}
       <p class="waarschuwing">${escapeHtml(reis.let_op)}</p>
       <ol class="dagenlijst">
         ${dagen.map((d) => dagKaart(d, opslag)).join('')}
