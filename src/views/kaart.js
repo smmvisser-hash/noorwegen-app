@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { regioVan, korteDatum, escapeHtml } from '../regio.js';
+import { TOPO_URL } from '../kaartopslag.js';
 
 // Zuid- en West-Noorwegen (plus de ferryhaven in Denemarken).
 const REISGEBIED = L.latLngBounds([57.4, 4.6], [62.4, 10.2]);
@@ -23,6 +24,21 @@ export function sluitKaart() {
   if (kaart) {
     kaart.remove();
     kaart = null;
+  }
+}
+
+function leesKeuze() {
+  try {
+    return localStorage.getItem('noorwegen-achtergrond');
+  } catch {
+    return null;
+  }
+}
+function bewaarKeuze(naam) {
+  try {
+    localStorage.setItem('noorwegen-achtergrond', naam);
+  } catch {
+    // niet erg
   }
 }
 
@@ -67,10 +83,22 @@ export function toonKaart(app, dagen, nummer) {
     </section>`;
 
   kaart = L.map('kaart', { zoomSnap: 0.25, minZoom: 4, maxZoom: 16, maxBounds: REISGEBIED.pad(0.5) });
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }).addTo(kaart);
+  // Twee achtergrondkaarten: de topografische kaart van Kartverket (kan offline opgeslagen worden,
+  // alleen Noorwegen) en OpenStreetMap (ook Denemarken). De laatste keuze wordt onthouden.
+  const achtergronden = {
+    'Topokaart (Kartverket)': L.tileLayer(TOPO_URL, {
+      maxZoom: 18,
+      crossOrigin: true,
+      attribution: '&copy; <a href="https://www.kartverket.no/">Kartverket</a>',
+    }),
+    OpenStreetMap: L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }),
+  };
+  const gekozenKaart = leesKeuze();
+  (achtergronden[gekozenKaart] ?? achtergronden['Topokaart (Kartverket)']).addTo(kaart);
+  kaart.on('baselayerchange', (e) => bewaarKeuze(e.name));
 
   // Lagen die je met het knopje rechtsboven aan- en uitzet.
   const lagen = {
@@ -82,7 +110,7 @@ export function toonKaart(app, dagen, nummer) {
   // Supermarkten alleen standaard tonen als je één dag bekijkt.
   if (nummer) lagen['Supermarkten'].addTo(kaart);
   const klein = !nummer;
-  L.control.layers(null, lagen, { collapsed: true }).addTo(kaart);
+  L.control.layers(achtergronden, lagen, { collapsed: true }).addTo(kaart);
 
   const punten = [];
   for (const dag of gekozen) {

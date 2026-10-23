@@ -1,5 +1,7 @@
 import { escapeHtml } from '../regio.js';
 import { polarstepsLink, bewaarPolarsteps } from '../polarsteps.js';
+import reis from '../data/reis.json';
+import { tegelLijst, geschatteMB, telOpgeslagen, slaKaartOp, stopOpslaan, opslagToestand, luisterOpslag } from '../kaartopslag.js';
 
 const UITLEG = {
   'niet-ingesteld': 'Synchronisatie is nog niet ingesteld. Alles wat je invult, wordt alleen op dit apparaat bewaard.',
@@ -67,6 +69,9 @@ export async function toonSync(app, opslag) {
         </form>
         <p class="stil">Je hoeft maar één keer per apparaat in te loggen. Daarna blijf je ingelogd, ook zonder internet.</p>`}
 
+      <h3>Offline kaart</h3>
+      <div class="blok" id="kaartopslag"></div>
+
       <h3>Polarsteps</h3>
       <form id="polarsteps" class="formulier">
         <label>Link naar jullie reis
@@ -78,6 +83,8 @@ export async function toonSync(app, opslag) {
           De link wordt alleen gedeeld met jullie eigen apparaten, niet openbaar.</p>
       </form>
     </section>`;
+
+  toonKaartopslag(app.querySelector('#kaartopslag'));
 
   app.querySelector('#polarsteps').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -108,4 +115,40 @@ export async function toonSync(app, opslag) {
       fout.hidden = false;
     }
   });
+}
+
+// Blok "Offline kaart": topokaart van Kartverket vooraf opslaan, met voortgang.
+let stopLuisteren = null;
+async function toonKaartopslag(houder) {
+  const tegels = tegelLijst(reis.dagen);
+  let opgeslagen = await telOpgeslagen(tegels);
+  const teken = (t) => {
+    if (!houder.isConnected) return stopLuisteren?.();
+    if (t.bezig) opgeslagen = t.klaar;
+    const procent = Math.round((opgeslagen / tegels.length) * 100);
+    houder.innerHTML = `
+      <span>De topokaart van het reisgebied: overzicht, een strook langs de route en extra detail rond
+        overnachtingen en wandelingen. Ongeveer ${geschatteMB(tegels.length)} MB.</span>
+      <span class="stil">Doe dit thuis via wifi en laat het scherm aan (15–30 minuten). Stoppen en later verdergaan kan.</span>
+      <div class="voortgang">
+        <span><strong>${procent}%</strong> opgeslagen (${opgeslagen} van ${tegels.length} stukjes)</span>
+        <div class="balk" role="img" aria-label="${procent} procent opgeslagen"><i style="width:${procent}%"></i></div>
+      </div>
+      ${t.melding && !t.bezig ? `<p class="${t.melding.startsWith('Klaar!') ? 'gelukt' : 'stil'}">${escapeHtml(t.melding)}</p>` : ''}
+      ${t.bezig
+        ? '<button type="button" class="knop knop--licht" id="kaart-stop">Stoppen</button>'
+        : `<button type="button" class="knop" id="kaart-opslaan" ${opgeslagen === tegels.length ? 'disabled' : ''}>${
+            opgeslagen === tegels.length ? '✓ Kaart is offline opgeslagen' : opgeslagen ? 'Verder met opslaan' : 'Kaart offline opslaan'}</button>`}`;
+    houder.querySelector('#kaart-opslaan')?.addEventListener('click', () => {
+      if (!navigator.onLine) return alert('Er is nu geen internet. Probeer het thuis via wifi.');
+      slaKaartOp(reis.dagen).then(async () => {
+        opgeslagen = await telOpgeslagen(tegels);
+        teken(opslagToestand());
+      });
+    });
+    houder.querySelector('#kaart-stop')?.addEventListener('click', stopOpslaan);
+  };
+  stopLuisteren?.();
+  stopLuisteren = luisterOpslag(teken);
+  teken(opslagToestand());
 }
