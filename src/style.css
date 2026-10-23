@@ -564,3 +564,4 @@ button.knop--licht { border: 2px solid var(--blauw); }
 }
 .notitie-toevoegen textarea:focus { outline: none; border-color: var(--blauw); }
 .gelukt { color: #1d5e2f; font-weight: 600; margin: 0; }
+button.knop:disabled { background: #def4e4; color: #1d5e2f; cursor: default; }

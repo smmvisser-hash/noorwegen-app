@@ -48,6 +48,16 @@ export default defineConfig({
               cacheableResponse: { statuses: [0, 200] },
             },
           },
+          {
+            // Topografische kaart van Kartverket. Hierin staan ook de tegels die met
+            // 'Kaart offline opslaan' vooraf zijn opgehaald (zie src/kaartopslag.js); daarom geen maximum.
+            urlPattern: /^https:\/\/cache\.kartverket\.no\/.*/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'kaart-topo',
+              cacheableResponse: { statuses: [200] },
+            },
+          },
         ],
       },
     }),
