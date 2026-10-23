@@ -545,3 +545,22 @@ button.knop--licht { border: 2px solid var(--blauw); }
 .ferry-boeking .twee { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .ferry-lijst summary { cursor: pointer; min-height: 44px; padding: 4px 0; }
 .ferry-lijst p { margin: 4px 0; }
+
+/* ---------- Polarsteps en notities ---------- */
+.polarsteps-knop { width: 100%; margin: 4px 0 12px; }
+.notities { gap: 6px; }
+.notitielijst { list-style: none; margin: 4px 0; padding: 0; }
+.notitielijst li { display: flex; align-items: flex-start; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--lijn); }
+.notitielijst li span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.notitielijst .wis { width: 40px; height: 40px; }
+.notitie-toevoegen { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+.notitie-toevoegen textarea {
+  min-height: 64px;
+  padding: 8px 12px;
+  font: inherit;
+  border: 2px solid var(--lijn);
+  border-radius: 8px;
+  resize: vertical;
+}
+.notitie-toevoegen textarea:focus { outline: none; border-color: var(--blauw); }
+.gelukt { color: #1d5e2f; font-weight: 600; margin: 0; }

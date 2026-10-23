@@ -1,4 +1,5 @@
 import { escapeHtml } from '../regio.js';
+import { polarstepsLink, bewaarPolarsteps } from '../polarsteps.js';
 
 const UITLEG = {
   'niet-ingesteld': 'Synchronisatie is nog niet ingesteld. Alles wat je invult, wordt alleen op dit apparaat bewaard.',
@@ -30,6 +31,9 @@ function inlogFout(err) {
   return `${uitleg ? uitleg[1] : 'Inloggen lukte niet.'} (Melding: ${melding || 'onbekend'})`;
 }
 
+// Melding na het bewaren van de Polarsteps-link (blijft staan als het scherm opnieuw getekend wordt).
+let polarstepsMelding = null;
+
 // Scherm met synchronisatiestatus en inloggen/uitloggen.
 export async function toonSync(app, opslag) {
   const s = opslag.status();
@@ -39,7 +43,8 @@ export async function toonSync(app, opslag) {
   app.innerHTML = `
     <section class="scherm">
       <a class="terug" href="#/">← Alle dagen</a>
-      <h2 class="schermtitel">Synchronisatie</h2>
+      <h2 class="schermtitel">Instellingen</h2>
+      <h3>Synchronisatie</h3>
       <div class="blok sync-${escapeHtml(s.toestand)}">
         <strong>${escapeHtml(uitleg)}</strong>
         ${s.wachtend ? `<span>${s.wachtend} wijziging(en) wachten om gedeeld te worden.</span>` : ''}
@@ -61,7 +66,28 @@ export async function toonSync(app, opslag) {
           <p class="foutmelding" id="inlogfout" hidden></p>
         </form>
         <p class="stil">Je hoeft maar één keer per apparaat in te loggen. Daarna blijf je ingelogd, ook zonder internet.</p>`}
+
+      <h3>Polarsteps</h3>
+      <form id="polarsteps" class="formulier">
+        <label>Link naar jullie reis
+          <input name="url" type="url" inputmode="url" autocomplete="off" placeholder="https://www.polarsteps.com/…" value="${escapeHtml(polarstepsLink(opslag))}">
+        </label>
+        <button class="knop" type="submit">Link bewaren</button>
+        ${polarstepsMelding ? `<p class="${polarstepsMelding.fout ? 'foutmelding' : 'gelukt'}" aria-live="polite">${escapeHtml(polarstepsMelding.tekst)}</p>` : ''}
+        <p class="stil">Kopieer in Polarsteps bij jullie reis de link via <b>Delen</b> en plak hem hier.
+          De link wordt alleen gedeeld met jullie eigen apparaten, niet openbaar.</p>
+      </form>
     </section>`;
+
+  app.querySelector('#polarsteps').addEventListener('submit', (e) => {
+    e.preventDefault();
+    document.activeElement?.blur();
+    const fout = bewaarPolarsteps(opslag, e.target.url.value);
+    polarstepsMelding = { fout: Boolean(fout), tekst: fout || (polarstepsLink(opslag) ? 'Bewaard. Op het startscherm en op elke dagpagina staat nu een knop naar Polarsteps.' : 'Link gewist.') };
+    toonSync(app, opslag).then(() => {
+      if (fout) app.querySelector('#polarsteps input').value = e.target.url.value;
+    });
+  });
 
   app.querySelector('#nu-sync')?.addEventListener('click', () => opslag.synchroniseer());
   app.querySelector('#uitloggen')?.addEventListener('click', async () => {

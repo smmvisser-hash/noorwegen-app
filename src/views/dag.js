@@ -3,6 +3,7 @@ import { kenmerken } from './dagen.js';
 import { vasteId } from '../opslag.js';
 import { toonRugzak } from './paklijst.js';
 import { vulWeer } from './weer.js';
+import { toonNotities } from './notities.js';
 import { ferryHtml, vulFerry } from './ferry.js';
 import { ferriesOpDag } from '../data/ferries.js';
 
@@ -101,7 +102,7 @@ export function toonDag(app, dagen, nummer, opslag) {
         <h3>Meenemen</h3>
         <ul class="vinklijst">${dag.meenemen.map((m) => `<li>${escapeHtml(m)}</li>`).join('')}</ul>` : ''}
 
-      ${opslag ? '<div id="rugzak"></div>' : ''}
+      ${opslag ? '<div id="rugzak"></div><div id="notities"></div>' : ''}
 
       ${dag.achtergrond ? `
         <h3>Achtergrond</h3>
@@ -138,6 +139,8 @@ export function toonDag(app, dagen, nummer, opslag) {
 
   const rugzak = app.querySelector('#rugzak');
   if (rugzak) toonRugzak(rugzak, dag.dag, opslag);
+  const notities = app.querySelector('#notities');
+  if (notities) toonNotities(notities, dag.dag, opslag);
 
   // park4night-code bewaren (gedeeld met de andere apparaten).
   app.querySelector('#p4n')?.addEventListener('submit', (e) => {
