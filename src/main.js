@@ -37,7 +37,7 @@ function route(bovenaan = true) {
   } else if (delen[0] === 'sync') {
     toonSync(app, opslag);
   } else {
-    toonDagen(app, dagen, reis.reis);
+    toonDagen(app, dagen, reis.reis, opslag);
   }
   for (const link of document.querySelectorAll('.onderbalk a')) {
     link.toggleAttribute('aria-current', link.dataset.tab === tab);
