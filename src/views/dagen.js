@@ -4,9 +4,22 @@ import { vandaagOslo } from '../weer.js';
 import { FERRIES } from '../data/ferries.js';
 import { boekingId } from './ferry.js';
 import { polarstepsLink } from '../polarsteps.js';
+import { vertrekStand } from './paklijst.js';
+import { motief } from '../motieven.js';
 
 // Startscherm: alle 20 reisdagen onder elkaar.
-export function toonDagen(app, dagen, reis, opslag) {
+// compact = alleen de lijst (links naast een dag op een tablet), actief = het dagnummer dat open staat.
+export function toonDagen(app, dagen, reis, opslag, { compact = false, actief = null } = {}) {
+  if (compact) {
+    app.innerHTML = `<ol class="dagenlijst dagenlijst--compact">${dagen.map((d) => dagKaart(d, opslag, d.dag === actief)).join('')}</ol>`;
+    // Alleen de lijst zelf laten meeschuiven (niet de hele pagina), zodat de open dag zichtbaar is.
+    const open = app.querySelector('[aria-current]');
+    if (open) app.scrollTop = open.offsetTop - app.clientHeight / 2 + open.offsetHeight / 2;
+    return;
+  }
+  // Vóór de reis: de checklist voor vertrek.
+  const voorDeReis = vandaagOslo() < dagen[0].datum;
+  const vertrek = voorDeReis && vertrekStand(opslag);
   // Tijdens de reis: bovenaan het weer van vandaag.
   const vandaag = dagen.find((d) => d.datum === vandaagOslo());
   const plek = vandaag && (vandaag.overnachting ?? dagen.find((d) => d.dag === vandaag.dag - 1)?.overnachting);
@@ -18,11 +31,18 @@ export function toonDagen(app, dagen, reis, opslag) {
           <strong>Vandaag: dag ${vandaag.dag} · ${escapeHtml(vandaag.titel)}</strong>
         </a>
         <div class="blok weer" id="weer-vandaag"></div>` : ''}
+      ${vertrek ? `
+        <a class="blok checklist-kaart" href="#/checklist">
+          <strong>✓ Checklist voor vertrek</strong>
+          <span>${vertrek.klaar} van ${vertrek.totaal} geregeld</span>
+          <span class="balk balk--dun" aria-hidden="true"><i style="width:${(vertrek.klaar / vertrek.totaal) * 100}%"></i></span>
+        </a>` : ''}
       ${polarstepsLink(opslag) ? `<a class="knop polarsteps-knop" href="${escapeHtml(polarstepsLink(opslag))}" target="_blank" rel="noopener">📖 Ons reisdagboek in Polarsteps</a>` : ''}
       <p class="waarschuwing">${escapeHtml(reis.let_op)}</p>
       <ol class="dagenlijst">
         ${dagen.map((d) => dagKaart(d, opslag)).join('')}
       </ol>
+      <div class="slotmotief" aria-hidden="true">${motief('boot')}${motief('eland')}${motief('mens')}</div>
       <p class="versie">Versie: ${escapeHtml(__VERSIE__)}</p>
     </section>`;
   if (plek) vulWeer(app.querySelector('#weer-vandaag'), { lat: plek.lat, lon: plek.lng, datum: vandaag.datum });
@@ -40,14 +60,14 @@ export function kenmerken(dag) {
   return k;
 }
 
-function dagKaart(dag, opslag) {
+function dagKaart(dag, opslag, actief = false) {
   const regio = regioVan(dag);
   // Zelf ingevulde ferrytijd (Hirtshals–Kristiansand) ook op de dagkaart tonen.
   const ferry = FERRIES.find((f) => f.handmatig && f.dagen.includes(dag.dag));
   const vertrek = ferry && opslag?.haal(boekingId(ferry))?.data.vertrek;
   return `
     <li>
-      <a class="dagkaart" href="#/dag/${dag.dag}" style="--accent:${regio.kleur}">
+      <a class="dagkaart" href="#/dag/${dag.dag}" style="--accent:${regio.kleur}"${actief ? ' aria-current="page"' : ''}>
         <span class="dagnummer">${dag.dag}</span>
         <span class="dagtekst">
           <span class="dagdatum">${korteDatum(dag.datum)} · ${escapeHtml(regio.naam)}</span>

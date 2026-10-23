@@ -2,7 +2,7 @@ import { escapeHtml } from '../regio.js';
 import { spullen, reizigers, bewaarNaam, isAfgevinkt, zetVink, voegToe, haalWeg } from '../paklijst.js';
 
 // Staat de lijst in "aanpassen"-stand (met verwijderknoppen)? Blijft zo als het scherm opnieuw getekend wordt.
-const aanpassen = { paklijst: false, rugzak: false };
+const aanpassen = { paklijst: false, rugzak: false, vertrek: false };
 
 function laatsteTab() {
   try {
@@ -13,7 +13,7 @@ function laatsteTab() {
 }
 
 // Afvinklijst met voortgang, gegroepeerd. wie = van wie de vinkjes zijn ('samen', 'a', 'b' of 'dag5').
-function lijstHtml(opslag, items, wie, { metGroepen = true, namen = null } = {}) {
+function lijstHtml(opslag, items, wie, { metGroepen = true, namen = null, woord = 'ingepakt' } = {}) {
   const af = items.filter((s) => isAfgevinkt(opslag, s.sleutel, wie)).length;
   const groepen = [...new Set(items.map((s) => s.groep))];
   const regels = (groep) =>
@@ -30,8 +30,8 @@ function lijstHtml(opslag, items, wie, { metGroepen = true, namen = null } = {})
       .join('');
   return `
     <div class="voortgang">
-      <span><strong>${af}</strong> van ${items.length} ingepakt</span>
-      <div class="balk" role="img" aria-label="${af} van ${items.length} ingepakt"><i style="width:${items.length ? (af / items.length) * 100 : 0}%"></i></div>
+      <span><strong>${af}</strong> van ${items.length} ${woord}</span>
+      <div class="balk" role="img" aria-label="${af} van ${items.length} ${woord}"><i style="width:${items.length ? (af / items.length) * 100 : 0}%"></i></div>
     </div>
     ${groepen
       .map((g) => `${metGroepen ? `<h4 class="groepkop">${escapeHtml(g)}</h4>` : ''}<ul class="afvinklijst">${regels(g)}</ul>`)
@@ -171,6 +171,44 @@ export function toonRugzak(houder, dag, opslag) {
     if (!naam.trim()) return;
     document.activeElement?.blur();
     voegToe(opslag, { naam, groep: 'Voor vandaag', lijst: 'rugzak', dag });
+    opnieuw();
+  });
+}
+
+// Hoeveel van de checklist voor vertrek al is afgevinkt (voor het startscherm).
+export function vertrekStand(opslag) {
+  const items = spullen(opslag, 'vertrek');
+  return { klaar: items.filter((s) => isAfgevinkt(opslag, s.sleutel, 'vertrek')).length, totaal: items.length };
+}
+
+// Scherm "Checklist voor vertrek": gedeeld, één keer afvinken is genoeg.
+export function toonChecklist(app, opslag) {
+  const items = spullen(opslag, 'vertrek');
+  const groepen = [...new Set(items.map((s) => s.groep))];
+  const opnieuw = () => toonChecklist(app, opslag);
+  app.innerHTML = `
+    <section class="scherm paklijst ${aanpassen.vertrek ? 'aanpassen' : ''}">
+      <a class="terug" href="#/">← Alle dagen</a>
+      <h2 class="schermtitel">Checklist voor vertrek</h2>
+      <p class="stil">Wat er vóór de reis geregeld moet zijn. Afvinken op één apparaat is genoeg: het wordt gedeeld.</p>
+      <div class="blok">${lijstHtml(opslag, items, 'vertrek', { woord: 'geregeld' })}</div>
+      <div class="knoppen">
+        <button type="button" class="knop knop--licht aanpassen-knop">${aanpassen.vertrek ? 'Klaar met aanpassen' : 'Lijst aanpassen'}</button>
+      </div>
+      <h3>Iets toevoegen</h3>
+      <form class="formulier" id="vertrek-toevoegen">
+        <label>Wat <input name="naam" autocomplete="off" required placeholder="bijv. Huisdieroppas regelen"></label>
+        <label>Groep <select name="groep">${groepen.map((g) => `<option>${escapeHtml(g)}</option>`).join('')}</select></label>
+        <button class="knop" type="submit">Toevoegen</button>
+      </form>
+    </section>`;
+  koppel(app, opslag, items, 'vertrek', 'vertrek', null, opnieuw, 'vertrek');
+  app.querySelector('#vertrek-toevoegen').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const f = new FormData(e.target);
+    if (!String(f.get('naam')).trim()) return;
+    document.activeElement?.blur();
+    voegToe(opslag, { naam: f.get('naam'), groep: f.get('groep'), lijst: 'vertrek' });
     opnieuw();
   });
 }

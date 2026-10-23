@@ -69,6 +69,9 @@ export async function toonSync(app, opslag) {
         </form>
         <p class="stil">Je hoeft maar één keer per apparaat in te loggen. Daarna blijf je ingelogd, ook zonder internet.</p>`}
 
+      <h3>Voorbereiding</h3>
+      <a class="knop knop--licht" href="#/checklist">✓ Checklist voor vertrek</a>
+
       <h3>Offline kaart</h3>
       <div class="blok" id="kaartopslag"></div>
 
