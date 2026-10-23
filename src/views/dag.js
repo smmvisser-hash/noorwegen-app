@@ -6,6 +6,7 @@ import { vulWeer } from './weer.js';
 import { toonNotities } from './notities.js';
 import { ferryHtml, vulFerry } from './ferry.js';
 import { ferriesOpDag } from '../data/ferries.js';
+import { motief } from '../motieven.js';
 
 const TYPE_NAAM = {
   ferry: 'Ferry',
@@ -105,6 +106,7 @@ export function toonDag(app, dagen, nummer, opslag) {
       ${opslag ? '<div id="rugzak"></div><div id="notities"></div>' : ''}
 
       ${dag.achtergrond ? `
+        <div class="scheiding" aria-hidden="true">${motief('rank')}</div>
         <h3>Achtergrond</h3>
         <p>${escapeHtml(dag.achtergrond)}</p>` : ''}
 

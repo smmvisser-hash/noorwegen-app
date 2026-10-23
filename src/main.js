@@ -6,7 +6,7 @@ import { toonDag } from './views/dag.js';
 import { toonKaart, sluitKaart } from './views/kaart.js';
 import { toonSync, statusTekst } from './views/sync.js';
 import { toonBudget } from './views/budget.js';
-import { toonPaklijst } from './views/paklijst.js';
+import { toonPaklijst, toonChecklist } from './views/paklijst.js';
 import { ververstKoers } from './koers.js';
 import { maakOpslag } from './opslag.js';
 import { backend } from './supabase.js';
@@ -16,7 +16,10 @@ const { dagen } = reis;
 const opslag = maakOpslag({ backend });
 
 // Eenvoudige navigatie via het deel na # in de adresbalk:
-// #/ = dagen, #/dag/3 = dag 3, #/kaart = kaart, #/kaart/3 = kaart van dag 3, #/budget = budget, #/paklijst = paklijst, #/sync = inloggen.
+// #/ = dagen, #/dag/3 = dag 3, #/kaart = kaart, #/kaart/3 = kaart van dag 3, #/budget = budget, #/paklijst = paklijst, #/checklist = checklist voor vertrek, #/sync = instellingen.
+const breed = matchMedia('(min-width: 900px)');
+breed.addEventListener('change', () => route(false));
+
 function route(bovenaan = true) {
   const delen = location.hash.replace(/^#\/?/, '').split('/');
   const nummer = delen[1] ? Number(delen[1]) : null;
@@ -28,8 +31,15 @@ function route(bovenaan = true) {
   document.body.classList.toggle('met-kaart', tab === 'kaart');
   if (tab === 'kaart') {
     toonKaart(app, dagen, nummer);
+  } else if (delen[0] === 'dag' && nummer && breed.matches) {
+    // Tablet: links de dagenlijst, rechts de dag.
+    app.innerHTML = '<div class="tweeluik"><aside class="tweeluik-lijst" aria-label="Alle dagen"></aside><div class="tweeluik-dag"></div></div>';
+    toonDagen(app.querySelector('.tweeluik-lijst'), dagen, reis.reis, opslag, { compact: true, actief: nummer });
+    toonDag(app.querySelector('.tweeluik-dag'), dagen, nummer, opslag);
   } else if (delen[0] === 'dag' && nummer) {
     toonDag(app, dagen, nummer, opslag);
+  } else if (delen[0] === 'checklist') {
+    toonChecklist(app, opslag);
   } else if (tab === 'paklijst') {
     toonPaklijst(app, opslag, delen[1]);
   } else if (tab === 'budget') {

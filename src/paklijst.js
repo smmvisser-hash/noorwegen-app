@@ -5,7 +5,7 @@
 // - 'pakweg': voorgestelde spullen die jullie hebben weggehaald
 // - 'vink': wat er is afgevinkt (apart per persoon of per dag, zodat jullie elkaar niet overschrijven)
 // - 'reiziger': de namen van de twee reizigers
-import { SAMEN, PERSOONLIJK, RUGZAK_BASIS, RUGZAK_PER_DAG } from './data/paklijst.js';
+import { SAMEN, PERSOONLIJK, RUGZAK_BASIS, RUGZAK_PER_DAG, VERTREK } from './data/paklijst.js';
 import { vasteId, nieuweId } from './opslag.js';
 
 // Vaste id op basis van een tekst, zodat elk apparaat voor hetzelfde vinkje dezelfde id gebruikt.
@@ -33,7 +33,7 @@ export function bewaarNaam(opslag, wie, naam) {
   opslag.bewaar('reiziger', vasteId('reiziger', wie === 'a' ? 1 : 2), { wie, naam: naam.trim() });
 }
 
-// lijst = 'samen', 'persoonlijk' of 'rugzak' (dan met dag).
+// lijst = 'samen', 'persoonlijk', 'vertrek' of 'rugzak' (dan met dag).
 // Geeft [{sleutel, naam, groep, voor, eigen}] terug, in de volgorde van de groepen.
 export function spullen(opslag, lijst, dag = null) {
   const bereik = dag ? `dag${dag}` : lijst;
@@ -45,7 +45,7 @@ export function spullen(opslag, lijst, dag = null) {
       ...(RUGZAK_PER_DAG[dag] ?? []).map((naam) => ({ naam, groep: 'Voor vandaag' })),
     ];
   } else {
-    voorstel = Object.entries(lijst === 'samen' ? SAMEN : PERSOONLIJK).flatMap(([groep, namen]) => namen.map((naam) => ({ naam, groep })));
+    voorstel = Object.entries({ samen: SAMEN, persoonlijk: PERSOONLIJK, vertrek: VERTREK }[lijst]).flatMap(([groep, namen]) => namen.map((naam) => ({ naam, groep })));
   }
   const gezien = new Set();
   const uitVoorstel = voorstel

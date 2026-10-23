@@ -1,6 +1,7 @@
 import { escapeHtml, korteDatum } from '../regio.js';
 import { nieuweId } from '../opslag.js';
 import { huidigeKoers, naarEuro } from '../koers.js';
+import { motief } from '../motieven.js';
 
 export const BUDGET_EUR = 5000;
 
@@ -125,7 +126,7 @@ export function toonBudget(app, opslag) {
             <button class="wis" data-id="${u.id}" aria-label="Verwijder deze uitgave">✕</button>
           </li>`;
         }).join('')}
-      </ul>` : '<p class="stil">Nog geen uitgaven.</p>'}
+      </ul>` : `<div class="leeg">${motief('boot')}<p class="stil">Nog geen uitgaven.</p></div>`}
     </section>`;
 
   app.querySelector('#uitgave').addEventListener('submit', (e) => {

@@ -134,3 +134,38 @@ export const RUGZAK_PER_DAG = {
   19: ['Paspoorten of ID-kaarten', 'Ferrytickets'],
   20: ['Paspoorten of ID-kaarten'],
 };
+
+// Checklist voor vertrek (wordt gedeeld; afvinken op één apparaat is genoeg).
+export const VERTREK = {
+  Boeken: [
+    'Ferry Hirtshals–Kristiansand heen en terug (tijden invullen bij dag 2 en 19)',
+    'Ferry Geiranger–Hellesylt (fjord1.no)',
+    'Ferry Forsand–Lysebotn (boeken kan ca. een maand vooraf)',
+    'Begeleide gletsjerwandeling Nigardsbreen',
+    'Kano Nærøyfjord (Nordic Ventures, Gudvangen)',
+    'Kano Byglandsfjorden (Neset Camping of TrollAktiv)',
+    'Parkeren Preikestolen en Kjerag (vooraf boeken nodig?)',
+    'Tol: vragen aan het huurbedrijf hoe AutoPASS geregeld is',
+    'Afmetingen camperbus opvragen (lengte en hoogte, voor ferry’s)',
+  ],
+  'In het voorjaar van 2027 nakijken': [
+    'Prijzen en openingstijden in de app',
+    'Coördinaten van de overnachtingen',
+    'Seizoen en vaardagen Lysefjord-ferry en Geiranger–Hellesylt',
+    'Ferrytijden 2027 (komen vanzelf in de app als Entur ze heeft)',
+  ],
+  'Op alle 3 de apparaten': [
+    'App geïnstalleerd en bijgewerkt (versie onderaan het startscherm)',
+    'Ingelogd (sync-lampje zegt “Gedeeld”)',
+    'Kaart offline opgeslagen (Instellingen → Offline kaart)',
+    'Getest in vliegtuigmodus',
+    'Polarsteps-app geïnstalleerd en ingelogd',
+  ],
+  'Vlak voor vertrek': [
+    'Supabase-project staat aan (supabase.com: niet “Paused”)',
+    'Polarsteps-link ingevuld (Instellingen)',
+    'Rijbewijs, paspoorten en zorgpassen geldig',
+    'Reisverzekering en pechhulp gecontroleerd',
+    'Paklijsten afgevinkt',
+  ],
+};
