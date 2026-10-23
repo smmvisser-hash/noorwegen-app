@@ -10,7 +10,7 @@ export const TOPO_CACHE = 'kaart-topo';
 const GEBIED = { zuid: 57.9, west: 4.6, noord: 62.4, oost: 10.2 }; // Noorwegen-deel van de reis
 const TEGELIJK = 4;
 const PAUZE_MS = 40;
-const KB_PER_TEGEL = 20; // schatting voor de verwachte grootte
+const KB_PER_TEGEL = 80; // gemeten gemiddelde (okt. 2026), voor de verwachte grootte
 
 const tegelX = (lng, z) => Math.floor(((lng + 180) / 360) * 2 ** z);
 const tegelY = (lat, z) => {
@@ -67,16 +67,16 @@ export function tegelLijst(dagen) {
     if (dag.overnachting) route.push([dag.overnachting.lat, dag.overnachting.lng]), detail.push([dag.overnachting.lat, dag.overnachting.lng]);
   }
   const routeNo = route.filter(inNoorwegen);
-  langs(set, 10, routeNo, 8);
-  langs(set, 11, routeNo, 5);
-  langs(set, 12, routeNo, 3);
+  langs(set, 10, routeNo, 4);
+  langs(set, 11, routeNo, 2.5);
+  langs(set, 12, routeNo, 0.5);
   for (const [lat, lng] of detail.filter(inNoorwegen)) {
-    rond(set, 13, lat, lng, 4);
-    rond(set, 14, lat, lng, 2);
+    rond(set, 13, lat, lng, 2);
+    rond(set, 14, lat, lng, 1);
   }
   for (const lijn of wandelroutes) {
-    langs(set, 14, lijn, 1.5);
-    langs(set, 15, lijn, 0.8);
+    langs(set, 14, lijn, 1);
+    langs(set, 15, lijn, 0.5);
   }
   return [...set].map((k) => {
     const [z, x, y] = k.split('/').map(Number);

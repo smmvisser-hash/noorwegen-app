@@ -129,7 +129,7 @@ async function toonKaartopslag(houder) {
     houder.innerHTML = `
       <span>De topokaart van het reisgebied: overzicht, een strook langs de route en extra detail rond
         overnachtingen en wandelingen. Ongeveer ${geschatteMB(tegels.length)} MB.</span>
-      <span class="stil">Doe dit thuis via wifi en laat het scherm aan (15–30 minuten). Stoppen en later verdergaan kan.</span>
+      <span class="stil">Doe dit thuis via wifi en laat het scherm aan (ongeveer 5–15 minuten). Stoppen en later verdergaan kan.</span>
       <div class="voortgang">
         <span><strong>${procent}%</strong> opgeslagen (${opgeslagen} van ${tegels.length} stukjes)</span>
         <div class="balk" role="img" aria-label="${procent} procent opgeslagen"><i style="width:${procent}%"></i></div>
